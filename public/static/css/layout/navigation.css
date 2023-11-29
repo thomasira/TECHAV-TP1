@@ -1,0 +1,13 @@
+nav{
+    display: flex;
+    flex-flow: column;
+    gap: var(--gaps);
+    position: fixed;
+
+    & a{
+
+
+        &:hover{
+        }
+    }
+}

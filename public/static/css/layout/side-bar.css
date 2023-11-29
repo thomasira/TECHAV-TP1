@@ -1,0 +1,7 @@
+
+.side-bar{
+    background-color: red;
+    flex: 0 1 200px;
+    min-width: 100px;
+    position: relative;
+}

@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(217deg, rgb(3, 1, 1), rgba(5, 1, 1, 0.597) 70.71%),
+    linear-gradient(127deg, rgb(0, 6, 0), rgba(0, 6, 0, 0.504) 80%),
+    linear-gradient(336deg, rgb(0, 0, 3), rgba(1, 1, 11, 0.503) 70.71%);
+    font-family: var(--typeText);
+    color: var(--colorLight);
+}
+main{
+    padding: var(--gapxxl);
+}
+body>header{
+    padding: var(--gapxxl);
+
+    & h1{
+        font-size: var(--fontxl);
+        color: var(--colorLight);
+        text-shadow: 0px 0px 4px var(--colorLight);
+    }
+    & p{
+        color: var(--colorLight);
+        text-shadow: 0px 0px 4px var(--colorLight);
+        margin-left: var(--gapm);
+    }
+}
+form{
+    padding: var(--gapm);
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    gap: var(--gapxs);
+
+    & label{
+        font-size: var(--fontxs);
+    }
+    & input, select, textarea{
+        font-size: var(--fontText);
+        font-family: var(--typeText);
+        padding: var(--gapTHxxs);
+        background-color: var(--colorDark);
+        border: var(--borderStd);
+        color: var(--colorMain);
+    }
+}
+footer{
+    display: flex;
+    background-color: var(--colorMainD);
+    color: var(--colorLight);
+    justify-content: space-between;
+    padding: var(--gapTHxxs) var(--gapxs);
+}
