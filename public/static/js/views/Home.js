@@ -4,7 +4,6 @@ export default class extends AbstractView{
 
     constructor() {
         super();
-        this.countries = ["ca", "fr", "us"];
         this.init();
     }
 
@@ -13,12 +12,12 @@ export default class extends AbstractView{
     }
 
     async getHTML() {
-        const countriesData = await this.getData();
+        const recipesData = await this.getData();
         
         const resHome = await fetch('/static/views/home.html');
         let homeTemplate = await resHome.text();
-        const resArticle = await fetch('/static/views/templates/article-item.html')
-        let articleTemplate = await resArticle.text();
+        const resRecipe = await fetch('/static/views/templates/recipe-thumb.html')
+        let recipeTemplate = await resRecipe.text();
 
         for(const country in countriesData) {
             let elCountry = "";
@@ -38,13 +37,10 @@ export default class extends AbstractView{
     }
 
     async getData() {
-        const countriesData = {};
-        this.countries.forEach(async country => {
-            const res = await fetch(`/static/results/${country}.json`);
-            const data = await res.json();
-            countriesData[country] = data.articles;
-        });
-        console.log(countriesData)
+        const res = await fetch(`/static/results/random.json`);
+        const data = await res.json();
+        countriesData[country] = data.articles;
+        console.log(countriesData);
         return countriesData;
     }
 } 

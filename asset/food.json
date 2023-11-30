@@ -1,0 +1,5438 @@
+[
+  {
+    "FOOD NAME": "Angelica",
+    "SCIENTIFIC NAME": "Angelica keiskei",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Savoy cabbage",
+    "SCIENTIFIC NAME": "Brassica oleracea var. sabauda",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Cabbages"
+  },
+  {
+    "FOOD NAME": "Silver linden",
+    "SCIENTIFIC NAME": "Tilia argentea",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Kiwi",
+    "SCIENTIFIC NAME": "Actinidia chinensis",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Allium (Onion)",
+    "SCIENTIFIC NAME": "Allium",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Onion-family vegetables"
+  },
+  {
+    "FOOD NAME": "Garden onion",
+    "SCIENTIFIC NAME": "Allium cepa",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Onion-family vegetables"
+  },
+  {
+    "FOOD NAME": "Leek",
+    "SCIENTIFIC NAME": "Allium porrum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Onion-family vegetables"
+  },
+  {
+    "FOOD NAME": "Garlic",
+    "SCIENTIFIC NAME": "Allium sativum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Chives",
+    "SCIENTIFIC NAME": "Allium schoenoprasum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Lemon verbena",
+    "SCIENTIFIC NAME": "Aloysia triphylla",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Cashew nut",
+    "SCIENTIFIC NAME": "Anacardium occidentale",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Pineapple",
+    "SCIENTIFIC NAME": "Ananas comosus",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Dill",
+    "SCIENTIFIC NAME": "Anethum graveolens",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Custard apple",
+    "SCIENTIFIC NAME": "Annona reticulata",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Wild celery",
+    "SCIENTIFIC NAME": "Apium graveolens",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Peanut",
+    "SCIENTIFIC NAME": "Arachis hypogaea",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Burdock",
+    "SCIENTIFIC NAME": "Arctium lappa",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "Horseradish",
+    "SCIENTIFIC NAME": "Armoracia rusticana",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Tarragon",
+    "SCIENTIFIC NAME": "Artemisia dracunculus",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Mugwort",
+    "SCIENTIFIC NAME": "Artemisia vulgaris",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Asparagus",
+    "SCIENTIFIC NAME": "Asparagus officinalis",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Shoot vegetables"
+  },
+  {
+    "FOOD NAME": "Oat",
+    "SCIENTIFIC NAME": "Avena sativa",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereals"
+  },
+  {
+    "FOOD NAME": "Star fruit",
+    "SCIENTIFIC NAME": "Averrhoa carambola",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Brazil nut",
+    "SCIENTIFIC NAME": "Bertholletia excelsa",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Common beet",
+    "SCIENTIFIC NAME": "Beta vulgaris",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Leaf vegetables"
+  },
+  {
+    "FOOD NAME": "Borage",
+    "SCIENTIFIC NAME": "Borago officinalis",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Oilseed crops"
+  },
+  {
+    "FOOD NAME": "Chinese mustard",
+    "SCIENTIFIC NAME": "Brassica juncea",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Cabbages"
+  },
+  {
+    "FOOD NAME": "Swede",
+    "SCIENTIFIC NAME": "Brassica napus",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "Rape",
+    "SCIENTIFIC NAME": "Brassica napus var. napus",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "Common cabbage",
+    "SCIENTIFIC NAME": "Brassica oleracea",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Cabbages"
+  },
+  {
+    "FOOD NAME": "Cauliflower",
+    "SCIENTIFIC NAME": "Brassica oleracea var. botrytis",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Cabbages"
+  },
+  {
+    "FOOD NAME": "Brussel sprouts",
+    "SCIENTIFIC NAME": "Brassica oleracea var. gemmifera",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Cabbages"
+  },
+  {
+    "FOOD NAME": "Kohlrabi",
+    "SCIENTIFIC NAME": "Brassica oleracea var. gongylodes",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "Broccoli",
+    "SCIENTIFIC NAME": "Brassica oleracea var. italica",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Cabbages"
+  },
+  {
+    "FOOD NAME": "Chinese cabbage",
+    "SCIENTIFIC NAME": "Brassica rapa",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Cabbages"
+  },
+  {
+    "FOOD NAME": "Turnip",
+    "SCIENTIFIC NAME": "Brassica rapa var. rapa",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Pigeon pea",
+    "SCIENTIFIC NAME": "Cajanus cajan",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Peas"
+  },
+  {
+    "FOOD NAME": "Tea",
+    "SCIENTIFIC NAME": "Camellia sinensis",
+    "GROUP": "Teas",
+    "SUB GROUP": "Teas"
+  },
+  {
+    "FOOD NAME": "Capers",
+    "SCIENTIFIC NAME": "Capparis spinosa",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Pepper (C. annuum)",
+    "SCIENTIFIC NAME": "Capsicum annuum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Fruit vegetables"
+  },
+  {
+    "FOOD NAME": "Papaya",
+    "SCIENTIFIC NAME": "Carica papaya",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Safflower",
+    "SCIENTIFIC NAME": "Carthamus tinctorius",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Oilseed crops"
+  },
+  {
+    "FOOD NAME": "Caraway",
+    "SCIENTIFIC NAME": "Carum carvi",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Pecan nut",
+    "SCIENTIFIC NAME": "Carya illinoinensis",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Chestnut",
+    "SCIENTIFIC NAME": "Castanea",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Roman camomile",
+    "SCIENTIFIC NAME": "Chamaemelum nobile",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Chickpea",
+    "SCIENTIFIC NAME": "Cicer arietinum",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Peas"
+  },
+  {
+    "FOOD NAME": "Endive",
+    "SCIENTIFIC NAME": "Cichorium endivia",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Leaf vegetables"
+  },
+  {
+    "FOOD NAME": "Chicory",
+    "SCIENTIFIC NAME": "Cichorium intybus",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "Chinese cinnamon",
+    "SCIENTIFIC NAME": "Cinnamomum aromaticum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Ceylon cinnamon",
+    "SCIENTIFIC NAME": "Cinnamomum verum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Watermelon",
+    "SCIENTIFIC NAME": "Citrullus lanatus",
+    "GROUP": "Gourds",
+    "SUB GROUP": "Gourds"
+  },
+  {
+    "FOOD NAME": "Lime",
+    "SCIENTIFIC NAME": "Citrus aurantiifolia",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Citrus"
+  },
+  {
+    "FOOD NAME": "Lemon",
+    "SCIENTIFIC NAME": "Citrus limon",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Citrus"
+  },
+  {
+    "FOOD NAME": "Pummelo",
+    "SCIENTIFIC NAME": "Citrus maxima",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Citrus"
+  },
+  {
+    "FOOD NAME": "Mandarin orange (Clementine, Tangerine)",
+    "SCIENTIFIC NAME": "Citrus reticulata",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Citrus"
+  },
+  {
+    "FOOD NAME": "Sweet orange",
+    "SCIENTIFIC NAME": "Citrus sinensis",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Citrus"
+  },
+  {
+    "FOOD NAME": "Coffee",
+    "SCIENTIFIC NAME": "Coffea",
+    "GROUP": "Coffee and coffee products",
+    "SUB GROUP": "Coffee"
+  },
+  {
+    "FOOD NAME": "Arabica coffee",
+    "SCIENTIFIC NAME": "Coffea arabica",
+    "GROUP": "Coffee and coffee products",
+    "SUB GROUP": "Coffee"
+  },
+  {
+    "FOOD NAME": "Robusta coffee",
+    "SCIENTIFIC NAME": "Coffea canephora",
+    "GROUP": "Coffee and coffee products",
+    "SUB GROUP": "Coffee"
+  },
+  {
+    "FOOD NAME": "Coriander",
+    "SCIENTIFIC NAME": "Coriandrum sativum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Common hazelnut",
+    "SCIENTIFIC NAME": "Corylus avellana",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Saffron",
+    "SCIENTIFIC NAME": "Crocus sativus",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Muskmelon",
+    "SCIENTIFIC NAME": "Cucumis melo",
+    "GROUP": "Gourds",
+    "SUB GROUP": "Gourds"
+  },
+  {
+    "FOOD NAME": "Cucumber",
+    "SCIENTIFIC NAME": "Cucumis sativus",
+    "GROUP": "Gourds",
+    "SUB GROUP": "Gourds"
+  },
+  {
+    "FOOD NAME": "Cucurbita (Gourd)",
+    "SCIENTIFIC NAME": "Cucurbita",
+    "GROUP": "Gourds",
+    "SUB GROUP": "Gourds"
+  },
+  {
+    "FOOD NAME": "Cumin",
+    "SCIENTIFIC NAME": "Cuminum cyminum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Turmeric",
+    "SCIENTIFIC NAME": "Curcuma longa",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Quince",
+    "SCIENTIFIC NAME": "Cydonia oblonga",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Pomes"
+  },
+  {
+    "FOOD NAME": "Lemon grass",
+    "SCIENTIFIC NAME": "Cymbopogon citratus",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Globe artichoke",
+    "SCIENTIFIC NAME": "Cynara scolymus",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Shoot vegetables"
+  },
+  {
+    "FOOD NAME": "Wild carrot",
+    "SCIENTIFIC NAME": "Daucus carota",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "Japanese persimmon",
+    "SCIENTIFIC NAME": "Diospyros kaki",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Cardamom",
+    "SCIENTIFIC NAME": "Elettaria cardamomum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Black crowberry",
+    "SCIENTIFIC NAME": "Empetrum nigrum",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Loquat",
+    "SCIENTIFIC NAME": "Eriobotrya japonica",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Rocket salad (ssp.)",
+    "SCIENTIFIC NAME": "Eruca vesicaria ssp. sativa",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Leaf vegetables"
+  },
+  {
+    "FOOD NAME": "Wax apple",
+    "SCIENTIFIC NAME": "Eugenia",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Common buckwheat",
+    "SCIENTIFIC NAME": "Fagopyrum esculentum",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereals"
+  },
+  {
+    "FOOD NAME": "Tartary buckwheat",
+    "SCIENTIFIC NAME": "Fagopyrum tataricum",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereals"
+  },
+  {
+    "FOOD NAME": "Fig",
+    "SCIENTIFIC NAME": "Ficus carica",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Other fruits"
+  },
+  {
+    "FOOD NAME": "Fennel",
+    "SCIENTIFIC NAME": "Foeniculum vulgare",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Strawberry",
+    "SCIENTIFIC NAME": "Fragaria X ananassa",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Black huckleberry",
+    "SCIENTIFIC NAME": "Gaylussacia baccata",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Soy bean",
+    "SCIENTIFIC NAME": "Glycine max",
+    "GROUP": "Soy",
+    "SUB GROUP": "Soy"
+  },
+  {
+    "FOOD NAME": "Sunflower",
+    "SCIENTIFIC NAME": "Helianthus annuus",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Oilseed crops"
+  },
+  {
+    "FOOD NAME": "Sea-buckthornberry",
+    "SCIENTIFIC NAME": "Hippophae rhamnoides",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Barley",
+    "SCIENTIFIC NAME": "Hordeum vulgare",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereals"
+  },
+  {
+    "FOOD NAME": "Hyssop",
+    "SCIENTIFIC NAME": "Hyssopus officinalis",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Star anise",
+    "SCIENTIFIC NAME": "Illicium verum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Swamp cabbage",
+    "SCIENTIFIC NAME": "Ipomoea aquatica",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Leaf vegetables"
+  },
+  {
+    "FOOD NAME": "Sweet potato",
+    "SCIENTIFIC NAME": "Ipomoea batatas",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Tubers"
+  },
+  {
+    "FOOD NAME": "Black walnut",
+    "SCIENTIFIC NAME": "Juglans nigra",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Common walnut",
+    "SCIENTIFIC NAME": "Juglans regia",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Lettuce",
+    "SCIENTIFIC NAME": "Lactuca sativa",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Leaf vegetables"
+  },
+  {
+    "FOOD NAME": "Grass pea",
+    "SCIENTIFIC NAME": "Lathyrus sativus",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Peas"
+  },
+  {
+    "FOOD NAME": "Sweet bay",
+    "SCIENTIFIC NAME": "Laurus nobilis",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Lentils",
+    "SCIENTIFIC NAME": "Lens culinaris",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Lentils"
+  },
+  {
+    "FOOD NAME": "Garden cress",
+    "SCIENTIFIC NAME": "Lepidium sativum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Leaf vegetables"
+  },
+  {
+    "FOOD NAME": "Lovage",
+    "SCIENTIFIC NAME": "Levisticum officinale",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Flaxseed",
+    "SCIENTIFIC NAME": "Linum usitatissimum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Oilseed crops"
+  },
+  {
+    "FOOD NAME": "Mexican oregano",
+    "SCIENTIFIC NAME": "Lippia graveolens",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Lichee",
+    "SCIENTIFIC NAME": "Litchi chinensis",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Lupine",
+    "SCIENTIFIC NAME": "Lupinus",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Other pulses"
+  },
+  {
+    "FOOD NAME": "Apple",
+    "SCIENTIFIC NAME": "Malus pumila",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Pomes"
+  },
+  {
+    "FOOD NAME": "Mango",
+    "SCIENTIFIC NAME": "Mangifera indica",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "German camomile",
+    "SCIENTIFIC NAME": "Matricaria recutita",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Lemon balm",
+    "SCIENTIFIC NAME": "Melissa officinalis",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Mentha (Mint)",
+    "SCIENTIFIC NAME": "Mentha",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Orange mint",
+    "SCIENTIFIC NAME": "Mentha aquatica",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Cornmint",
+    "SCIENTIFIC NAME": "Mentha arvensis",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Spearmint",
+    "SCIENTIFIC NAME": "Mentha spicata",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Peppermint",
+    "SCIENTIFIC NAME": "Mentha X piperita",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Medlar",
+    "SCIENTIFIC NAME": "Mespilus germanica",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Pomes"
+  },
+  {
+    "FOOD NAME": "Bitter gourd",
+    "SCIENTIFIC NAME": "Momordica charantia",
+    "GROUP": "Gourds",
+    "SUB GROUP": "Gourds"
+  },
+  {
+    "FOOD NAME": "Mulberry",
+    "SCIENTIFIC NAME": "Morus",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Black mulberry",
+    "SCIENTIFIC NAME": "Morus nigra",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Nutmeg",
+    "SCIENTIFIC NAME": "Myristica fragrans",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Sweet basil",
+    "SCIENTIFIC NAME": "Ocimum basilicum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Evening primrose",
+    "SCIENTIFIC NAME": "Oenothera biennis",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Oilseed crops"
+  },
+  {
+    "FOOD NAME": "Olive",
+    "SCIENTIFIC NAME": "Olea europaea",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Fruit vegetables"
+  },
+  {
+    "FOOD NAME": "Sweet marjoram",
+    "SCIENTIFIC NAME": "Origanum majorana",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Pot marjoram",
+    "SCIENTIFIC NAME": "Origanum onites",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Common oregano",
+    "SCIENTIFIC NAME": "Origanum vulgare",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Rice",
+    "SCIENTIFIC NAME": "Oryza sativa",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereals"
+  },
+  {
+    "FOOD NAME": "Millet",
+    "SCIENTIFIC NAME": "Panicum miliaceum",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereals"
+  },
+  {
+    "FOOD NAME": "Poppy",
+    "SCIENTIFIC NAME": "Papaver",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Oilseed crops"
+  },
+  {
+    "FOOD NAME": "Passion fruit",
+    "SCIENTIFIC NAME": "Passiflora edulis",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Parsnip",
+    "SCIENTIFIC NAME": "Pastinaca sativa",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "Avocado",
+    "SCIENTIFIC NAME": "Persea americana",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Fruit vegetables"
+  },
+  {
+    "FOOD NAME": "Parsley",
+    "SCIENTIFIC NAME": "Petroselinum crispum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Scarlet bean",
+    "SCIENTIFIC NAME": "Phaseolus coccineus",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Beans"
+  },
+  {
+    "FOOD NAME": "Lima bean",
+    "SCIENTIFIC NAME": "Phaseolus lunatus",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Beans"
+  },
+  {
+    "FOOD NAME": "Common bean",
+    "SCIENTIFIC NAME": "Phaseolus vulgaris",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Beans"
+  },
+  {
+    "FOOD NAME": "Date",
+    "SCIENTIFIC NAME": "Phoenix dactylifera",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Other fruits"
+  },
+  {
+    "FOOD NAME": "Black chokeberry",
+    "SCIENTIFIC NAME": "Photinia melanocarpa",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Anise",
+    "SCIENTIFIC NAME": "Pimpinella anisum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Pine nut",
+    "SCIENTIFIC NAME": "Pinus",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Pepper (Spice)",
+    "SCIENTIFIC NAME": "Piper nigrum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Pistachio",
+    "SCIENTIFIC NAME": "Pistacia vera",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Common pea",
+    "SCIENTIFIC NAME": "Pisum sativum",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Peas"
+  },
+  {
+    "FOOD NAME": "Purslane",
+    "SCIENTIFIC NAME": "Portulaca oleracea",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Prunus (Cherry, Plum)",
+    "SCIENTIFIC NAME": "Prunus",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Drupes"
+  },
+  {
+    "FOOD NAME": "Apricot",
+    "SCIENTIFIC NAME": "Prunus armeniaca",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Drupes"
+  },
+  {
+    "FOOD NAME": "Sweet cherry",
+    "SCIENTIFIC NAME": "Prunus avium",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Drupes"
+  },
+  {
+    "FOOD NAME": "Sour cherry",
+    "SCIENTIFIC NAME": "Prunus cerasus",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Drupes"
+  },
+  {
+    "FOOD NAME": "European plum",
+    "SCIENTIFIC NAME": "Prunus domestica",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Drupes"
+  },
+  {
+    "FOOD NAME": "Almond",
+    "SCIENTIFIC NAME": "Prunus dulcis",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Peach",
+    "SCIENTIFIC NAME": "Prunus persica",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Drupes"
+  },
+  {
+    "FOOD NAME": "Guava",
+    "SCIENTIFIC NAME": "Psidium guajava",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Pomegranate",
+    "SCIENTIFIC NAME": "Punica granatum",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Pear",
+    "SCIENTIFIC NAME": "Pyrus communis",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Pomes"
+  },
+  {
+    "FOOD NAME": "Radish",
+    "SCIENTIFIC NAME": "Raphanus sativus",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "Garden rhubarb",
+    "SCIENTIFIC NAME": "Rheum rhabarbarum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Stalk vegetables"
+  },
+  {
+    "FOOD NAME": "Blackcurrant",
+    "SCIENTIFIC NAME": "Ribes nigrum",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Redcurrant",
+    "SCIENTIFIC NAME": "Ribes rubrum",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Gooseberry",
+    "SCIENTIFIC NAME": "Ribes uva-crispa",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Watercress",
+    "SCIENTIFIC NAME": "Rorippa nasturtium-aquaticum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Rosemary",
+    "SCIENTIFIC NAME": "Rosmarinus officinalis",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Rubus (Blackberry, Raspberry)",
+    "SCIENTIFIC NAME": "Rubus",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Cloudberry",
+    "SCIENTIFIC NAME": "Rubus chamaemorus",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Red raspberry",
+    "SCIENTIFIC NAME": "Rubus idaeus",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Black raspberry",
+    "SCIENTIFIC NAME": "Rubus occidentalis",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Sorrel",
+    "SCIENTIFIC NAME": "Rumex acetosa",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Common sage",
+    "SCIENTIFIC NAME": "Salvia officinalis",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Black elderberry",
+    "SCIENTIFIC NAME": "Sambucus nigra",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Summer savory",
+    "SCIENTIFIC NAME": "Satureja hortensis",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Winter savory",
+    "SCIENTIFIC NAME": "Satureja montana",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Rye",
+    "SCIENTIFIC NAME": "Secale cereale",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereals"
+  },
+  {
+    "FOOD NAME": "Sesame",
+    "SCIENTIFIC NAME": "Sesamum orientale",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Oilseed crops"
+  },
+  {
+    "FOOD NAME": "Garden tomato",
+    "SCIENTIFIC NAME": "Solanum lycopersicum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Fruit vegetables"
+  },
+  {
+    "FOOD NAME": "Cherry tomato",
+    "SCIENTIFIC NAME": "Solanum lycopersicum var. cerasiforme",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Fruit vegetables"
+  },
+  {
+    "FOOD NAME": "Garden tomato (var.)",
+    "SCIENTIFIC NAME": "Solanum lycopersicum var. lycopersicum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Fruit vegetables"
+  },
+  {
+    "FOOD NAME": "Eggplant",
+    "SCIENTIFIC NAME": "Solanum melongena",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Fruit vegetables"
+  },
+  {
+    "FOOD NAME": "Potato",
+    "SCIENTIFIC NAME": "Solanum tuberosum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Tubers"
+  },
+  {
+    "FOOD NAME": "Rowanberry",
+    "SCIENTIFIC NAME": "Sorbus aucuparia",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Sorghum",
+    "SCIENTIFIC NAME": "Sorghum bicolor",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereals"
+  },
+  {
+    "FOOD NAME": "Spinach",
+    "SCIENTIFIC NAME": "Spinacia oleracea",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Leaf vegetables"
+  },
+  {
+    "FOOD NAME": "Cloves",
+    "SCIENTIFIC NAME": "Syzygium aromaticum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Tamarind",
+    "SCIENTIFIC NAME": "Tamarindus indica",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Dandelion",
+    "SCIENTIFIC NAME": "Taraxacum officinale",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Cocoa bean",
+    "SCIENTIFIC NAME": "Theobroma cacao",
+    "GROUP": "Cocoa and cocoa products",
+    "SUB GROUP": "Cocoa"
+  },
+  {
+    "FOOD NAME": "Common thyme",
+    "SCIENTIFIC NAME": "Thymus vulgaris",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Linden",
+    "SCIENTIFIC NAME": "Tilia",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Small-leaf linden",
+    "SCIENTIFIC NAME": "Tilia cordata",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Fenugreek",
+    "SCIENTIFIC NAME": "Trigonella foenum-graecum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Common wheat",
+    "SCIENTIFIC NAME": "Triticum aestivum",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereals"
+  },
+  {
+    "FOOD NAME": "Vaccinium (Blueberry, Cranberry, Huckleberry)",
+    "SCIENTIFIC NAME": "Vaccinium",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Lowbush blueberry",
+    "SCIENTIFIC NAME": "Vaccinium angustifolium",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Sparkleberry",
+    "SCIENTIFIC NAME": "Vaccinium arboreum",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Highbush blueberry",
+    "SCIENTIFIC NAME": "Vaccinium corymbosum",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "American cranberry",
+    "SCIENTIFIC NAME": "Vaccinium macrocarpon",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Bilberry",
+    "SCIENTIFIC NAME": "Vaccinium myrtillus",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Lingonberry",
+    "SCIENTIFIC NAME": "Vaccinium vitis-idaea",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Vanilla",
+    "SCIENTIFIC NAME": "Vanilla",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Common verbena",
+    "SCIENTIFIC NAME": "Verbena officinalis",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Broad bean",
+    "SCIENTIFIC NAME": "Vicia faba",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Beans"
+  },
+  {
+    "FOOD NAME": "Adzuki bean",
+    "SCIENTIFIC NAME": "Vigna angularis",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Beans"
+  },
+  {
+    "FOOD NAME": "Gram bean",
+    "SCIENTIFIC NAME": "Vigna mungo",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Beans"
+  },
+  {
+    "FOOD NAME": "Mung bean",
+    "SCIENTIFIC NAME": "Vigna radiata",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Beans"
+  },
+  {
+    "FOOD NAME": "Climbing bean",
+    "SCIENTIFIC NAME": "Vigna umbellata",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Beans"
+  },
+  {
+    "FOOD NAME": "Cowpea",
+    "SCIENTIFIC NAME": "Vigna unguiculata",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Peas"
+  },
+  {
+    "FOOD NAME": "Muscadine grape",
+    "SCIENTIFIC NAME": "Vitis rotundifolia",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Common grape",
+    "SCIENTIFIC NAME": "Vitis vinifera",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Corn",
+    "SCIENTIFIC NAME": "Zea mays",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereals"
+  },
+  {
+    "FOOD NAME": "Ginger",
+    "SCIENTIFIC NAME": "Zingiber officinale",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Arctic blackberry",
+    "SCIENTIFIC NAME": "Rubus arcticus",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Banana",
+    "SCIENTIFIC NAME": "Musa acuminata",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Bayberry",
+    "SCIENTIFIC NAME": "Myrica",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Elliott's blueberry",
+    "SCIENTIFIC NAME": "Vaccinium elliottii",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Canada blueberry",
+    "SCIENTIFIC NAME": "Vaccinium myrtilloides",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Bog bilberry",
+    "SCIENTIFIC NAME": "Vaccinium uliginosum",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Buffalo currant",
+    "SCIENTIFIC NAME": "Ribes aureum var. villosum",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Celeriac",
+    "SCIENTIFIC NAME": "Apium graveolens var. rapaceum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "Celery stalks",
+    "SCIENTIFIC NAME": "Apium graveolens var. dulce",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Stalk vegetables"
+  },
+  {
+    "FOOD NAME": "Chinese chives",
+    "SCIENTIFIC NAME": "Allium tuberosum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "European cranberry",
+    "SCIENTIFIC NAME": "Vaccinium oxycoccos",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Deerberry",
+    "SCIENTIFIC NAME": "Vaccinium stamineum",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Ginseng",
+    "SCIENTIFIC NAME": "Panax",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Cascade huckleberry",
+    "SCIENTIFIC NAME": "Vaccinium deliciosum",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Oval-leaf huckleberry",
+    "SCIENTIFIC NAME": "Vaccinium ovalifolium",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Evergreen huckleberry",
+    "SCIENTIFIC NAME": "Vaccinium ovatum",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Red huckleberry",
+    "SCIENTIFIC NAME": "Vaccinium parvifolium",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Longan",
+    "SCIENTIFIC NAME": "Dimocarpus longan",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Macadamia nut (M. tetraphylla)",
+    "SCIENTIFIC NAME": "Macadamia tetraphylla",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Garden onion (var.)",
+    "SCIENTIFIC NAME": "Allium cepa var. cepa",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Onion-family vegetables"
+  },
+  {
+    "FOOD NAME": "Summer grape",
+    "SCIENTIFIC NAME": "Vitis aestivalis",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Fox grape",
+    "SCIENTIFIC NAME": "Vitis labrusca",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Nectarine",
+    "SCIENTIFIC NAME": "Prunus persica var. nucipersica",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Drupes"
+  },
+  {
+    "FOOD NAME": "Peach (var.)",
+    "SCIENTIFIC NAME": "Prunus persica var. persica",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Drupes"
+  },
+  {
+    "FOOD NAME": "Pepper (C. baccatum)",
+    "SCIENTIFIC NAME": "Capsicum baccatum var. baccatum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Fruit vegetables"
+  },
+  {
+    "FOOD NAME": "Pepper (C. chinense)",
+    "SCIENTIFIC NAME": "Capsicum chinense",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Fruit vegetables"
+  },
+  {
+    "FOOD NAME": "Pepper (Capsicum)",
+    "SCIENTIFIC NAME": "Capsicum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Fruit vegetables"
+  },
+  {
+    "FOOD NAME": "Rambutan",
+    "SCIENTIFIC NAME": "Nephelium lappaceum",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Red rice",
+    "SCIENTIFIC NAME": "Oryza rufipogon",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereals"
+  },
+  {
+    "FOOD NAME": "Annual wild rice",
+    "SCIENTIFIC NAME": "Zizania aquatica",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereals"
+  },
+  {
+    "FOOD NAME": "Swiss chard",
+    "SCIENTIFIC NAME": "Beta vulgaris ssp. cicla",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Leaf vegetables"
+  },
+  {
+    "FOOD NAME": "Lemon thyme",
+    "SCIENTIFIC NAME": "Thymus pulegioides",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Tronchuda cabbage",
+    "SCIENTIFIC NAME": "Brassica oleracea var. costata",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Cabbages"
+  },
+  {
+    "FOOD NAME": "Japanese walnut",
+    "SCIENTIFIC NAME": "Juglans ailanthifolia",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Welsh onion",
+    "SCIENTIFIC NAME": "Allium fistulosum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Hard wheat",
+    "SCIENTIFIC NAME": "Triticum durum",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereals"
+  },
+  {
+    "FOOD NAME": "Shallot",
+    "SCIENTIFIC NAME": "Allium ascalonicum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Onion-family vegetables"
+  },
+  {
+    "FOOD NAME": "Rocket salad",
+    "SCIENTIFIC NAME": "Eruca vesicaria",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Leaf vegetables"
+  },
+  {
+    "FOOD NAME": "Carrot",
+    "SCIENTIFIC NAME": "Daucus carota ssp. sativus",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "Triticale",
+    "SCIENTIFIC NAME": "X Triticosecale rimpaui",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereals"
+  },
+  {
+    "FOOD NAME": "Black cabbage",
+    "SCIENTIFIC NAME": "Brassica oleracea var. viridis",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Cabbages"
+  },
+  {
+    "FOOD NAME": "Half-highbush blueberry",
+    "SCIENTIFIC NAME": "Vaccinium angustifolium X Vaccinium corymbosum",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Celery leaves",
+    "SCIENTIFIC NAME": "Apium graveolens var. secalinum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Chicory leaves",
+    "SCIENTIFIC NAME": "Cichorium intybus var. foliosum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Leaf vegetables"
+  },
+  {
+    "FOOD NAME": "Komatsuna",
+    "SCIENTIFIC NAME": "Brassica rapa var. perviridis",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Cabbages"
+  },
+  {
+    "FOOD NAME": "Pak choy",
+    "SCIENTIFIC NAME": "Brassica rapa var. chinensis",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Cabbages"
+  },
+  {
+    "FOOD NAME": "Napa cabbage",
+    "SCIENTIFIC NAME": "Brassica rapa var. pekinensis",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Cabbages"
+  },
+  {
+    "FOOD NAME": "Chicory roots",
+    "SCIENTIFIC NAME": "Cichorium intybus var. sativum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "Grapefruit/Pummelo hybrid",
+    "SCIENTIFIC NAME": "Citrus paradisi X Citrus maxima",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Citrus"
+  },
+  {
+    "FOOD NAME": "Grapefruit",
+    "SCIENTIFIC NAME": "Citrus X paradisi",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Citrus"
+  },
+  {
+    "FOOD NAME": "Jostaberry",
+    "SCIENTIFIC NAME": "Ribes × nidigrolaria",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Kai-lan",
+    "SCIENTIFIC NAME": "Brassica oleracea var. alboglabra",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Cabbages"
+  },
+  {
+    "FOOD NAME": "Italian oregano",
+    "SCIENTIFIC NAME": "Origanum X majoricum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Oxheart cabbage",
+    "SCIENTIFIC NAME": "Brassica oleracea var. conica",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Cabbages"
+  },
+  {
+    "FOOD NAME": "Daikon radish",
+    "SCIENTIFIC NAME": "Raphanus sativus var. longipinnatus",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "Black radish",
+    "SCIENTIFIC NAME": "Raphanus sativus var. niger",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "Radish (var.)",
+    "SCIENTIFIC NAME": "Raphanus sativus var. sativus",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "Red beetroot",
+    "SCIENTIFIC NAME": "Beta vulgaris var. rubra",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "Sweet rowanberry",
+    "SCIENTIFIC NAME": "Grataegosorbus mitschurinii",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Pineappple sage",
+    "SCIENTIFIC NAME": "Salvia elegans",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Skunk currant",
+    "SCIENTIFIC NAME": "Ribes glandulosum",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Beer",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Fermented beverages"
+  },
+  {
+    "FOOD NAME": "Other bread",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Other breads"
+  },
+  {
+    "FOOD NAME": "Breakfast cereal",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereal products"
+  },
+  {
+    "FOOD NAME": "Other soy product",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Soy",
+    "SUB GROUP": "Soy products"
+  },
+  {
+    "FOOD NAME": "Other cereal product",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereal products"
+  },
+  {
+    "FOOD NAME": "Pasta",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereal products"
+  },
+  {
+    "FOOD NAME": "Biscuit",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereal products"
+  },
+  {
+    "FOOD NAME": "Sourdough",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Doughs"
+  },
+  {
+    "FOOD NAME": "Spirit",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Distilled beverages"
+  },
+  {
+    "FOOD NAME": "Fortified wine",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Fortified wines"
+  },
+  {
+    "FOOD NAME": "Other alcoholic beverage",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Alcoholic beverages"
+  },
+  {
+    "FOOD NAME": "Abalone",
+    "SCIENTIFIC NAME": "Haliotis",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Mollusks"
+  },
+  {
+    "FOOD NAME": "Abiyuch",
+    "SCIENTIFIC NAME": "Crateva religiosa",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Acerola",
+    "SCIENTIFIC NAME": "Malpighia emarginata",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Acorn",
+    "SCIENTIFIC NAME": "Quercus",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Winter squash",
+    "SCIENTIFIC NAME": "Cucurbita maxima",
+    "GROUP": "Gourds",
+    "SUB GROUP": "Gourds"
+  },
+  {
+    "FOOD NAME": "Agar",
+    "SCIENTIFIC NAME": "Eucheuma",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Seaweed"
+  },
+  {
+    "FOOD NAME": "Red king crab",
+    "SCIENTIFIC NAME": "Paralithodes camtschaticus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Crustaceans"
+  },
+  {
+    "FOOD NAME": "Alfalfa",
+    "SCIENTIFIC NAME": "Medicago sativa",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Allspice",
+    "SCIENTIFIC NAME": "Pimenta dioica",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Amaranth",
+    "SCIENTIFIC NAME": "Amaranthus",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Arrowhead",
+    "SCIENTIFIC NAME": "Sagittaria latifolia",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Tubers"
+  },
+  {
+    "FOOD NAME": "Arrowroot",
+    "SCIENTIFIC NAME": "Maranta arundinacea",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Tubers"
+  },
+  {
+    "FOOD NAME": "Asian pear",
+    "SCIENTIFIC NAME": "Pyrus pyrifolia",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Pomes"
+  },
+  {
+    "FOOD NAME": "Atlantic herring",
+    "SCIENTIFIC NAME": "Clupea harengus harengus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Atlantic mackerel",
+    "SCIENTIFIC NAME": "Scomber scombrus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Painted comber",
+    "SCIENTIFIC NAME": "Serranus scriba",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Atlantic pollock",
+    "SCIENTIFIC NAME": "Pollachius pollachius",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Atlantic wolffish",
+    "SCIENTIFIC NAME": "Anarhichas lupus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Bamboo shoots",
+    "SCIENTIFIC NAME": "Phyllostachys edulis",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Shoot vegetables"
+  },
+  {
+    "FOOD NAME": "Striped bass",
+    "SCIENTIFIC NAME": "Morone saxatilis",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Beaver",
+    "SCIENTIFIC NAME": "Castor canadensis",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Rodents"
+  },
+  {
+    "FOOD NAME": "Beech nut",
+    "SCIENTIFIC NAME": "Fagus",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Beluga whale",
+    "SCIENTIFIC NAME": "Delphinapterus leucas",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Cetaceans"
+  },
+  {
+    "FOOD NAME": "Bison",
+    "SCIENTIFIC NAME": "Bison bison",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Bovines"
+  },
+  {
+    "FOOD NAME": "Black bear",
+    "SCIENTIFIC NAME": "Ursus americanus",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Other mammals"
+  },
+  {
+    "FOOD NAME": "Alaska blackfish",
+    "SCIENTIFIC NAME": "Dallia pectoralis",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Blue crab",
+    "SCIENTIFIC NAME": "Callinectes sapidus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Crustaceans"
+  },
+  {
+    "FOOD NAME": "Blue mussel",
+    "SCIENTIFIC NAME": "Mytilus edulis",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Mollusks"
+  },
+  {
+    "FOOD NAME": "Northern bluefin tuna",
+    "SCIENTIFIC NAME": "Thunnus thynnus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Bluefish",
+    "SCIENTIFIC NAME": "Pomatomus saltatrix",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Wild boar",
+    "SCIENTIFIC NAME": "Sus scrofa",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Swine"
+  },
+  {
+    "FOOD NAME": "Bowhead whale",
+    "SCIENTIFIC NAME": "Balaena mysticetus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Cetaceans"
+  },
+  {
+    "FOOD NAME": "Breadfruit",
+    "SCIENTIFIC NAME": "Artocarpus altilis",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Breadnut tree seed",
+    "SCIENTIFIC NAME": "Brosimum alicastrum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Other seeds"
+  },
+  {
+    "FOOD NAME": "Rapini",
+    "SCIENTIFIC NAME": "Brassica ruvo",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Cabbages"
+  },
+  {
+    "FOOD NAME": "Brown bear",
+    "SCIENTIFIC NAME": "Ursus arctos",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Other mammals"
+  },
+  {
+    "FOOD NAME": "Buffalo",
+    "SCIENTIFIC NAME": "Bubalus bubalis",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Bovines"
+  },
+  {
+    "FOOD NAME": "Burbot",
+    "SCIENTIFIC NAME": "Lota lota",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Giant butterbur",
+    "SCIENTIFIC NAME": "Petasites japonicus",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Other vegetables"
+  },
+  {
+    "FOOD NAME": "American butterfish",
+    "SCIENTIFIC NAME": "Peprilus triacanthus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Butternut",
+    "SCIENTIFIC NAME": "Juglans cinerea",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Butternut squash",
+    "SCIENTIFIC NAME": "Cucurbita moschata",
+    "GROUP": "Gourds",
+    "SUB GROUP": "Gourds"
+  },
+  {
+    "FOOD NAME": "Calabash",
+    "SCIENTIFIC NAME": "Lagenaria siceraria",
+    "GROUP": "Gourds",
+    "SUB GROUP": "Gourds"
+  },
+  {
+    "FOOD NAME": "Cardoon",
+    "SCIENTIFIC NAME": "Cynara cardunculus",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Shoot vegetables"
+  },
+  {
+    "FOOD NAME": "Caribou",
+    "SCIENTIFIC NAME": "Rangifer tarandus",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Venison"
+  },
+  {
+    "FOOD NAME": "Natal plum",
+    "SCIENTIFIC NAME": "Carissa macrocarpa",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Carob",
+    "SCIENTIFIC NAME": "Ceratonia siliqua",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Other vegetables"
+  },
+  {
+    "FOOD NAME": "Common carp",
+    "SCIENTIFIC NAME": "Cyprinus carpio",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Cassava",
+    "SCIENTIFIC NAME": "Manihot esculenta",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Tubers"
+  },
+  {
+    "FOOD NAME": "Channel catfish",
+    "SCIENTIFIC NAME": "Ictalurus punctatus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Chayote",
+    "SCIENTIFIC NAME": "Sechium edule",
+    "GROUP": "Gourds",
+    "SUB GROUP": "Gourds"
+  },
+  {
+    "FOOD NAME": "Cherimoya",
+    "SCIENTIFIC NAME": "Annona cherimola",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Chervil",
+    "SCIENTIFIC NAME": "Anthriscus cerefolium",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Chia",
+    "SCIENTIFIC NAME": "Salvia hispanica",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Other seeds"
+  },
+  {
+    "FOOD NAME": "Chicken (Cock, Hen, Rooster)",
+    "SCIENTIFIC NAME": "Gallus gallus",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Poultry"
+  },
+  {
+    "FOOD NAME": "Chinese broccoli",
+    "SCIENTIFIC NAME": "Brassica alboglabra",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Cabbages"
+  },
+  {
+    "FOOD NAME": "Chinese chestnut",
+    "SCIENTIFIC NAME": "Castanea mollissima",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Chinese water chestnut",
+    "SCIENTIFIC NAME": "Eleocharis dulcis",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Other vegetables"
+  },
+  {
+    "FOOD NAME": "Garland chrysanthemum",
+    "SCIENTIFIC NAME": "Chrysanthemum coronarium",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Leaf vegetables"
+  },
+  {
+    "FOOD NAME": "Cisco",
+    "SCIENTIFIC NAME": "Coregonus artedi",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Nuttall cockle",
+    "SCIENTIFIC NAME": "Clinocardium nuttallii",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Mollusks"
+  },
+  {
+    "FOOD NAME": "Coconut",
+    "SCIENTIFIC NAME": "Cocos nucifera",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Pacific cod",
+    "SCIENTIFIC NAME": "Gadus macrocephalus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Atlantic cod",
+    "SCIENTIFIC NAME": "Gadus morhua",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Common octopus",
+    "SCIENTIFIC NAME": "Octopus vulgaris",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Mollusks"
+  },
+  {
+    "FOOD NAME": "Corn salad",
+    "SCIENTIFIC NAME": "Valerianella locusta",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Leaf vegetables"
+  },
+  {
+    "FOOD NAME": "Cottonseed",
+    "SCIENTIFIC NAME": "Gossypium",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Oilseed crops"
+  },
+  {
+    "FOOD NAME": "Catjang pea",
+    "SCIENTIFIC NAME": "Vigna unguiculata ssp. cylindrica",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Peas"
+  },
+  {
+    "FOOD NAME": "Malus (Crab apple)",
+    "SCIENTIFIC NAME": "Malus",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Pomes"
+  },
+  {
+    "FOOD NAME": "Squashberry",
+    "SCIENTIFIC NAME": "Viburnum edule",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Atlantic croaker",
+    "SCIENTIFIC NAME": "Micropogonias undulatus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Cusk",
+    "SCIENTIFIC NAME": "Brosme brosme",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Cuttlefish",
+    "SCIENTIFIC NAME": "Sepiidae",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Mollusks"
+  },
+  {
+    "FOOD NAME": "Mule deer",
+    "SCIENTIFIC NAME": "Odocoileus",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Venison"
+  },
+  {
+    "FOOD NAME": "Devilfish",
+    "SCIENTIFIC NAME": "Myoxocephalus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Dock",
+    "SCIENTIFIC NAME": "Rumex",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Dolphin fish",
+    "SCIENTIFIC NAME": "Coryphaena hippurus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Freshwater drum",
+    "SCIENTIFIC NAME": "Aplodinotus grunniens",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Mallard duck",
+    "SCIENTIFIC NAME": "Anas platyrhynchos",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Poultry"
+  },
+  {
+    "FOOD NAME": "Dungeness crab",
+    "SCIENTIFIC NAME": "Cancer magister",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Crustaceans"
+  },
+  {
+    "FOOD NAME": "Durian",
+    "SCIENTIFIC NAME": "Durio zibethinus",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Eastern oyster",
+    "SCIENTIFIC NAME": "Crassostrea virginica",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Mollusks"
+  },
+  {
+    "FOOD NAME": "Freshwater eel",
+    "SCIENTIFIC NAME": "Anguilla",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Elderberry",
+    "SCIENTIFIC NAME": "Sambucus",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Elk",
+    "SCIENTIFIC NAME": "Cervus canadensis",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Venison"
+  },
+  {
+    "FOOD NAME": "Emu",
+    "SCIENTIFIC NAME": "Dromaius novaehollandiae",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Poultry"
+  },
+  {
+    "FOOD NAME": "Oregon yampah",
+    "SCIENTIFIC NAME": "Perideridia oregana",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "European anchovy",
+    "SCIENTIFIC NAME": "Engraulis encrasicolus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "European chestnut",
+    "SCIENTIFIC NAME": "Castanea sativa",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Turbot",
+    "SCIENTIFIC NAME": "Scophthalmus maximus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Fireweed",
+    "SCIENTIFIC NAME": "Chamerion angustifolium",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Florida pompano",
+    "SCIENTIFIC NAME": "Trachinotus carolinus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Ginkgo nuts",
+    "SCIENTIFIC NAME": "Ginkgo biloba",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Other seeds"
+  },
+  {
+    "FOOD NAME": "Greylag goose",
+    "SCIENTIFIC NAME": "Anser anser",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Poultry"
+  },
+  {
+    "FOOD NAME": "Grape",
+    "SCIENTIFIC NAME": "Vitis",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Greenland halibut/turbot",
+    "SCIENTIFIC NAME": "Reinhardtius hippoglossoides",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Groundcherry",
+    "SCIENTIFIC NAME": "Physalis",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Fruit vegetables"
+  },
+  {
+    "FOOD NAME": "Grouper",
+    "SCIENTIFIC NAME": "Epinephelus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Guinea hen",
+    "SCIENTIFIC NAME": "Numida meleagris",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Poultry"
+  },
+  {
+    "FOOD NAME": "Haddock",
+    "SCIENTIFIC NAME": "Melanogrammus aeglefinus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Hippoglossus (Common halibut)",
+    "SCIENTIFIC NAME": "Hippoglossus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Hazelnut",
+    "SCIENTIFIC NAME": "Corylus",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Hickory nut",
+    "SCIENTIFIC NAME": "Carya",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Horse",
+    "SCIENTIFIC NAME": "Equus caballus",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Equines"
+  },
+  {
+    "FOOD NAME": "Horseradish tree",
+    "SCIENTIFIC NAME": "Moringa oleifera",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Other vegetables"
+  },
+  {
+    "FOOD NAME": "Alaska blueberry",
+    "SCIENTIFIC NAME": "Vaccinium alaskaense",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Hyacinth bean",
+    "SCIENTIFIC NAME": "Lablab purpureus",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Beans"
+  },
+  {
+    "FOOD NAME": "Irish moss",
+    "SCIENTIFIC NAME": "Chondrus crispus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Seaweed"
+  },
+  {
+    "FOOD NAME": "Pacific jack mackerel",
+    "SCIENTIFIC NAME": "Trachurus symmetricus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Jackfruit",
+    "SCIENTIFIC NAME": "Artocarpus heterophyllus",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Japanese chestnut",
+    "SCIENTIFIC NAME": "Castanea crenata",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Java plum",
+    "SCIENTIFIC NAME": "Syzygium cumini",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Jerusalem artichoke",
+    "SCIENTIFIC NAME": "Helianthus tuberosus",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Tubers"
+  },
+  {
+    "FOOD NAME": "Jujube",
+    "SCIENTIFIC NAME": "Ziziphus zizyphus",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Other fruits"
+  },
+  {
+    "FOOD NAME": "Jute",
+    "SCIENTIFIC NAME": "Corchorus olitorius",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Leaf vegetables"
+  },
+  {
+    "FOOD NAME": "Kale",
+    "SCIENTIFIC NAME": "Brassica napus var. pabularia",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Cabbages"
+  },
+  {
+    "FOOD NAME": "Kelp",
+    "SCIENTIFIC NAME": "Laminaria",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Seaweed"
+  },
+  {
+    "FOOD NAME": "King mackerel",
+    "SCIENTIFIC NAME": "Scomberomorus cavalla",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Kumquat",
+    "SCIENTIFIC NAME": "Fortunella",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Lambsquarters",
+    "SCIENTIFIC NAME": "Chenopodium album",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Leaf vegetables"
+  },
+  {
+    "FOOD NAME": "Leather chiton",
+    "SCIENTIFIC NAME": "Katharina tunicata",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Mollusks"
+  },
+  {
+    "FOOD NAME": "Wild leek",
+    "SCIENTIFIC NAME": "Allium ampeloprasum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Onion-family vegetables"
+  },
+  {
+    "FOOD NAME": "Common ling",
+    "SCIENTIFIC NAME": "Molva molva",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Lingcod",
+    "SCIENTIFIC NAME": "Ophiodon elongatus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "American lobster",
+    "SCIENTIFIC NAME": "Homarus americanus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Crustaceans"
+  },
+  {
+    "FOOD NAME": "Loganberry",
+    "SCIENTIFIC NAME": "Rubus loganobaccus",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Lotus",
+    "SCIENTIFIC NAME": "Nelumbo",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Other seeds"
+  },
+  {
+    "FOOD NAME": "Sacred lotus",
+    "SCIENTIFIC NAME": "Nelumbo nucifera",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Other vegetables"
+  },
+  {
+    "FOOD NAME": "White lupine",
+    "SCIENTIFIC NAME": "Lupinus albus",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Other pulses"
+  },
+  {
+    "FOOD NAME": "Malabar spinach",
+    "SCIENTIFIC NAME": "Basella alba",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Leaf vegetables"
+  },
+  {
+    "FOOD NAME": "Mammee apple",
+    "SCIENTIFIC NAME": "Mammea americana",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Purple mangosteen",
+    "SCIENTIFIC NAME": "Garcinia mangostana",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Alpine sweetvetch",
+    "SCIENTIFIC NAME": "Hedysarum alpinum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "Milkfish",
+    "SCIENTIFIC NAME": "Chanos chanos",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Monkfish",
+    "SCIENTIFIC NAME": "Lophius piscatorius",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Moose",
+    "SCIENTIFIC NAME": "Alces alces",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Venison"
+  },
+  {
+    "FOOD NAME": "Moth bean",
+    "SCIENTIFIC NAME": "Vigna aconitifolia",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Beans"
+  },
+  {
+    "FOOD NAME": "Mountain yam",
+    "SCIENTIFIC NAME": "Dioscorea pentaphylla",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Tubers"
+  },
+  {
+    "FOOD NAME": "Striped mullet",
+    "SCIENTIFIC NAME": "Mugil cephalus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Muskrat",
+    "SCIENTIFIC NAME": "Ondatra zibethicus",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Rodents"
+  },
+  {
+    "FOOD NAME": "White mustard",
+    "SCIENTIFIC NAME": "Sinapis alba",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Mustard spinach",
+    "SCIENTIFIC NAME": "Brassica perviridis",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Cabbages"
+  },
+  {
+    "FOOD NAME": "New Zealand spinach",
+    "SCIENTIFIC NAME": "Tetragonia tetragonioides",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Leaf vegetables"
+  },
+  {
+    "FOOD NAME": "Nopal",
+    "SCIENTIFIC NAME": "Opuntia cochenillifera",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Other vegetables"
+  },
+  {
+    "FOOD NAME": "Ocean pout",
+    "SCIENTIFIC NAME": "Zoarces americanus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "North Pacific giant octopus",
+    "SCIENTIFIC NAME": "Enteroctopus dofleini",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Mollusks"
+  },
+  {
+    "FOOD NAME": "Ohelo berry",
+    "SCIENTIFIC NAME": "Vaccinium reticulatum",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Okra",
+    "SCIENTIFIC NAME": "Abelmoschus esculentus",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Other vegetables"
+  },
+  {
+    "FOOD NAME": "Tunicate",
+    "SCIENTIFIC NAME": "Tunicata",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Other aquatic foods"
+  },
+  {
+    "FOOD NAME": "Opossum",
+    "SCIENTIFIC NAME": "Didelphis virginiana",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Marsupials"
+  },
+  {
+    "FOOD NAME": "Ostrich",
+    "SCIENTIFIC NAME": "Struthio camelus",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Poultry"
+  },
+  {
+    "FOOD NAME": "Spotted seal",
+    "SCIENTIFIC NAME": "Phoca largha",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Pinnipeds"
+  },
+  {
+    "FOOD NAME": "Pacific herring",
+    "SCIENTIFIC NAME": "Clupea pallasii",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Pacific oyster",
+    "SCIENTIFIC NAME": "Crassostrea gigas",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Mollusks"
+  },
+  {
+    "FOOD NAME": "Pacific rockfish",
+    "SCIENTIFIC NAME": "Sebastes",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Velvet duck",
+    "SCIENTIFIC NAME": "Melanitta fusca",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Poultry"
+  },
+  {
+    "FOOD NAME": "Pepper (C. frutescens)",
+    "SCIENTIFIC NAME": "Capsicum annuum var. annuum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Fruit vegetables"
+  },
+  {
+    "FOOD NAME": "Common persimmon",
+    "SCIENTIFIC NAME": "Diospyros virginiana",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Pheasant",
+    "SCIENTIFIC NAME": "Phasianus colchicus",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Poultry"
+  },
+  {
+    "FOOD NAME": "Northern pike",
+    "SCIENTIFIC NAME": "Esox lucius",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Pili nut",
+    "SCIENTIFIC NAME": "Canarium ovatum",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Colorado pinyon",
+    "SCIENTIFIC NAME": "Pinus edulis",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Pitanga",
+    "SCIENTIFIC NAME": "Eugenia uniflora",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Plains prickly pear",
+    "SCIENTIFIC NAME": "Opuntia macrorhiza",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "French plantain",
+    "SCIENTIFIC NAME": "Musa X paradisiaca",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "American pokeweed",
+    "SCIENTIFIC NAME": "Phytolacca americana",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Shoot vegetables"
+  },
+  {
+    "FOOD NAME": "Polar bear",
+    "SCIENTIFIC NAME": "Ursus maritimus",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Other mammals"
+  },
+  {
+    "FOOD NAME": "Opium poppy",
+    "SCIENTIFIC NAME": "Papaver somniferum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Prairie turnip",
+    "SCIENTIFIC NAME": "Pediomelum esculentum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "Prickly pear",
+    "SCIENTIFIC NAME": "Opuntia",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Quinoa",
+    "SCIENTIFIC NAME": "Chenopodium quinoa",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Other seeds"
+  },
+  {
+    "FOOD NAME": "European rabbit",
+    "SCIENTIFIC NAME": "Oryctolagus",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Lagomorphs"
+  },
+  {
+    "FOOD NAME": "Raccoon",
+    "SCIENTIFIC NAME": "Procyon lotor",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Other mammals"
+  },
+  {
+    "FOOD NAME": "Rainbow smelt",
+    "SCIENTIFIC NAME": "Osmerus mordax",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Rainbow trout",
+    "SCIENTIFIC NAME": "Oncorhynchus mykiss",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Malabar plum",
+    "SCIENTIFIC NAME": "Syzygium jambos",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Rose hip",
+    "SCIENTIFIC NAME": "Rosa",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Roselle",
+    "SCIENTIFIC NAME": "Hibiscus sabdariffa",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Orange roughy",
+    "SCIENTIFIC NAME": "Hoplostethus atlanticus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Sablefish",
+    "SCIENTIFIC NAME": "Anoplopoma fimbria",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Pink salmon",
+    "SCIENTIFIC NAME": "Oncorhynchus gorbuscha",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Chum salmon",
+    "SCIENTIFIC NAME": "Oncorhynchus keta",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Coho salmon",
+    "SCIENTIFIC NAME": "Oncorhynchus kisutch",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Sockeye salmon",
+    "SCIENTIFIC NAME": "Oncorhynchus nerka",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Chinook salmon",
+    "SCIENTIFIC NAME": "Oncorhynchus tshawytscha",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Atlantic salmon",
+    "SCIENTIFIC NAME": "Salmo salar",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Salmonberry",
+    "SCIENTIFIC NAME": "Rubus spectabilis",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Common salsify",
+    "SCIENTIFIC NAME": "Tragopogon porrifolius",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "Sapodilla",
+    "SCIENTIFIC NAME": "Manilkara zapota",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Mamey sapote",
+    "SCIENTIFIC NAME": "Pouteria sapota",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Spanish mackerel",
+    "SCIENTIFIC NAME": "Scomberomorus maculatus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Pacific sardine",
+    "SCIENTIFIC NAME": "Sardinops sagax",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Scallop",
+    "SCIENTIFIC NAME": "Pectinidae",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Mollusks"
+  },
+  {
+    "FOOD NAME": "Scup",
+    "SCIENTIFIC NAME": "Stenotomus chrysops",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Sea cucumber",
+    "SCIENTIFIC NAME": "Parastichopus californicus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Other aquatic foods"
+  },
+  {
+    "FOOD NAME": "Steller sea lion",
+    "SCIENTIFIC NAME": "Eumetopias jubatus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Pinnipeds"
+  },
+  {
+    "FOOD NAME": "Bearded seal",
+    "SCIENTIFIC NAME": "Erignathus barbatus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Pinnipeds"
+  },
+  {
+    "FOOD NAME": "Ringed seal",
+    "SCIENTIFIC NAME": "Pusa hispida",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Pinnipeds"
+  },
+  {
+    "FOOD NAME": "Seatrout",
+    "SCIENTIFIC NAME": "Cynoscion",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Sesbania flower",
+    "SCIENTIFIC NAME": "Sesbania bispinosa",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Other vegetables"
+  },
+  {
+    "FOOD NAME": "American shad",
+    "SCIENTIFIC NAME": "Alosa sapidissima",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Shark",
+    "SCIENTIFIC NAME": "Squaliformes",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Sheefish",
+    "SCIENTIFIC NAME": "Stenodus leucichthys",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Sheep (Mutton, Lamb)",
+    "SCIENTIFIC NAME": "Ovis aries",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Ovis"
+  },
+  {
+    "FOOD NAME": "Sheepshead",
+    "SCIENTIFIC NAME": "Archosargus probatocephalus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Hedge mustard",
+    "SCIENTIFIC NAME": "Sisymbrium",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Other seeds"
+  },
+  {
+    "FOOD NAME": "Skipjack tuna",
+    "SCIENTIFIC NAME": "Katsuwonus pelamis",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Snapper",
+    "SCIENTIFIC NAME": "Lutjanidae",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Soursop",
+    "SCIENTIFIC NAME": "Annona muricata",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Spelt",
+    "SCIENTIFIC NAME": "Triticum spelta",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereals"
+  },
+  {
+    "FOOD NAME": "Spirulina",
+    "SCIENTIFIC NAME": "Spirulina",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Seaweed"
+  },
+  {
+    "FOOD NAME": "Squab",
+    "SCIENTIFIC NAME": "Columba",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Poultry"
+  },
+  {
+    "FOOD NAME": "Squirrel",
+    "SCIENTIFIC NAME": "Sciuridae",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Rodents"
+  },
+  {
+    "FOOD NAME": "Strawberry guava",
+    "SCIENTIFIC NAME": "Psidium cattleianum",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Greater sturgeon",
+    "SCIENTIFIC NAME": "Acipenser",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "White sucker",
+    "SCIENTIFIC NAME": "Catostomus commersonii",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Sugar apple",
+    "SCIENTIFIC NAME": "Annona squamosa",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Pumpkinseed sunfish",
+    "SCIENTIFIC NAME": "Lepomis gibbosus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Swordfish",
+    "SCIENTIFIC NAME": "Xiphias gladius",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Taro",
+    "SCIENTIFIC NAME": "Colocasia esculenta",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "Teff",
+    "SCIENTIFIC NAME": "Eragrostis tef",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Tilefish",
+    "SCIENTIFIC NAME": "Lopholatilus chamaeleonticeps",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Mexican groundcherry",
+    "SCIENTIFIC NAME": "Physalis philadelphica var. immaculata",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Fruit vegetables"
+  },
+  {
+    "FOOD NAME": "Towel gourd",
+    "SCIENTIFIC NAME": "Luffa aegyptiaca",
+    "GROUP": "Gourds",
+    "SUB GROUP": "Gourds"
+  },
+  {
+    "FOOD NAME": "Salmonidae (Salmon, Trout)",
+    "SCIENTIFIC NAME": "Salmonidae",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Turkey",
+    "SCIENTIFIC NAME": "Meleagris gallopavo",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Poultry"
+  },
+  {
+    "FOOD NAME": "Cattle (Beef, Veal)",
+    "SCIENTIFIC NAME": "Bos taurus",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Bovines"
+  },
+  {
+    "FOOD NAME": "Walleye",
+    "SCIENTIFIC NAME": "Sander vitreus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Alaska pollock",
+    "SCIENTIFIC NAME": "Theragra chalcogramma",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Wasabi",
+    "SCIENTIFIC NAME": "Wasabia japonica",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Wax gourd",
+    "SCIENTIFIC NAME": "Benincasa hispida",
+    "GROUP": "Gourds",
+    "SUB GROUP": "Gourds"
+  },
+  {
+    "FOOD NAME": "Whelk",
+    "SCIENTIFIC NAME": "Buccinidae",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Mollusks"
+  },
+  {
+    "FOOD NAME": "Coalfish pollock",
+    "SCIENTIFIC NAME": "Pollachius virens",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Broad whitefish",
+    "SCIENTIFIC NAME": "Coregonus nasus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Whitefish",
+    "SCIENTIFIC NAME": "Coregonus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Whiting",
+    "SCIENTIFIC NAME": "Merlangius merlangus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Wild rice",
+    "SCIENTIFIC NAME": "Zizania",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereals"
+  },
+  {
+    "FOOD NAME": "Tea leaf willow",
+    "SCIENTIFIC NAME": "Salix pulchra",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Winged bean",
+    "SCIENTIFIC NAME": "Psophocarpus tetragonolobus",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Beans"
+  },
+  {
+    "FOOD NAME": "Yam",
+    "SCIENTIFIC NAME": "Dioscorea",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Tubers"
+  },
+  {
+    "FOOD NAME": "Jicama",
+    "SCIENTIFIC NAME": "Pachyrhizus erosus",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "Yautia",
+    "SCIENTIFIC NAME": "Xanthosoma sagittifolium",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Leaf vegetables"
+  },
+  {
+    "FOOD NAME": "Yellowfin tuna",
+    "SCIENTIFIC NAME": "Thunnus albacares",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Yellowtail amberjack",
+    "SCIENTIFIC NAME": "Seriola lalandi",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Pollock",
+    "SCIENTIFIC NAME": "Pollachius",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Albacore tuna",
+    "SCIENTIFIC NAME": "Thunnus alalunga",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Gadus (Common cod)",
+    "SCIENTIFIC NAME": "Gadus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Atlantic halibut",
+    "SCIENTIFIC NAME": "Hippoglossus hippoglossus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Pacific halibut",
+    "SCIENTIFIC NAME": "Hippoglossus stenolepis",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Pacific salmon",
+    "SCIENTIFIC NAME": "Oncorhynchus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Smelt",
+    "SCIENTIFIC NAME": "Osmeridae",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Clupeinae (Herring, Sardine, Sprat)",
+    "SCIENTIFIC NAME": "Clupeinae",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Spiny lobster",
+    "SCIENTIFIC NAME": "Palinuridae",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Crustaceans"
+  },
+  {
+    "FOOD NAME": "Snow crab",
+    "SCIENTIFIC NAME": "Chionoecetes opilio",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Crustaceans"
+  },
+  {
+    "FOOD NAME": "Black-eyed pea",
+    "SCIENTIFIC NAME": "Vigna unguiculata ssp. unguiculata",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Peas"
+  },
+  {
+    "FOOD NAME": "Deer",
+    "SCIENTIFIC NAME": "Cervidae",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Venison"
+  },
+  {
+    "FOOD NAME": "Macadamia nut",
+    "SCIENTIFIC NAME": "Macadamia",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Percoidei (Bass and others)",
+    "SCIENTIFIC NAME": "Percoidei",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Perciformes (Perch-like fishes)",
+    "SCIENTIFIC NAME": "Perciformes",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Arctic ground squirrel",
+    "SCIENTIFIC NAME": "Urocitellus parryii",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Rodents"
+  },
+  {
+    "FOOD NAME": "Rabbit",
+    "SCIENTIFIC NAME": "Leporidae",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Lagomorphs"
+  },
+  {
+    "FOOD NAME": "Domestic goat",
+    "SCIENTIFIC NAME": "Capra aegagrus hircus",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Caprae"
+  },
+  {
+    "FOOD NAME": "Beefalo",
+    "SCIENTIFIC NAME": "Bos taurus X Bison bison",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Bovines"
+  },
+  {
+    "FOOD NAME": "Antelope",
+    "SCIENTIFIC NAME": "Artiodactyla",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Venison"
+  },
+  {
+    "FOOD NAME": "Bivalvia (Clam, Mussel, Oyster)",
+    "SCIENTIFIC NAME": "Bivalvia",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Mollusks"
+  },
+  {
+    "FOOD NAME": "Squid",
+    "SCIENTIFIC NAME": "Teuthida",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Mollusks"
+  },
+  {
+    "FOOD NAME": "Shrimp",
+    "SCIENTIFIC NAME": "Caridea",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Crustaceans"
+  },
+  {
+    "FOOD NAME": "Crayfish",
+    "SCIENTIFIC NAME": "Astacidea",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Crustaceans"
+  },
+  {
+    "FOOD NAME": "Flatfish",
+    "SCIENTIFIC NAME": "Pleuronectiformes",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Domestic pig (Piglet, Pork)",
+    "SCIENTIFIC NAME": "Sus scrofa domestica",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Swine"
+  },
+  {
+    "FOOD NAME": "Walrus",
+    "SCIENTIFIC NAME": "Odobenus rosmarus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Pinnipeds"
+  },
+  {
+    "FOOD NAME": "Alaska wild rhubarb",
+    "SCIENTIFIC NAME": "Polygonum alpinum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Stalk vegetables"
+  },
+  {
+    "FOOD NAME": "Oriental wheat",
+    "SCIENTIFIC NAME": "Triticum turanicum",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereals"
+  },
+  {
+    "FOOD NAME": "Yardlong bean",
+    "SCIENTIFIC NAME": "Vigna unguiculata ssp. sesquipedalis",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Peas"
+  },
+  {
+    "FOOD NAME": "Great horned owl",
+    "SCIENTIFIC NAME": "Bubo virginianus",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Poultry"
+  },
+  {
+    "FOOD NAME": "Quail",
+    "SCIENTIFIC NAME": "Phasianidae",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Poultry"
+  },
+  {
+    "FOOD NAME": "Boysenberry",
+    "SCIENTIFIC NAME": "Rubus ursinus X idaeus",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Persian lime",
+    "SCIENTIFIC NAME": "Citrus latifolia",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Citrus"
+  },
+  {
+    "FOOD NAME": "Feijoa",
+    "SCIENTIFIC NAME": "Feijoa sellowiana",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Rowal",
+    "SCIENTIFIC NAME": "Pangium edule",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Other seeds"
+  },
+  {
+    "FOOD NAME": "Jew's ear",
+    "SCIENTIFIC NAME": "Auricularia auricula-judae",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Mushrooms"
+  },
+  {
+    "FOOD NAME": "Common mushroom",
+    "SCIENTIFIC NAME": "Agaricus bisporus",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Mushrooms"
+  },
+  {
+    "FOOD NAME": "Shiitake",
+    "SCIENTIFIC NAME": "Lentinus edodes",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Mushrooms"
+  },
+  {
+    "FOOD NAME": "Purple laver",
+    "SCIENTIFIC NAME": "Porphyra laciniata",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Seaweed"
+  },
+  {
+    "FOOD NAME": "Wakame",
+    "SCIENTIFIC NAME": "Undaria pinnatifida",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Seaweed"
+  },
+  {
+    "FOOD NAME": "Enokitake",
+    "SCIENTIFIC NAME": "Flammulina velutipes",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Mushrooms"
+  },
+  {
+    "FOOD NAME": "Epazote",
+    "SCIENTIFIC NAME": "Dysphania ambrosioides",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Oyster mushroom",
+    "SCIENTIFIC NAME": "Pleurotus ostreatus",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Mushrooms"
+  },
+  {
+    "FOOD NAME": "Cloud ear fungus",
+    "SCIENTIFIC NAME": "Auricularia polytricha",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Mushrooms"
+  },
+  {
+    "FOOD NAME": "Maitake",
+    "SCIENTIFIC NAME": "Grifola frondosa",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Mushrooms"
+  },
+  {
+    "FOOD NAME": "Ostrich fern",
+    "SCIENTIFIC NAME": "Matteuccia struthiopteris",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Leaf vegetables"
+  },
+  {
+    "FOOD NAME": "Spot croaker",
+    "SCIENTIFIC NAME": "Leiostomus xanthurus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Sourdock",
+    "SCIENTIFIC NAME": "Rumex articus",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Tinda",
+    "SCIENTIFIC NAME": "Citrullus lanatus var. fistulosus",
+    "GROUP": "Gourds",
+    "SUB GROUP": "Gourds"
+  },
+  {
+    "FOOD NAME": "Atlantic menhaden",
+    "SCIENTIFIC NAME": "Brevoortia tyrannus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Wheat",
+    "SCIENTIFIC NAME": "Triticum",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereals"
+  },
+  {
+    "FOOD NAME": "Common chokecherry",
+    "SCIENTIFIC NAME": "Prunus virginiana",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Drupes"
+  },
+  {
+    "FOOD NAME": "Agave",
+    "SCIENTIFIC NAME": "Agave",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Other vegetables"
+  },
+  {
+    "FOOD NAME": "Narrowleaf cattail",
+    "SCIENTIFIC NAME": "Typha angustifolia",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Other vegetables"
+  },
+  {
+    "FOOD NAME": "Jellyfish",
+    "SCIENTIFIC NAME": "Scyphozoa",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Other aquatic foods"
+  },
+  {
+    "FOOD NAME": "Anchovy",
+    "SCIENTIFIC NAME": "Engraulidae",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Blue whiting",
+    "SCIENTIFIC NAME": "Micromesistius poutassou",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Carp bream",
+    "SCIENTIFIC NAME": "Abramis brama",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Chanterelle",
+    "SCIENTIFIC NAME": "Cantharellus cibarius",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Mushrooms"
+  },
+  {
+    "FOOD NAME": "Sturgeon",
+    "SCIENTIFIC NAME": "Acipenseridae",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Charr",
+    "SCIENTIFIC NAME": "Salvelinus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Cinnamon",
+    "SCIENTIFIC NAME": "Cinnamomum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Spices"
+  },
+  {
+    "FOOD NAME": "Crab",
+    "SCIENTIFIC NAME": "Brachyura",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Crustaceans"
+  },
+  {
+    "FOOD NAME": "Common dab",
+    "SCIENTIFIC NAME": "Limanda limanda",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Spiny dogfish",
+    "SCIENTIFIC NAME": "Squalus acanthias",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Anatidae (Duck, Goose, Swan)",
+    "SCIENTIFIC NAME": "Anatidae",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Poultry"
+  },
+  {
+    "FOOD NAME": "Anguilliformes (Eel)",
+    "SCIENTIFIC NAME": "Anguilliformes",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "True frog",
+    "SCIENTIFIC NAME": "Ranidae",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Amphibians"
+  },
+  {
+    "FOOD NAME": "Garfish",
+    "SCIENTIFIC NAME": "Belone belone",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Gadiformes (Cod, Hake)",
+    "SCIENTIFIC NAME": "Gadiformes",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Mountain hare",
+    "SCIENTIFIC NAME": "Lepus timidus",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Lagomorphs"
+  },
+  {
+    "FOOD NAME": "Lake trout",
+    "SCIENTIFIC NAME": "Salvelinus namaycush",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Lemon sole",
+    "SCIENTIFIC NAME": "Microstomus kitt",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Clawed lobster",
+    "SCIENTIFIC NAME": "Nephropidae",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Crustaceans"
+  },
+  {
+    "FOOD NAME": "Lumpsucker",
+    "SCIENTIFIC NAME": "Cyclopteridae",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Scombridae (Bonito, Mackerel, Tuna)",
+    "SCIENTIFIC NAME": "Scombridae",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Marine mussel",
+    "SCIENTIFIC NAME": "Mytilidae",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Mollusks"
+  },
+  {
+    "FOOD NAME": "Norway haddock",
+    "SCIENTIFIC NAME": "Sebastes viviparus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Norway lobster",
+    "SCIENTIFIC NAME": "Nephrops norvegicus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Crustaceans"
+  },
+  {
+    "FOOD NAME": "Norway pout",
+    "SCIENTIFIC NAME": "Trisopterus esmarkii",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Oil palm",
+    "SCIENTIFIC NAME": "Elaeis",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Oilseed crops"
+  },
+  {
+    "FOOD NAME": "True oyster",
+    "SCIENTIFIC NAME": "Ostreidae",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Mollusks"
+  },
+  {
+    "FOOD NAME": "Sago palm",
+    "SCIENTIFIC NAME": "Metroxylon sagu",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Oilseed crops"
+  },
+  {
+    "FOOD NAME": "Persimmon",
+    "SCIENTIFIC NAME": "Diospyros",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Pikeperch",
+    "SCIENTIFIC NAME": "Sander lucioperca",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Pleuronectidae (Dab, Halibut, Plaice)",
+    "SCIENTIFIC NAME": "Pleuronectidae",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Rock ptarmigan",
+    "SCIENTIFIC NAME": "Lagopus muta",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Poultry"
+  },
+  {
+    "FOOD NAME": "Pacific ocean perch",
+    "SCIENTIFIC NAME": "Sebastes alutus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Black salsify",
+    "SCIENTIFIC NAME": "Scorzonera hispanica",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "True seal",
+    "SCIENTIFIC NAME": "Phocidae",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Pinnipeds"
+  },
+  {
+    "FOOD NAME": "Red algae",
+    "SCIENTIFIC NAME": "Rhodophyta",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Seaweed"
+  },
+  {
+    "FOOD NAME": "Kombu",
+    "SCIENTIFIC NAME": "Saccharina japonica",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Seaweed"
+  },
+  {
+    "FOOD NAME": "Snail",
+    "SCIENTIFIC NAME": "Gastropoda",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Mollusks"
+  },
+  {
+    "FOOD NAME": "True sole",
+    "SCIENTIFIC NAME": "Soleidae",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Catfish",
+    "SCIENTIFIC NAME": "Siluriformes",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Thistle",
+    "SCIENTIFIC NAME": "Cirsium",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "Thunnus (Common tuna)",
+    "SCIENTIFIC NAME": "Thunnus",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Walnut",
+    "SCIENTIFIC NAME": "Juglans",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Cetacea (Dolphin, Porpoise, Whale)",
+    "SCIENTIFIC NAME": "Cetacea",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Cetaceans"
+  },
+  {
+    "FOOD NAME": "Columbidae (Dove, Pigeon)",
+    "SCIENTIFIC NAME": "Columbidae",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Poultry"
+  },
+  {
+    "FOOD NAME": "Conch",
+    "SCIENTIFIC NAME": "Strombidae",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Mollusks"
+  },
+  {
+    "FOOD NAME": "Grape wine",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Fermented beverages"
+  },
+  {
+    "FOOD NAME": "Berry wine",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Fermented beverages"
+  },
+  {
+    "FOOD NAME": "Other wine",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Fermented beverages"
+  },
+  {
+    "FOOD NAME": "Apple cider",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Fermented beverages"
+  },
+  {
+    "FOOD NAME": "Liquor",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Distilled beverages"
+  },
+  {
+    "FOOD NAME": "Cheese",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Milk and milk products",
+    "SUB GROUP": "Fermented milk products"
+  },
+  {
+    "FOOD NAME": "Milk (Cow)",
+    "SCIENTIFIC NAME": "",
+    "GROUP": "Milk and milk products",
+    "SUB GROUP": "Unfermented milks"
+  },
+  {
+    "FOOD NAME": "Eggs",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Eggs",
+    "SUB GROUP": "Eggs"
+  },
+  {
+    "FOOD NAME": "Yogurt",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Milk and milk products",
+    "SUB GROUP": "Fermented milk products"
+  },
+  {
+    "FOOD NAME": "Bean",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Beans"
+  },
+  {
+    "FOOD NAME": "Vodka",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Distilled beverages"
+  },
+  {
+    "FOOD NAME": "Whisky",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Distilled beverages"
+  },
+  {
+    "FOOD NAME": "Ice cream",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Frozen desserts"
+  },
+  {
+    "FOOD NAME": "Gin",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Distilled beverages"
+  },
+  {
+    "FOOD NAME": "Honey",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Other confectioneries"
+  },
+  {
+    "FOOD NAME": "Liquorice",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Candies"
+  },
+  {
+    "FOOD NAME": "Vinegar",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Seasonings"
+  },
+  {
+    "FOOD NAME": "Rum",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Distilled beverages"
+  },
+  {
+    "FOOD NAME": "Port wine",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Fortified wines"
+  },
+  {
+    "FOOD NAME": "Vermouth",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Fortified wines"
+  },
+  {
+    "FOOD NAME": "Sherry",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Fortified wines"
+  },
+  {
+    "FOOD NAME": "Madeira wine",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Fortified wines"
+  },
+  {
+    "FOOD NAME": "Nougat",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Other confectioneries"
+  },
+  {
+    "FOOD NAME": "Toffee",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Other confectioneries"
+  },
+  {
+    "FOOD NAME": "Cake",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Desserts"
+  },
+  {
+    "FOOD NAME": "Pizza",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Other dishes"
+  },
+  {
+    "FOOD NAME": "Ymer",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Milk and milk products",
+    "SUB GROUP": "Fermented milk products"
+  },
+  {
+    "FOOD NAME": "Other snack food",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Snack foods",
+    "SUB GROUP": "Snack foods"
+  },
+  {
+    "FOOD NAME": "Crisp bread",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Flat breads"
+  },
+  {
+    "FOOD NAME": "Pastry",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Desserts"
+  },
+  {
+    "FOOD NAME": "Dragée",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Candies"
+  },
+  {
+    "FOOD NAME": "Chewing gum",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Candies"
+  },
+  {
+    "FOOD NAME": "Marzipan",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Other confectioneries"
+  },
+  {
+    "FOOD NAME": "Salad dressing",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Dressings"
+  },
+  {
+    "FOOD NAME": "Sauce",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Sauces"
+  },
+  {
+    "FOOD NAME": "Salt",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Seasonings"
+  },
+  {
+    "FOOD NAME": "Butter",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Milk and milk products",
+    "SUB GROUP": "Other milk products"
+  },
+  {
+    "FOOD NAME": "Butter substitute",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Substitutes"
+  },
+  {
+    "FOOD NAME": "Cream",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Milk and milk products",
+    "SUB GROUP": "Other milk products"
+  },
+  {
+    "FOOD NAME": "Sugar",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Sugars"
+  },
+  {
+    "FOOD NAME": "Sausage",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Ground meat"
+  },
+  {
+    "FOOD NAME": "Meatball",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Ground meat"
+  },
+  {
+    "FOOD NAME": "Mustard",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Condiments"
+  },
+  {
+    "FOOD NAME": "Pate",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Ground meat"
+  },
+  {
+    "FOOD NAME": "Sugar substitute",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Substitutes"
+  },
+  {
+    "FOOD NAME": "Meat bouillon",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Baking goods"
+  },
+  {
+    "FOOD NAME": "Other meat product",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Meat products"
+  },
+  {
+    "FOOD NAME": "Whey",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Milk and milk products",
+    "SUB GROUP": "Other milk products"
+  },
+  {
+    "FOOD NAME": "Casein",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Milk and milk products",
+    "SUB GROUP": "Other milk products"
+  },
+  {
+    "FOOD NAME": "Fruit preserve",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Fruit products"
+  },
+  {
+    "FOOD NAME": "Leavening agent",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Baking goods"
+  },
+  {
+    "FOOD NAME": "Marshmallow",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Candies"
+  },
+  {
+    "FOOD NAME": "Gelatin",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Baking goods"
+  },
+  {
+    "FOOD NAME": "Water",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Waters"
+  },
+  {
+    "FOOD NAME": "Other fish product",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fish products"
+  },
+  {
+    "FOOD NAME": "Milk (Human)",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Milk and milk products",
+    "SUB GROUP": "Unfermented milks"
+  },
+  {
+    "FOOD NAME": "Other beverage",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Other beverages"
+  },
+  {
+    "FOOD NAME": "Baby food",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baby foods",
+    "SUB GROUP": "Baby foods"
+  },
+  {
+    "FOOD NAME": "Dumpling",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Other dishes"
+  },
+  {
+    "FOOD NAME": "Soup",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Other dishes"
+  },
+  {
+    "FOOD NAME": "Other vegetable product",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Vegetable products"
+  },
+  {
+    "FOOD NAME": "Unclassified food or beverage",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Unclassified",
+    "SUB GROUP": "Unclassified"
+  },
+  {
+    "FOOD NAME": "Syrup",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Baking goods"
+  },
+  {
+    "FOOD NAME": "Tallow",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Fats and oils",
+    "SUB GROUP": "Animal fats"
+  },
+  {
+    "FOOD NAME": "Remoulade",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Condiments"
+  },
+  {
+    "FOOD NAME": "Chocolate spread",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Spreads"
+  },
+  {
+    "FOOD NAME": "Fruit gum",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Candies"
+  },
+  {
+    "FOOD NAME": "Curry powder",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herb and spice mixtures"
+  },
+  {
+    "FOOD NAME": "Other candy",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Candies"
+  },
+  {
+    "FOOD NAME": "Meringue",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Other confectioneries"
+  },
+  {
+    "FOOD NAME": "Lard",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Fats and oils",
+    "SUB GROUP": "Animal fats"
+  },
+  {
+    "FOOD NAME": "Other animal fat",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Fats and oils",
+    "SUB GROUP": "Animal fats"
+  },
+  {
+    "FOOD NAME": "Other cocoa product",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cocoa and cocoa products",
+    "SUB GROUP": "Cocoa products"
+  },
+  {
+    "FOOD NAME": "Cocoa butter",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cocoa and cocoa products",
+    "SUB GROUP": "Cocoa products"
+  },
+  {
+    "FOOD NAME": "Cocoa powder",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cocoa and cocoa products",
+    "SUB GROUP": "Cocoa products"
+  },
+  {
+    "FOOD NAME": "Cocoa liquor",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cocoa and cocoa products",
+    "SUB GROUP": "Cocoa products"
+  },
+  {
+    "FOOD NAME": "Chocolate",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cocoa and cocoa products",
+    "SUB GROUP": "Cocoa products"
+  },
+  {
+    "FOOD NAME": "Hot chocolate",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cocoa and cocoa products",
+    "SUB GROUP": "Cocoa products"
+  },
+  {
+    "FOOD NAME": "Dried milk",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Milk and milk products",
+    "SUB GROUP": "Other milk products"
+  },
+  {
+    "FOOD NAME": "Milk (Other mammals)",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Milk and milk products",
+    "SUB GROUP": "Unfermented milks"
+  },
+  {
+    "FOOD NAME": "Kefir",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Milk and milk products",
+    "SUB GROUP": "Fermented milks"
+  },
+  {
+    "FOOD NAME": "Buttermilk",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Milk and milk products",
+    "SUB GROUP": "Fermented milks"
+  },
+  {
+    "FOOD NAME": "Other fermented milk",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Milk and milk products",
+    "SUB GROUP": "Fermented milks"
+  },
+  {
+    "FOOD NAME": "Soy sauce",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Soy",
+    "SUB GROUP": "Soy products"
+  },
+  {
+    "FOOD NAME": "Miso",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Soy",
+    "SUB GROUP": "Soy products"
+  },
+  {
+    "FOOD NAME": "Tofu",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Soy",
+    "SUB GROUP": "Soy products"
+  },
+  {
+    "FOOD NAME": "Zwieback",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Leavened breads"
+  },
+  {
+    "FOOD NAME": "Roe",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Roe"
+  },
+  {
+    "FOOD NAME": "Cichlidae (Tilapia)",
+    "SCIENTIFIC NAME": "Cichlidae",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Icing",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Other confectioneries"
+  },
+  {
+    "FOOD NAME": "Snack bar",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Snack foods",
+    "SUB GROUP": "Snack foods"
+  },
+  {
+    "FOOD NAME": "Green turtle",
+    "SCIENTIFIC NAME": "Chelonia mydas",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Other aquatic foods"
+  },
+  {
+    "FOOD NAME": "Energy drink",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Nutritional beverages"
+  },
+  {
+    "FOOD NAME": "Burrito",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Tex-Mex cuisine"
+  },
+  {
+    "FOOD NAME": "Hamburger",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Sandwiches"
+  },
+  {
+    "FOOD NAME": "Baked beans",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Other dishes"
+  },
+  {
+    "FOOD NAME": "Chili",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Tex-Mex cuisine"
+  },
+  {
+    "FOOD NAME": "Taco",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Tex-Mex cuisine"
+  },
+  {
+    "FOOD NAME": "Tortilla",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Flat breads"
+  },
+  {
+    "FOOD NAME": "Nachos",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Tex-Mex cuisine"
+  },
+  {
+    "FOOD NAME": "Processed cheese",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Milk and milk products",
+    "SUB GROUP": "Fermented milk products"
+  },
+  {
+    "FOOD NAME": "Salad",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Other dishes"
+  },
+  {
+    "FOOD NAME": "Cream substitute",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Substitutes"
+  },
+  {
+    "FOOD NAME": "Dulce de leche",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Spreads"
+  },
+  {
+    "FOOD NAME": "Topping",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Baking goods"
+  },
+  {
+    "FOOD NAME": "Sweet custard",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Milk desserts"
+  },
+  {
+    "FOOD NAME": "Egg roll",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Asian cuisine"
+  },
+  {
+    "FOOD NAME": "Heart of palm",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Other vegetables"
+  },
+  {
+    "FOOD NAME": "Popcorn",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Snack foods",
+    "SUB GROUP": "Snack foods"
+  },
+  {
+    "FOOD NAME": "Potato chip",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Snack foods",
+    "SUB GROUP": "Snack foods"
+  },
+  {
+    "FOOD NAME": "Tortilla chip",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Snack foods",
+    "SUB GROUP": "Snack foods"
+  },
+  {
+    "FOOD NAME": "Corn chip",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Snack foods",
+    "SUB GROUP": "Snack foods"
+  },
+  {
+    "FOOD NAME": "Hibiscus tea",
+    "SCIENTIFIC NAME": "Hibiscus sabbariffa",
+    "GROUP": "Teas",
+    "SUB GROUP": "Herbal teas"
+  },
+  {
+    "FOOD NAME": "Stew",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Other dishes"
+  },
+  {
+    "FOOD NAME": "Gelatin dessert",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Desserts"
+  },
+  {
+    "FOOD NAME": "Junket",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Milk desserts"
+  },
+  {
+    "FOOD NAME": "Falafel",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Other dishes"
+  },
+  {
+    "FOOD NAME": "Frybread",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Other dishes"
+  },
+  {
+    "FOOD NAME": "Other frozen dessert",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Frozen desserts"
+  },
+  {
+    "FOOD NAME": "Lasagna",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Pasta dishes"
+  },
+  {
+    "FOOD NAME": "Morchella (Morel)",
+    "SCIENTIFIC NAME": "Morchellaceae",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Mushrooms"
+  },
+  {
+    "FOOD NAME": "Pancake",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Other dishes"
+  },
+  {
+    "FOOD NAME": "Pectin",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Baking goods"
+  },
+  {
+    "FOOD NAME": "Pudding",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Desserts"
+  },
+  {
+    "FOOD NAME": "Waffle",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Other dishes"
+  },
+  {
+    "FOOD NAME": "Soy milk",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Soy",
+    "SUB GROUP": "Soy products"
+  },
+  {
+    "FOOD NAME": "Meatloaf",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Ground meat"
+  },
+  {
+    "FOOD NAME": "Sake",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Fermented beverages"
+  },
+  {
+    "FOOD NAME": "Cocktail",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Alcoholic beverages"
+  },
+  {
+    "FOOD NAME": "Couscous",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Berber cuisine"
+  },
+  {
+    "FOOD NAME": "Bulgur",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereal products"
+  },
+  {
+    "FOOD NAME": "Coffee substitute",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Substitutes"
+  },
+  {
+    "FOOD NAME": "Coffee mocha",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Coffee and coffee products",
+    "SUB GROUP": "Coffee products"
+  },
+  {
+    "FOOD NAME": "Chimichanga",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Mexican cuisine"
+  },
+  {
+    "FOOD NAME": "Semolina",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereal products"
+  },
+  {
+    "FOOD NAME": "Tapioca pearl",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Baking goods"
+  },
+  {
+    "FOOD NAME": "Tostada",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Mexican cuisine"
+  },
+  {
+    "FOOD NAME": "Quesadilla",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Mexican cuisine"
+  },
+  {
+    "FOOD NAME": "Baked potato",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Potato dishes"
+  },
+  {
+    "FOOD NAME": "Hot dog",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Sandwiches"
+  },
+  {
+    "FOOD NAME": "Spread",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Baking goods"
+  },
+  {
+    "FOOD NAME": "Enchilada",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Mexican cuisine"
+  },
+  {
+    "FOOD NAME": "Egg substitute",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Substitutes"
+  },
+  {
+    "FOOD NAME": "Nutritional drink",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Nutritional beverages"
+  },
+  {
+    "FOOD NAME": "Other sandwich",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Sandwiches"
+  },
+  {
+    "FOOD NAME": "Ketchup",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Condiments"
+  },
+  {
+    "FOOD NAME": "Breakfast sandwich",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Sandwiches"
+  },
+  {
+    "FOOD NAME": "Adobo",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Seasonings"
+  },
+  {
+    "FOOD NAME": "Macaroni and cheese",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Pasta dishes"
+  },
+  {
+    "FOOD NAME": "Butterfat",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Milk and milk products",
+    "SUB GROUP": "Other milk products"
+  },
+  {
+    "FOOD NAME": "Horned melon",
+    "SCIENTIFIC NAME": "Cucumis metuliferus",
+    "GROUP": "Gourds",
+    "SUB GROUP": "Gourds"
+  },
+  {
+    "FOOD NAME": "Hushpuppy",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "American cuisine"
+  },
+  {
+    "FOOD NAME": "Fruit juice",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Other beverages"
+  },
+  {
+    "FOOD NAME": "Relish",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Condiments"
+  },
+  {
+    "FOOD NAME": "Other fruit product",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Fruit products"
+  },
+  {
+    "FOOD NAME": "Fruit salad",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Fruit products"
+  },
+  {
+    "FOOD NAME": "Soy yogurt",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Soy",
+    "SUB GROUP": "Soy products"
+  },
+  {
+    "FOOD NAME": "Vegetarian food",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Other dishes"
+  },
+  {
+    "FOOD NAME": "Veggie burger",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Sandwiches"
+  },
+  {
+    "FOOD NAME": "Cold cut",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Ground meat"
+  },
+  {
+    "FOOD NAME": "Mixed nuts",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Canola",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Herbs and spices",
+    "SUB GROUP": "Oilseed crops"
+  },
+  {
+    "FOOD NAME": "Babassu palm",
+    "SCIENTIFIC NAME": "Attalea speciosa",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Oilseed crops"
+  },
+  {
+    "FOOD NAME": "Cupuaçu",
+    "SCIENTIFIC NAME": "Theobroma grandiflorum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Oilseed crops"
+  },
+  {
+    "FOOD NAME": "Shea tree",
+    "SCIENTIFIC NAME": "Vitellaria paradoxa",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Oilseed crops"
+  },
+  {
+    "FOOD NAME": "Oil-seed Camellia",
+    "SCIENTIFIC NAME": "Camellia oleifera",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Oilseed crops"
+  },
+  {
+    "FOOD NAME": "Ucuhuba",
+    "SCIENTIFIC NAME": "Virola surinamensis",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Oilseed crops"
+  },
+  {
+    "FOOD NAME": "Phyllo dough",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Baking goods"
+  },
+  {
+    "FOOD NAME": "Cooking oil",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Baking goods"
+  },
+  {
+    "FOOD NAME": "Pie crust",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Wrappers"
+  },
+  {
+    "FOOD NAME": "Pie filling",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Baking goods"
+  },
+  {
+    "FOOD NAME": "Pie",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Desserts"
+  },
+  {
+    "FOOD NAME": "Shortening",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Fats and oils",
+    "SUB GROUP": "Vegetable fats"
+  },
+  {
+    "FOOD NAME": "Soy cream",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Soy",
+    "SUB GROUP": "Soy products"
+  },
+  {
+    "FOOD NAME": "Ice cream cone",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Wrappers"
+  },
+  {
+    "FOOD NAME": "Molasses",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Baking goods"
+  },
+  {
+    "FOOD NAME": "Cracker",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Snack foods",
+    "SUB GROUP": "Snack foods"
+  },
+  {
+    "FOOD NAME": "Nance",
+    "SCIENTIFIC NAME": "Byrsonima crassifolia",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Naranjilla",
+    "SCIENTIFIC NAME": "Solanum quitoense",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Tropical fruits"
+  },
+  {
+    "FOOD NAME": "Natto",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Soy",
+    "SUB GROUP": "Soy products"
+  },
+  {
+    "FOOD NAME": "Ravioli",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Pasta dishes"
+  },
+  {
+    "FOOD NAME": "Scrapple",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "American cuisine"
+  },
+  {
+    "FOOD NAME": "Other pasta dish",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Pasta dishes"
+  },
+  {
+    "FOOD NAME": "Succotash",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "American cuisine"
+  },
+  {
+    "FOOD NAME": "Tamale",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Latin American cuisine"
+  },
+  {
+    "FOOD NAME": "Rice cake",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Asian cuisine"
+  },
+  {
+    "FOOD NAME": "Tree fern",
+    "SCIENTIFIC NAME": "Cyathea",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Other vegetables"
+  },
+  {
+    "FOOD NAME": "Evaporated milk",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Milk and milk products",
+    "SUB GROUP": "Other milk products"
+  },
+  {
+    "FOOD NAME": "Flour",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereal products"
+  },
+  {
+    "FOOD NAME": "Akutaq",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Desserts"
+  },
+  {
+    "FOOD NAME": "Dough",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Doughs"
+  },
+  {
+    "FOOD NAME": "Pita bread",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Flat breads"
+  },
+  {
+    "FOOD NAME": "Focaccia",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Flat breads"
+  },
+  {
+    "FOOD NAME": "Bagel",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Leavened breads"
+  },
+  {
+    "FOOD NAME": "Other bread product",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Bread products"
+  },
+  {
+    "FOOD NAME": "Piki bread",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Flat breads"
+  },
+  {
+    "FOOD NAME": "French toast",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Leavened breads"
+  },
+  {
+    "FOOD NAME": "Wheat bread",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Leavened breads"
+  },
+  {
+    "FOOD NAME": "Rye bread",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Leavened breads"
+  },
+  {
+    "FOOD NAME": "Oat bread",
+    "SCIENTIFIC NAME": "",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Leavened breads"
+  },
+  {
+    "FOOD NAME": "Potato bread",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Other breads"
+  },
+  {
+    "FOOD NAME": "Cornbread",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Flat breads"
+  },
+  {
+    "FOOD NAME": "Corn grits",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereal products"
+  },
+  {
+    "FOOD NAME": "Multigrain bread",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Leavened breads"
+  },
+  {
+    "FOOD NAME": "Rice bread",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Leavened breads"
+  },
+  {
+    "FOOD NAME": "Pan dulce",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Leavened breads"
+  },
+  {
+    "FOOD NAME": "Raisin bread",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Sweet breads"
+  },
+  {
+    "FOOD NAME": "Wonton wrapper",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Wrappers"
+  },
+  {
+    "FOOD NAME": "Trail mix",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Snack foods",
+    "SUB GROUP": "Snack foods"
+  },
+  {
+    "FOOD NAME": "Greenthread tea",
+    "SCIENTIFIC NAME": "Thelesperma",
+    "GROUP": "Teas",
+    "SUB GROUP": "Herbal teas"
+  },
+  {
+    "FOOD NAME": "Fruit-flavor drink",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Other beverages"
+  },
+  {
+    "FOOD NAME": "Vegetable juice",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Other beverages"
+  },
+  {
+    "FOOD NAME": "Horchata",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Other beverages"
+  },
+  {
+    "FOOD NAME": "Soft drink",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Other beverages"
+  },
+  {
+    "FOOD NAME": "Frozen yogurt",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Frozen desserts"
+  },
+  {
+    "FOOD NAME": "Milkshake",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Frozen desserts"
+  },
+  {
+    "FOOD NAME": "Chocolate mousse",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Desserts"
+  },
+  {
+    "FOOD NAME": "Dripping",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Fats and oils",
+    "SUB GROUP": "Animal fats"
+  },
+  {
+    "FOOD NAME": "Pupusa",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Latin American cuisine"
+  },
+  {
+    "FOOD NAME": "Empanada",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Latin American cuisine"
+  },
+  {
+    "FOOD NAME": "Arepa",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Latin American cuisine"
+  },
+  {
+    "FOOD NAME": "Ascidians",
+    "SCIENTIFIC NAME": "Ascidiacea",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Other aquatic foods"
+  },
+  {
+    "FOOD NAME": "Gefilte fish",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Jewish cuisine"
+  },
+  {
+    "FOOD NAME": "Yellow pond-lily",
+    "SCIENTIFIC NAME": "Nuphar lutea",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Fish burger",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Sandwiches"
+  },
+  {
+    "FOOD NAME": "Other dish",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Other dishes"
+  },
+  {
+    "FOOD NAME": "Pot pie",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Other dishes"
+  },
+  {
+    "FOOD NAME": "Stuffing",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Baking goods"
+  },
+  {
+    "FOOD NAME": "Edible shell",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Wrappers"
+  },
+  {
+    "FOOD NAME": "Fudge",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Candies"
+  },
+  {
+    "FOOD NAME": "Candy bar",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Confectioneries",
+    "SUB GROUP": "Candies"
+  },
+  {
+    "FOOD NAME": "Condensed milk",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Milk and milk products",
+    "SUB GROUP": "Other milk products"
+  },
+  {
+    "FOOD NAME": "Margarine",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Fats and oils",
+    "SUB GROUP": "Vegetable fats"
+  },
+  {
+    "FOOD NAME": "Margarine-like spread",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Fats and oils",
+    "SUB GROUP": "Vegetable fats"
+  },
+  {
+    "FOOD NAME": "Hummus",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Levantine cuisine"
+  },
+  {
+    "FOOD NAME": "Potato puffs",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Potato dishes"
+  },
+  {
+    "FOOD NAME": "Potato gratin",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Dishes",
+    "SUB GROUP": "Potato dishes"
+  },
+  {
+    "FOOD NAME": "Milk substitute",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Baking goods",
+    "SUB GROUP": "Substitutes"
+  },
+  {
+    "FOOD NAME": "Pepper (C. pubescens)",
+    "SCIENTIFIC NAME": "Capsicum pubescens",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Fruit vegetables"
+  },
+  {
+    "FOOD NAME": "Soft-necked garlic",
+    "SCIENTIFIC NAME": "Allium sativum L. var. sativum",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs"
+  },
+  {
+    "FOOD NAME": "Cabbage",
+    "SCIENTIFIC NAME": "Brassica oleracea var. capitata",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Cabbages"
+  },
+  {
+    "FOOD NAME": "Chinese bayberry",
+    "SCIENTIFIC NAME": "Myrica rubra",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Mushrooms",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Mushrooms"
+  },
+  {
+    "FOOD NAME": "Alcoholic beverages",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Alcoholic beverages"
+  },
+  {
+    "FOOD NAME": "Onion-family vegetables",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Onion-family vegetables"
+  },
+  {
+    "FOOD NAME": "Pomes",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Pomes"
+  },
+  {
+    "FOOD NAME": "Brassicas",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Brassicas"
+  },
+  {
+    "FOOD NAME": "Cereals and cereal products",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cereals and cereal products",
+    "SUB GROUP": "Cereals and cereal products"
+  },
+  {
+    "FOOD NAME": "Citrus",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Citrus"
+  },
+  {
+    "FOOD NAME": "Cocoa and cocoa products",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Cocoa and cocoa products",
+    "SUB GROUP": "Cocoa and cocoa products"
+  },
+  {
+    "FOOD NAME": "Coffee and coffee products",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Coffee and coffee products",
+    "SUB GROUP": "Coffee and coffee products"
+  },
+  {
+    "FOOD NAME": "Crustaceans",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Crustaceans"
+  },
+  {
+    "FOOD NAME": "Milk and milk products",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Milk and milk products",
+    "SUB GROUP": "Milk and milk products"
+  },
+  {
+    "FOOD NAME": "Fats and oils",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Fats and oils",
+    "SUB GROUP": "Fats and oils"
+  },
+  {
+    "FOOD NAME": "Fishes",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Fishes"
+  },
+  {
+    "FOOD NAME": "Herbs and Spices",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Herbs and Spices",
+    "SUB GROUP": "Herbs and Spices"
+  },
+  {
+    "FOOD NAME": "Pulses",
+    "SCIENTIFIC NAME": "",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Pulses"
+  },
+  {
+    "FOOD NAME": "Animal foods",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Animal foods",
+    "SUB GROUP": "Animal foods"
+  },
+  {
+    "FOOD NAME": "Mollusks",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Aquatic foods",
+    "SUB GROUP": "Mollusks"
+  },
+  {
+    "FOOD NAME": "Nuts",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Nuts",
+    "SUB GROUP": "Nuts"
+  },
+  {
+    "FOOD NAME": "Beverages",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Beverages",
+    "SUB GROUP": "Beverages"
+  },
+  {
+    "FOOD NAME": "Fruits",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Fruits"
+  },
+  {
+    "FOOD NAME": "Green vegetables",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Green vegetables"
+  },
+  {
+    "FOOD NAME": "Root vegetables",
+    "SCIENTIFIC NAME": "NULL",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Root vegetables"
+  },
+  {
+    "FOOD NAME": "Sunburst squash (pattypan squash)",
+    "SCIENTIFIC NAME": "Cucurbita pepo var. clypeata",
+    "GROUP": "Gourds",
+    "SUB GROUP": "Gourds"
+  },
+  {
+    "FOOD NAME": "Green zucchini",
+    "SCIENTIFIC NAME": "Cucurbita pepo var. cylindrica",
+    "GROUP": "Gourds",
+    "SUB GROUP": "Gourds"
+  },
+  {
+    "FOOD NAME": "Yellow zucchini",
+    "SCIENTIFIC NAME": "Cucurbita pepo var. cylindrica",
+    "GROUP": "Gourds",
+    "SUB GROUP": "Gourds"
+  },
+  {
+    "FOOD NAME": "Green bell pepper",
+    "SCIENTIFIC NAME": "Capsicum annuum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Fruit vegetables"
+  },
+  {
+    "FOOD NAME": "Yellow bell pepper",
+    "SCIENTIFIC NAME": "Capsicum annuum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Fruit vegetables"
+  },
+  {
+    "FOOD NAME": "Orange bell pepper",
+    "SCIENTIFIC NAME": "Capsicum annuum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Fruit vegetables"
+  },
+  {
+    "FOOD NAME": "Red bell pepper",
+    "SCIENTIFIC NAME": "Capsicum annuum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Fruit vegetables"
+  },
+  {
+    "FOOD NAME": "Italian sweet red pepper",
+    "SCIENTIFIC NAME": "Capsicum annuum",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Fruit vegetables"
+  },
+  {
+    "FOOD NAME": "Yellow wax bean",
+    "SCIENTIFIC NAME": "Phaseolus vulgaris",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Beans"
+  },
+  {
+    "FOOD NAME": "Green bean",
+    "SCIENTIFIC NAME": "Phaseolus vulgaris",
+    "GROUP": "Pulses",
+    "SUB GROUP": "Beans"
+  },
+  {
+    "FOOD NAME": "Saskatoon berry",
+    "SCIENTIFIC NAME": "Amelanchier alnifolia",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Nanking cherry",
+    "SCIENTIFIC NAME": "Prunus tomentosa",
+    "GROUP": "Fruits",
+    "SUB GROUP": "Berries"
+  },
+  {
+    "FOOD NAME": "Japanese pumpkin",
+    "SCIENTIFIC NAME": "Cucurbita maxima",
+    "GROUP": "Gourds",
+    "SUB GROUP": "Gourds"
+  },
+  {
+    "FOOD NAME": "White cabbage",
+    "SCIENTIFIC NAME": "Brassica oleracea L. var. capitata L. f. alba DC.",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Cabbages"
+  },
+  {
+    "FOOD NAME": "Romaine lettuce",
+    "SCIENTIFIC NAME": "Lactuca sativa L. var. longifolia",
+    "GROUP": "Vegetables",
+    "SUB GROUP": "Leaf vegetables"
+  },
+  {
+    "FOOD NAME": "dumplings",
+    "SCIENTIFIC NAME": "",
+    "GROUP": "",
+    "SUB GROUP": ""
+  },
+  {
+    "FOOD NAME": "muesli",
+    "SCIENTIFIC NAME": "",
+    "GROUP": "",
+    "SUB GROUP": ""
+  },
+  {
+    "FOOD NAME": "milk",
+    "SCIENTIFIC NAME": "",
+    "GROUP": "",
+    "SUB GROUP": ""
+  }
+]
