@@ -1,9 +1,9 @@
-import Dashboard from "./views/Dashboard.js";
+import Home from "./views/Home.js";
 
 const router = async () => {
 
     const routes = [
-        { path: "/", view: Dashboard },
+        { path: "/", view: Home },
 /*         { path: "/posts", view: Post },
         { path: "/settings", view: Settings }, */
     ];
@@ -27,7 +27,7 @@ const router = async () => {
 
     // 1.4 inject view into DOM
     const view = new match.route.view;
-    document.querySelector("#app").innerHTML = await view.getHTML();
+    document.querySelector('[data-app]').innerHTML = await view.getHTML();
 }
 
 //2 push url into browser 

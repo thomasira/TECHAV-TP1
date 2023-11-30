@@ -1,0 +1,10 @@
+
+.thumb{
+
+
+    & img{
+        width: 100px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+}

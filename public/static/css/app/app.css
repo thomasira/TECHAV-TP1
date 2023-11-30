@@ -1,4 +1,10 @@
 
 .app{
     padding: var(--gapm);
+    
+    & ul{
+        display: flex;
+        flex-flow: column;
+        gap: var(--gapxs);
+    }
 }

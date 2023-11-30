@@ -1,0 +1,10 @@
+
+.flow-row{
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--gapm);
+
+    &>*{
+        flex: 200px;
+    }
+}

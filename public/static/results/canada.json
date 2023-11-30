@@ -1,0 +1,76 @@
+{
+    "Search": [
+        {
+            "Title": "Big Brother Canada",
+            "Year": "2013–",
+            "imdbID": "tt2776888",
+            "Type": "series",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BZTBkNmQ2NzAtNTlmZC00MjU4LTkwOGItZjQxNDFiODUxYTY0XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_SX300.jpg"
+        },
+        {
+            "Title": "My Internship in Canada",
+            "Year": "2015",
+            "imdbID": "tt4116116",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNzcwZTIyMWMtYmJjNy00ZmViLThlNGMtMTVjOTQyOWU4ZDA1XkEyXkFqcGdeQXVyMjQ3NzUxOTM@._V1_SX300.jpg"
+        },
+        {
+            "Title": "LOL: Last One Laughing Canada",
+            "Year": "2022–",
+            "imdbID": "tt14524842",
+            "Type": "series",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BOGUzZWU0N2ItOGFkNS00OWJhLTk3ODEtNjM5NjJhYWU1Y2IzXkEyXkFqcGdeQXVyMTQ3MjI1NDQ5._V1_SX300.jpg"
+        },
+        {
+            "Title": "Canada's Drag Race: Canada vs the World",
+            "Year": "2022–",
+            "imdbID": "tt19357598",
+            "Type": "series",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNzEyOTBiNDMtYjE4OS00ZDA3LTk0YjAtYTIxNTk2Y2JmMTA4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+        },
+        {
+            "Title": "The Amazing Race Canada",
+            "Year": "2013–",
+            "imdbID": "tt3069720",
+            "Type": "series",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BZmE0MjE3MTctMzBlMy00YzJiLWEzN2MtZTQ4NDg5ZTFlODRiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Storage Wars Canada",
+            "Year": "2013–2016",
+            "imdbID": "tt3155428",
+            "Type": "series",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BODMxMGJiMmEtZTg2NS00ZGVlLTgxZDMtMjBmM2VjODc5NWE3XkEyXkFqcGdeQXVyMTAwMzM3NDI3._V1_SX300.jpg"
+        },
+        {
+            "Title": "MasterChef Canada",
+            "Year": "2014–",
+            "imdbID": "tt3219166",
+            "Type": "series",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BODA1MjEyMzY2MV5BMl5BanBnXkFtZTgwOTQ5NTA5NTE@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Canada Vignettes: Log Driver's Waltz",
+            "Year": "1979",
+            "imdbID": "tt0133932",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMzViYzZiN2YtMDE1MS00MzY1LWE2NmQtOGQ2M2Y5NjEwNjA5XkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Hockey Night in Canada",
+            "Year": "1952–",
+            "imdbID": "tt0188335",
+            "Type": "series",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMDU5OTMwZjUtNjE4Mi00MTQyLTk4ZmUtYzYyN2QwMDZkYmRmXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Canada på tvers med Lars Monsen",
+            "Year": "2005",
+            "imdbID": "tt0802961",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BODE4MDhiOGEtZDgwOC00NzE4LThkMTktOGYyNDZlMjlmYjU4XkEyXkFqcGdeQXVyNTg5Njk5Njk@._V1_SX300.jpg"
+        }
+    ],
+    "totalResults": "741",
+    "Response": "True"
+}
