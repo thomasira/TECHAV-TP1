@@ -24,4 +24,4 @@ export default class extends AbstractView{
         const recipe = recipes.find(recipe => recipe.id == this.id);
         return recipe;
     }
-} 
+}
