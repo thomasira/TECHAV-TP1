@@ -27,7 +27,7 @@ const router = async () => {
 
     // 1.4 inject view into DOM
     const view = new match.route.view;
-    /* document.querySelector('[data-app]').innerHTML = await view.getHTML(); */
+    document.querySelector('[data-app]').innerHTML = await view.getHTML();
 }
 
 //2 push url into browser 

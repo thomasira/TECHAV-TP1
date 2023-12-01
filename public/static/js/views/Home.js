@@ -13,34 +13,30 @@ export default class extends AbstractView{
 
     async getHTML() {
         const recipesData = await this.getData();
-        
-        const resHome = await fetch('/static/views/home.html');
+        let elRecipes = "";
+
+        const resHome = await fetch('/static/layouts/home.html');
         let homeTemplate = await resHome.text();
-        const resRecipe = await fetch('/static/views/templates/recipe-thumb.html')
+        const resRecipe = await fetch('/static/layouts/templates/recipe-thumb.html')
         let recipeTemplate = await resRecipe.text();
 
-        for(const country in countriesData) {
-            let elCountry = "";
-            countriesData[country].forEach(article => {
-                let elArticle = articleTemplate;
-                elArticle = elArticle.replaceAll("{{ title }}", article.title);
-                elArticle = elArticle.replaceAll("{{ description }}", article.description);
-                elArticle = elArticle.replaceAll("{{ url }}", article.url);
-                elArticle = elArticle.replaceAll("{{ urlToImage }}", article.urlToImage);
-                
-                elCountry += elArticle;
-            });
-            console.log(country, countriesData[country]);
-            homeTemplate = homeTemplate.replace(`{{ list-${country} }}`, elCountry);
-        }
+        const recipes = recipesData.recipes.d;
+        console.log(recipes);
+        recipes.forEach(recipe => {
+            let elRecipe = recipeTemplate;
+            elRecipe = elRecipe.replaceAll("{{ title }}", recipe.Title);
+            elRecipe = elRecipe.replaceAll("{{ Image }}", recipe.Image);
+            elRecipes += elRecipe;
+        })
+
+        homeTemplate = homeTemplate.replace('{{ recipes }}', elRecipes);
+        homeTemplate = homeTemplate.replace('{{ ingredient }}', recipesData.ingredient);
         return homeTemplate;
     }
 
     async getData() {
-        const res = await fetch(`/static/results/random.json`);
+        const res = await fetch(`/static/recipes/random-recipes.json`);
         const data = await res.json();
-        countriesData[country] = data.articles;
-        console.log(countriesData);
-        return countriesData;
+        return data;
     }
 } 
