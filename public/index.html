@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./static/css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js" integrity="sha512-aNMyYYxdIxIaot0Y1/PLuEu3eipGCmsEUBrUq+7aVyPGMFH8z0eTP0tkqAvv34fzN6z+201d3T8HPb1svWSKHQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
     <script type="module" src="./static/js/index.js"></script>
     <title>TECHAV | TP1</title>
 </head>
 <body>
-    <div class="side-bar">
+    <div class="side-bar" data-nav>
         <nav>
-            <a href="/" data-link>home</a>
-            <a href="top-news" data-link>Top news</a>
+            <div>
+                <a href="/" data-link data-nav-link>Home</a>
+                <svg data-morph width="111" height="49" viewBox="0 0 111 49" fill="#F1BC34" xmlns="http://www.w3.org/2000/svg">
+                    <path data-start-svg d="M94.403 36.6086C77.5003 47.5348 57.3296 51.6821 34.1427 44.5187C10.9559 37.3552 -14.3029 -11.1406 11.5223 2.83344C37.3474 16.8074 52.8302 19.5208 93.3243 5.68532C115.946 -2.04363 115.017 23.2834 94.403 36.6086Z"/>
+                </svg>
+            </div>
+            <div>
+                <a href="about" data-link>About</a>
+            </div>
         </nav>
     </div>
     <main>

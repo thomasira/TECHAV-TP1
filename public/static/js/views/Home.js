@@ -1,4 +1,4 @@
-import AbstractView from "./AbstractView.js";
+import AbstractView from './AbstractView.js';
 
 export default class extends AbstractView{
 
@@ -13,7 +13,7 @@ export default class extends AbstractView{
 
     async getHTML() {
         const recipesData = await this.getData();
-        let elRecipes = "";
+        let elRecipes = '';
 
         const resHome = await fetch('/static/layouts/home.html');
         let homeTemplate = await resHome.text();
@@ -21,13 +21,13 @@ export default class extends AbstractView{
         let recipeTemplate = await resRecipe.text();
 
         const recipes = recipesData.recipes.d;
-        console.log(recipes);
         recipes.forEach(recipe => {
             let elRecipe = recipeTemplate;
-            elRecipe = elRecipe.replaceAll("{{ title }}", recipe.Title);
-            elRecipe = elRecipe.replaceAll("{{ Image }}", recipe.Image);
+            elRecipe = elRecipe.replaceAll('{{ title }}', recipe.Title);
+            elRecipe = elRecipe.replaceAll('{{ Image }}', recipe.Image);
+            elRecipe = elRecipe.replaceAll('{{ id }}', recipe.id);
             elRecipes += elRecipe;
-        })
+        });
 
         homeTemplate = homeTemplate.replace('{{ recipes }}', elRecipes);
         homeTemplate = homeTemplate.replace('{{ ingredient }}', recipesData.ingredient);
@@ -35,7 +35,7 @@ export default class extends AbstractView{
     }
 
     async getData() {
-        const res = await fetch(`/static/recipes/random-recipes.json`);
+        const res = await fetch('/static/recipes/random-recipes.json');
         const data = await res.json();
         return data;
     }

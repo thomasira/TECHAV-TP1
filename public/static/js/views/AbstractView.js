@@ -7,7 +7,7 @@ export default class{
     }
 
     setTitle(title) {
-        document.title = "TECHAV-tp1 | " + title;
+        document.title = 'TECHAV-tp1 | ' + title;
     }
 
     async getHTML() {

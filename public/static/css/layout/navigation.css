@@ -1,13 +1,22 @@
 nav{
     display: flex;
     flex-flow: column;
-    gap: var(--gaps);
+    gap: var(--gapl);
     position: fixed;
+    top: var(--gapm);
+    padding: var(--gapm);
 
-    & a{
-
-
-        &:hover{
-        }
+    & div{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+    & a{
+        position: absolute;
+        font-weight: 600;
+        font-size: var(--fontm);
+        z-index: 1;
+    }
+    
 }

@@ -1,11 +1,14 @@
-import Home from "./views/Home.js";
+import Home from './views/Home.js';
+import Recipe from './views/Recipe.js';
+import NavAnime from './classes/NavAnime.js';
+
+new NavAnime();
 
 const router = async () => {
 
     const routes = [
-        { path: "/", view: Home },
-/*         { path: "/posts", view: Post },
-        { path: "/settings", view: Settings }, */
+        { path: '/', view: Home },
+        { path: '/recipe', view: Recipe }
     ];
 
     // 1.2 match function
@@ -37,9 +40,9 @@ const navigateTo = url => {
 }
 
 //3 run the router in interactions
-document.addEventListener("DOMContentLoaded", () => {
-    document.body.addEventListener("click", e => {
-        if (e.target.matches("[data-link]")) {
+document.addEventListener('DOMContentLoaded', () => {
+    document.body.addEventListener('click', e => {
+        if (e.target.matches('[data-link]')) {
             e.preventDefault();
             navigateTo(e.target.href);
         }
