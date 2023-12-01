@@ -38,6 +38,7 @@ const navigateTo = url => {
     history.pushState(null, null, url);
     router();
 }
+window.addEventListener('popstate', router)
 
 //3 run the router in interactions
 document.addEventListener('DOMContentLoaded', () => {

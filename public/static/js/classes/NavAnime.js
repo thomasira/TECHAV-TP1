@@ -41,7 +41,12 @@ export default class{
             .add({
                 targets: this.SVG,
                 opacity: 1
-            }, '-= 600');
+            }, '-= 600')
+            .add({
+                targets: this.SVG,
+                fill: this.toggle ? '#ed9420' : '#94e283'
+            }, '-=600');
+
             if(!this.toggle) this.toggle = true;
             else this.toggle = false;
         });

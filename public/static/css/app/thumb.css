@@ -1,10 +1,26 @@
 
 .thumb{
 
+    max-width: 300px;
+    border-radius: 20px;
+    box-shadow: 2px 2px var(--colorDark);
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
 
+    & div{
+        padding: var(--gapxs);
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        gap: var(--gapxs);
+        background-color: var(--colorMain);
+        flex: 1;
+    }
     & img{
-        width: 100px;
-        aspect-ratio: 1/1;
+        display: block;
+        width: 100%;
+        aspect-ratio: 4/3;
         object-fit: cover;
     }
 }

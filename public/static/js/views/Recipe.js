@@ -14,7 +14,7 @@ export default class extends AbstractView{
 
     async getHTML() {
         const recipe = await this.getData();
-        console.log(recipe.Ingredients);
+        console.log(recipe);
     }
 
     async getData() {

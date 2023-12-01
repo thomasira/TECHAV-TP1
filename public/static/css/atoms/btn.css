@@ -1,0 +1,17 @@
+
+.btn{
+    background-color: var(--colorLight);
+    border-radius: 20px;
+    padding: var(--gapxxs);
+    display: block;
+    max-width: max-content;
+    box-shadow: 2px 2px var(--colorDark);
+
+    &:hover{
+        filter: brightness(1.2);
+    }
+    &:active{
+        box-shadow: inset 2px 2px var(--colorDark);
+        transform: translateX(2px) translateY(2px);
+    }
+}
