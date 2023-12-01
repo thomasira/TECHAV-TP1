@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;600&display=swap');
+/* gloria hallelujah + nunito fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Nunito:wght@200;400;600&display=swap');
 
 :root{
 
@@ -18,7 +19,8 @@
     --colorError: #fa1b1b;
     
     /* Police */
-    --typeText: sans-serif;
+    --typeText: 'Nunito', sans-serif;
+    --typeCursive: 'Gloria Hallelujah', cursive;
 
     /* Taille de polices */
     --fontxxs: clamp(12px, 1.5vw, 14px);
@@ -26,7 +28,7 @@
     --fontxs: clamp(18px, 2.25vw, 22px);
     --fonts: clamp(20px, 3vw, 28px);
     --fontm: clamp(24px, 3.75vw, 32px);
-    --fontl: clamp(32px, 4.75vw, 40px);
+    --fontl: clamp(28px, 4.75vw, 46px);
     --fontxl: clamp(38px, 6vw, 54px);
     --fontxxl: clamp(50px, 7.5vw, 66px);
     --fontHuge: clamp(60px, 9.25vw, 96px);

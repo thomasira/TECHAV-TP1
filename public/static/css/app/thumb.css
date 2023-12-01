@@ -1,7 +1,7 @@
 
 .thumb{
 
-    max-width: 300px;
+    max-width: 350px;
     border-radius: 20px;
     box-shadow: 2px 2px var(--colorDark);
     display: flex;

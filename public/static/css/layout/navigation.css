@@ -10,18 +10,24 @@ nav{
         flex-flow: column;
         gap: var(--gapl);
     }
+
     & a{
         position: absolute;
-        font-weight: 600;
+        font-family: var(--typeCursive);
         font-size: var(--fontm);
-        z-index: 1;
+        z-index: 1;  
     }
     & div>div{
         position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
+        
+        &.home{
+            transform: rotate(5deg) scale(1.2);
+        }
+        &.about{
+            transform: rotate(-3deg);
+        }
     }
-
-    
 }

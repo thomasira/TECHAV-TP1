@@ -7,6 +7,7 @@
 @import url(./layout/navigation.css);
 @import url(./layout/nav.css);
 @import url(./layout/side-bar.css);
+@import url(./layout/content.css);
 @import url(./layout/flow-row.css);
 
 @import url(./app/app.css);

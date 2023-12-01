@@ -3,25 +3,6 @@ body{
     font-family: var(--typeText);
     color: var(--colorDark);
 }
-main{
-    padding: var(--gapl);
-    display: flex;
-    flex-flow: column;
-}
-body>header{
-    padding: var(--gapxxl);
-
-    & h1{
-        font-size: var(--fontxl);
-        color: var(--colorLight);
-        text-shadow: 0px 0px 4px var(--colorLight);
-    }
-    & p{
-        color: var(--colorLight);
-        text-shadow: 0px 0px 4px var(--colorLight);
-        margin-left: var(--gapm);
-    }
-}
 form{
     padding: var(--gapm);
     display: flex;

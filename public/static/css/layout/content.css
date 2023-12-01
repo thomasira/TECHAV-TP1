@@ -1,0 +1,21 @@
+
+.content{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    padding: var(--gapxl);
+
+    &>header{
+        text-align: center;
+        font-family: var(--typeCursive);
+        color: var(--colorDark);
+
+        & h1{
+            font-size: var(--fontl);
+        }
+        & p{
+            font-size: var(--fonts);
+            margin-left: var(--gapm);
+        }
+    }
+}
