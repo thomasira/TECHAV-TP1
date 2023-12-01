@@ -1,16 +1,14 @@
 nav{
     display: flex;
     flex-flow: column;
-    gap: var(--gapl);
+    gap: var(--gapxxl);
     position: fixed;
-    top: var(--gapm);
     padding: var(--gapm);
 
-    & div{
-        position: relative;
+    &>div{
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-flow: column;
+        gap: var(--gapl);
     }
     & a{
         position: absolute;
@@ -18,5 +16,12 @@ nav{
         font-size: var(--fontm);
         z-index: 1;
     }
+    & div>div{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     
 }
