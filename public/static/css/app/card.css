@@ -1,25 +1,16 @@
 
 .card{
-    border: var(--borderStd);
-    border-color: var(--colorDark);
+    aspect-ratio: 3/4;
     max-width: 350px;
-    border-radius: 5px;
-    box-shadow: 1px 1px var(--colorDark);
     position: relative;
     display: flex;
     flex-flow: column;
+    justify-content: center;
     
     &>div{
         overflow: hidden;
         display: flex;
         flex-flow: column;
-
-        &>img{
-            display: block;
-            width: 100%;
-            aspect-ratio: 4/3;
-            object-fit: cover;
-        }
 
         &>div{
             padding: var(--gapxs);
@@ -29,12 +20,23 @@
             gap: var(--gapxs);
             flex: 1;
         }
+        &>div>img{
+            display: block;
+            width: 100%;
+            aspect-ratio: 4/3;
+            object-fit: cover;
+        }
+        & .mask{
+            -webkit-mask-image: url('/static/assets/svg/blobs/blobframe3.svg');
+            mask-image: url('/static/assets/svg/blobs/blobframe3.svg');
+            -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;    
+        }
     }
     &>img{
         display: block;
         position: absolute;
         z-index: -1;
-        height: 100%;
-        outline: 1px red solid;
+        width: 100%;
     }
 }

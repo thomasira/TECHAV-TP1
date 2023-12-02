@@ -3,7 +3,7 @@
     min-width: 250px;
     display: flex;
     flex-flow: row wrap;
-    gap: var(--gapm);
+    gap: var(--gapxl);
 
     &>*{
         flex: 1 0 250px;
