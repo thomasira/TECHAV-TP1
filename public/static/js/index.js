@@ -1,12 +1,14 @@
 import Home from './views/Home.js';
 import Recipe from './views/Recipe.js';
+import About from './views/About.js';
 import NavAnime from './classes/NavAnime.js';
 
-new NavAnime();
+const sideBar = document.querySelector('[data-side-bar]');
+new NavAnime(sideBar);
 
 const router = async () => {
 
-    /* decompose url into path[1] and id[2] */
+    /* decompose urlArray into path[1] and id[2] */
     let path;
     let id;
     if(location.pathname.split('/')[1] == "") path = '/';
@@ -15,7 +17,7 @@ const router = async () => {
 
     const routes = [
         { path: '/', view: Home },
-/*         { path: '/about', view: About }, */
+        { path: '/about', view: About },
         { path: '/recipe/:id', view: Recipe }
     ];
 

@@ -5,7 +5,6 @@ export default class extends AbstractView{
     constructor(params) {
         super();
         this.id = params.id;
-        console.log(this.id)
         this.init();
     }
 
@@ -15,7 +14,24 @@ export default class extends AbstractView{
 
     async getHTML() {
         const recipe = await this.getData();
-        console.log(recipe);
+        let elIngredients = '';
+    
+        const resRecipe = await fetch('/static/layouts/recipe.html');
+        let recipeTemplate = await resRecipe.text();
+        const resIngredient = await fetch('/static/layouts/templates/ingredient.html');
+        let ingredientTemplate = await resIngredient.text();
+
+        for(const i in recipe.Ingredients) {
+            let elIngredient = ingredientTemplate.replace('{{ ingredient }}', recipe.Ingredients[i]);
+            elIngredients += elIngredient;
+        }
+        let elRecipe = recipeTemplate;
+        elRecipe = elRecipe.replaceAll('{{ Title }}', recipe.Title);
+        elRecipe = elRecipe.replaceAll('{{ Image }}', recipe.Image);
+        elRecipe = elRecipe.replaceAll('{{ Ingredients }}', elIngredients);
+        elRecipe = elRecipe.replaceAll('{{ Instructions }}', recipe.Instructions);
+        
+        return elRecipe;
     }
 
     async getData() {
