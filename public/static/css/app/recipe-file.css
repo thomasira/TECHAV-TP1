@@ -1,16 +1,18 @@
 
 .recipe-file{
-    
+    display: flex;
+    flex-flow: column;
+    gap: var(--gaps);
+
     & header{
         
         & h1{
             font-size: var(--fontm);
             font-family: var(--typeCursive);
         }
-        
     }
     &>p{
-        font-size: var(--fontText);
+        font-size: var(--fontxxs);
 
         &>strong{
             border-radius: 4px;
@@ -21,9 +23,13 @@
     &>div{
         display: flex;
         flex-flow: row wrap;
+        gap: var(--gaps);
 
-        &>*{
+        &>div{
             flex: 1;
+        }
+        &>section{
+            flex: 2;
         }
     }
 }

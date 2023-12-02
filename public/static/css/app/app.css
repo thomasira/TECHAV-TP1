@@ -1,15 +1,11 @@
 
 .app{
     padding: var(--gapm);
-            flex: 1;
-        display: flex;
-        flex-flow: column;
-        padding: var(--gapxl);
-    & ul{
-        display: flex;
-        flex-flow: column;
-        gap: var(--gapxs);
-    }
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    padding: var(--gapxl);
+
     &>header{
         text-align: center;
         font-family: var(--typeCursive);
