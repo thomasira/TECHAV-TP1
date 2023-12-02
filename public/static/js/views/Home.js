@@ -22,7 +22,11 @@ export default class extends AbstractView{
 
         const recipes = recipesData.recipes.d;
         recipes.forEach(recipe => {
+            const randomBLob = Math.floor(Math.random() * (7 - 1) + 1);
+            const randomHue = Math.random() * 1;
+            
             let elRecipe = recipeTemplate;
+            elRecipe = elRecipe.replaceAll('{{ random-blob }}', randomBLob);
             elRecipe = elRecipe.replaceAll('{{ title }}', recipe.Title);
             elRecipe = elRecipe.replaceAll('{{ Image }}', recipe.Image);
             elRecipe = elRecipe.replaceAll('{{ id }}', recipe.id);

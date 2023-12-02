@@ -46,7 +46,7 @@ export default class extends AbstractView{
         const data = await res.json();
         const recipes = data.recipes.d;
         const recipe = recipes.find(recipe => recipe.id == this.id);
-        recipe.random = data.ingredient;
+        if(recipe) recipe.random = data.ingredient;
         return recipe;
     }
 }

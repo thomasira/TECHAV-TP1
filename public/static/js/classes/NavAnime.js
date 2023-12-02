@@ -28,7 +28,7 @@ export default class{
         const processedNavHTML = navHTML.replaceAll('{{ path }}', this.host);
         this.elParent.innerHTML = processedNavHTML;
 
-        this.getProps();
+        this.getHTMLelements();
         this.activateLinks();
     }
 
@@ -37,7 +37,7 @@ export default class{
         return res.text();
     }
 
-    getProps() {
+    getHTMLelements() {
         this.navItems.home.element = document.querySelector('[data-nav="home"]');
         this.navItems.about.element = document.querySelector('[data-nav="about"]');
         this.navItems.home.element.link = this.navItems.home.element.querySelector('a');
@@ -45,8 +45,12 @@ export default class{
     }
 
     activateLinks() {
-        this.navItems.home.element.link.addEventListener('click', (e) => this.animateLink(e, this.navItems.home));
-        this.navItems.about.element.link.addEventListener('click', (e) => this.animateLink(e, this.navItems.about));
+        this.navItems.home.element.link.addEventListener('click', (e) => {
+            this.animateLink(e, this.navItems.home)
+        });
+        this.navItems.about.element.link.addEventListener('click', (e) => {
+            this.animateLink(e, this.navItems.about)
+        });
     }
 
     animateLink(e, navItem) {
