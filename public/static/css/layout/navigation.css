@@ -10,12 +10,15 @@ nav{
         flex-flow: column;
         gap: var(--gapl);
     }
-
     & a{
         position: absolute;
         font-family: var(--typeCursive);
         font-size: var(--fontm);
         z-index: 1;  
+    }
+    & svg{
+        width: var(--navSvgWidth);
+        height: auto;
     }
     & div>div{
         position: relative;
@@ -24,7 +27,7 @@ nav{
         align-items: center;
         
         &.home{
-            transform: rotate(5deg) scale(1.2);
+            transform: rotate(5deg);
         }
         &.about{
             transform: rotate(-3deg);

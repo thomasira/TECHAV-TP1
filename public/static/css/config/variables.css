@@ -14,6 +14,7 @@
     --colorSecComp: #6ec3c5;
     --colorNeutral: #585c5c;
     --colorNav: linear-gradient(var(--colorMain), var(--colorComp));
+    --navSvgWidth: clamp(100px, 10vw, 200px);
 
     --colorCover: #150d0df8;
     --colorSuccess: #0c3d16;
