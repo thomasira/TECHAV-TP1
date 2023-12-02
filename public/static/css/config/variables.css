@@ -5,6 +5,7 @@
 
     /* Palette de couleurs */
     --colorLight: #E1ECF3;
+    --colorLightAlt: #f3f0e1;
     --colorDark: #0a0a15;
     --colorMain: #f69e5d;
     --colorMainL: #f6bb5d;
@@ -12,9 +13,9 @@
     --colorComp: #e17553;
     --colorSec: #7dca89;
     --colorSecComp: #6ec3c5;
-    --colorNeutral: #585c5c;
+    --colorNeutral: #bac6bf;
     --colorNav: linear-gradient(var(--colorMain), var(--colorComp));
-    --navSvgWidth: clamp(100px, 10vw, 200px);
+
 
     --colorCover: #150d0df8;
     --colorSuccess: #0c3d16;
@@ -54,5 +55,6 @@
     --gapHuge: clamp(84px, 10vw, 120px);
 
     --borderStd: 1px solid var(--colorMain);
-    --nav-width: clamp(150px, 20vw, 200px);
+    --nav-width: clamp(150px, 17vw, 200px);
+    --navSvgWidth: clamp(100px, 15vw, 150px);
 }

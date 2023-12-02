@@ -1,4 +1,5 @@
 nav{
+    width: var(--nav-width);
     display: flex;
     flex-flow: column;
     gap: var(--gapxxl);
@@ -16,9 +17,13 @@ nav{
         font-size: var(--fontm);
         z-index: 1;  
     }
-    & svg{
-        width: var(--navSvgWidth);
+    & svg, img{
+        display: block;
+        width: 100%;
         height: auto;
+    }
+    & img{
+        width: 100%;
     }
     & div>div{
         position: relative;

@@ -1,6 +1,9 @@
 
 .side-bar{
-    flex: 0 1 200px;
-    min-width: 100px;
+    background-color: var(--colorLightAlt);
+    flex: 0 0 var(--nav-width);
     position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
