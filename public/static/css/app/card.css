@@ -1,36 +1,36 @@
 
 .card{
-    aspect-ratio: 3/4;
+    aspect-ratio: 1/1;
     max-width: 350px;
     position: relative;
     display: flex;
     flex-flow: column;
-    justify-content: center;
     
     &>div{
-        overflow: hidden;
+        flex: 1;
         display: flex;
         flex-flow: column;
 
         &>div{
-            padding: var(--gapxs);
             display: flex;
             flex-flow: column;
-            justify-content: space-between;
             gap: var(--gapxs);
-            flex: 1;
+            justify-content: end;
         }
         &>div>img{
             display: block;
-            width: 100%;
-            aspect-ratio: 4/3;
+            height: 100%;
             object-fit: cover;
         }
         & .mask{
+            flex: 0 0 240px;
             -webkit-mask-image: url('/static/assets/svg/blobs/blobframe3.svg');
             mask-image: url('/static/assets/svg/blobs/blobframe3.svg');
+            -webkit-mask-position: top center;
+            -webkit-mask-size: 200px;
+            mask-size: cover;
             -webkit-mask-repeat: no-repeat;
-            mask-repeat: no-repeat;    
+            mask-repeat: no-repeat;
         }
     }
     &>img{
