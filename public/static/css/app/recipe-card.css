@@ -1,5 +1,5 @@
 
-.card{
+.recipe-card{
     aspect-ratio: 1/1;
     max-width: 350px;
     position: relative;
@@ -27,6 +27,7 @@
             -webkit-mask-image: url('/static/assets/svg/blobs/blobframe3.svg');
             mask-image: url('/static/assets/svg/blobs/blobframe3.svg');
             -webkit-mask-position: top center;
+            mask-position: top center;
             -webkit-mask-size: 200px;
             mask-size: cover;
             -webkit-mask-repeat: no-repeat;

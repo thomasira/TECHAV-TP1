@@ -1,19 +1,24 @@
 
-<section>
+<section class="recipe-file">
+    <p>Your random ingredient: <strong>{{ random-ingredient }}</strong></p>
     <header>
-        <h2>{{ Title }}</h2>
+        <h1>{{ Title }}</h1>
     </header>
     <div>
-        <img src="{{ Image }}" alt="">
         <div>
-            <h4>ingredients</h4>
-            <ul>
-                {{ Ingredients }}
-            </ul>
+            <img src="{{ Image }}" alt="">
+            <section>
+                <h2>Ingredients</h2>
+                <ul>
+                    {{ Ingredients }}
+                </ul>
+            </section>
         </div>
-    </div>
-        <p>
-            {{ Instructions }}
-        </p>
+        <section>
+            <h2>Instructions</h2>
+            <p>
+                {{ Instructions }}
+            </p>
+        </section>
     </div>
 </section>

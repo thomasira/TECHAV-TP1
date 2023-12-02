@@ -1,0 +1,22 @@
+
+.home{
+    display: flex;
+    flex-flow: column;
+    gap: var(--gaps);
+
+    & header{
+
+        & p{
+            font-size: var(--fontText);
+        }
+        & h2{
+            max-width: max-content;
+            border-radius: 5px;
+            background-color: var(--colorMainL);
+            padding: var(--gapxxs);
+            line-height: 1;
+            font-size: var(--fonts);
+            font-family: var(--typeCursive);
+        }
+    }
+}

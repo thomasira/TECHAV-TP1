@@ -16,7 +16,6 @@
     --colorNeutral: #bac6bf;
     --colorNav: linear-gradient(var(--colorMain), var(--colorComp));
 
-
     --colorCover: #150d0df8;
     --colorSuccess: #0c3d16;
     --colorError: #fa1b1b;
@@ -56,5 +55,8 @@
 
     --borderStd: 1px solid var(--colorMain);
     --nav-width: clamp(150px, 17vw, 200px);
+    --mask-width: clamp(180px, 19vw, 240px);
+    --mask-width-inner: clamp(160px, 18vw, 220px);
+
     --navSvgWidth: clamp(100px, 15vw, 150px);
 }
