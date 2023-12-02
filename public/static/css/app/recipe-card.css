@@ -31,7 +31,7 @@
             }
             &>img.shadow{
                 transform: scale(.9) translateX(4px) translateY(4px);
-                filter: blur(20px) hue-rotate(40deg) saturate(.2);
+                filter: blur(15px) hue-rotate(40deg) saturate(.2);
             }
         }
         & .mask{

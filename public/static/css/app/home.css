@@ -5,6 +5,7 @@
     gap: var(--gaps);
 
     & header{
+        position: relative;
 
         & p{
             font-size: var(--fontText);
