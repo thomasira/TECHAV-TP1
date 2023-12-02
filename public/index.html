@@ -13,28 +13,33 @@
         <nav>
             <img src="./static/assets/svg/logo.svg" alt="yum?-logo" width="150px" height="auto">
             <div>
-                <a href="/" data-link data-nav-link>Home</a>
-                <svg data-morph width="111" height="49" viewBox="0 0 111 49" fill="#ed9420" xmlns="http://www.w3.org/2000/svg">
-                    <path data-start-svg d="M94.403 36.6086C77.5003 47.5348 57.3296 51.6821 34.1427 44.5187C10.9559 37.3552 -14.3029 -11.1406 11.5223 2.83344C37.3474 16.8074 52.8302 19.5208 93.3243 5.68532C115.946 -2.04363 115.017 23.2834 94.403 36.6086Z"/>
-                </svg>
-            </div>
-            <div>
-                <a href="about" data-link>About</a>
+                <div class="home" data-nav="home">
+                    <a href="/" data-link >Home</a>
+                    <svg width="111" height="49" viewBox="0 0 120 49" fill="#F69E5D" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M94.403 36.6086C77.5003 47.5348 57.3296 51.6821 34.1427 44.5187C10.9559 37.3552 -14.3029 -11.1406 11.5223 2.83344C37.3474 16.8074 52.8302 19.5208 93.3243 5.68532C115.946 -2.04363 115.017 23.2834 94.403 36.6086Z"/>
+                    </svg>
+                </div>
+                <div class="about" data-nav="about">
+                    <a href="about" data-link >About</a>
+                    <svg data-morph="about" width="111" height="49" viewBox="0 0 111 49" fill="#F69E5D" xmlns="http://www.w3.org/2000/svg">
+                        <path data-start-svg d="M94.403 36.6086C77.5003 47.5348 57.3296 51.6821 34.1427 44.5187C10.9559 37.3552 -14.3029 -11.1406 11.5223 2.83344C37.3474 16.8074 52.8302 19.5208 93.3243 5.68532C115.946 -2.04363 115.017 23.2834 94.403 36.6086Z"/>
+                    </svg>
+                </div>
             </div>
         </nav>
     </div>
-    <main>
+    <div class="content">
         <header>
-            
             <div>
-                <p>The random recipes generator</p>
+                <h1>The random recipes generator</h1>
                 <p>Eat it or lose it&nbsp;!</p>
             </div>
         </header>
-        <div class="app" data-app>
-            
-        </div>
-    </main>
-
+        <main>
+            <div class="app" data-app>
+                
+            </div>
+        </main>
+    </div>
 </body>
 </html>
