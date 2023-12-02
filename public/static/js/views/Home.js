@@ -17,7 +17,7 @@ export default class extends AbstractView{
 
         const resHome = await fetch('/static/layouts/home.html');
         let homeTemplate = await resHome.text();
-        const resRecipe = await fetch('/static/layouts/templates/recipe-thumb.html')
+        const resRecipe = await fetch('/static/layouts/templates/recipe-card.html')
         let recipeTemplate = await resRecipe.text();
 
         const recipes = recipesData.recipes.d;
