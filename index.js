@@ -1,7 +1,5 @@
 import express  from 'express';
-import request from 'request';
 import path from 'path';
-import fs from 'fs';
 import config from './config/config.js';
 import { fileURLToPath } from 'url';
 import RandomRecipesWriter from './lib/RandomRecipesWriter.js';
@@ -18,8 +16,8 @@ const port = config.PORT;
 const apiKey = config.API_KEY;
 
 /* write a new random recipes file from a list of ingredient */
-/* const randomRecipesWriter = new RandomRecipesWriter(apiKey);
-randomRecipesWriter.writeRecipe(); */
+const randomRecipesWriter = new RandomRecipesWriter(apiKey);
+randomRecipesWriter.writeRecipe();
 
 app.get('/*', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
