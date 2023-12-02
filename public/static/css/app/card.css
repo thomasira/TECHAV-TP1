@@ -1,26 +1,40 @@
 
 .card{
-
+    border: var(--borderStd);
+    border-color: var(--colorDark);
     max-width: 350px;
-    border-radius: 20px;
-    box-shadow: 2px 2px var(--colorDark);
+    border-radius: 5px;
+    box-shadow: 1px 1px var(--colorDark);
+    position: relative;
     display: flex;
     flex-flow: column;
-    overflow: hidden;
-
-    & div{
-        padding: var(--gapxs);
+    
+    &>div{
+        overflow: hidden;
         display: flex;
         flex-flow: column;
-        justify-content: space-between;
-        gap: var(--gapxs);
-        background-color: var(--colorMain);
-        flex: 1;
+
+        &>img{
+            display: block;
+            width: 100%;
+            aspect-ratio: 4/3;
+            object-fit: cover;
+        }
+
+        &>div{
+            padding: var(--gapxs);
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            gap: var(--gapxs);
+            flex: 1;
+        }
     }
-    & img{
+    &>img{
         display: block;
-        width: 100%;
-        aspect-ratio: 4/3;
-        object-fit: cover;
+        position: absolute;
+        z-index: -1;
+        height: 100%;
+        outline: 1px red solid;
     }
 }
