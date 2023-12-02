@@ -1,43 +1,60 @@
 
 .recipe-card{
     aspect-ratio: 1/1;
-    max-width: 350px;
+    width: 300px;
     position: relative;
     display: flex;
     flex-flow: column;
+    align-items: center;
     
     &>div{
         flex: 1;
         display: flex;
         flex-flow: column;
 
-        &>div{
+        &>div:first-of-type{
             display: flex;
             flex-flow: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
             gap: var(--gapxs);
-            justify-content: end;
-        }
-        &>div>img{
-            display: block;
-            height: 100%;
-            object-fit: cover;
+
+            &>img{
+                position: absolute;
+                height: 100%;
+                z-index: -1;
+            }
+            &>img.border{
+                transform: scale(1.01);
+                filter: brightness(20) hue-rotate(40deg) saturate(.2);
+            }
+            &>img.shadow{
+                transform: scale(.9) translateX(4px) translateY(4px);
+                filter: blur(20px) hue-rotate(40deg) saturate(.2);
+            }
         }
         & .mask{
-            flex: 0 0 240px;
-            -webkit-mask-image: url('/static/assets/svg/blobs/blobframe3.svg');
-            mask-image: url('/static/assets/svg/blobs/blobframe3.svg');
-            -webkit-mask-position: top center;
-            mask-position: top center;
-            -webkit-mask-size: 200px;
-            mask-size: cover;
+            justify-content: center;
+            align-items: center;
+            -webkit-mask-position: center center;
+            mask-position: center center;
+            -webkit-mask-size:auto 100%;
+            mask-size:auto 100%;
             -webkit-mask-repeat: no-repeat;
             mask-repeat: no-repeat;
+
+            & img{
+                display: block;
+                width: 100%;
+                object-fit: contain;
+            }
         }
     }
     &>img{
         display: block;
         position: absolute;
         z-index: -1;
-        width: 100%;
+        height: 100%;
     }
 }

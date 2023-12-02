@@ -4,6 +4,7 @@ export default class extends AbstractView{
 
     constructor(params) {
         super();
+        this.host = location.origin;
         this.init();
     }
 
@@ -23,9 +24,12 @@ export default class extends AbstractView{
         const recipes = recipesData.recipes.d;
         recipes.forEach(recipe => {
             const randomBLob = Math.floor(Math.random() * (7 - 1) + 1);
-            const randomHue = Math.random() * 1;
-            
+            const randomFrame = Math.floor(Math.random() * (4 - 1) + 1);
+            const randomColor = Math.floor(Math.random() * (300 - 250) + 250);
+
             let elRecipe = recipeTemplate;
+            elRecipe = elRecipe.replaceAll('{{ random-color }}', randomColor);
+            elRecipe = elRecipe.replaceAll('{{ random-frame }}', randomFrame);
             elRecipe = elRecipe.replaceAll('{{ random-blob }}', randomBLob);
             elRecipe = elRecipe.replaceAll('{{ title }}', recipe.Title);
             elRecipe = elRecipe.replaceAll('{{ Image }}', recipe.Image);
@@ -35,6 +39,7 @@ export default class extends AbstractView{
 
         homeTemplate = homeTemplate.replace('{{ recipes }}', elRecipes);
         homeTemplate = homeTemplate.replace('{{ ingredient }}', recipesData.ingredient);
+        homeTemplate = homeTemplate.replaceAll('{{ path }}', this.host);
         return homeTemplate;
     }
 

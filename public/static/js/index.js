@@ -67,4 +67,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
     router();
+
 });

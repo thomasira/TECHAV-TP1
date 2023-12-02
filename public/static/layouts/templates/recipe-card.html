@@ -1,8 +1,13 @@
+
 <article class="recipe-card">
-    <img src="./static/assets/svg/blobs/blob{{ random-blob }}.svg" alt="shape">
+    <img src="{{ path }}/static/assets/svg/blobs/blob{{ random-blob }}.svg" alt="shape" data-shape style="filter: hue-rotate({{ random-color }}deg);">
     <div>
-        <div class="mask">
-            <img src="{{ Image }}" alt="recipe image">
+        <div>
+            <div class="mask" data-mask style="-webkit-mask-image: url('/static/assets/svg/blobs/blobframe{{ random-frame }}.svg');">
+                <img src="{{ Image }}" alt="recipe image">
+            </div>
+            <img class="border" src="/static/assets/svg/blobs/blobframe{{ random-frame }}.svg" alt="border">
+            <img class="shadow" src="/static/assets/svg/blobs/blobframe{{ random-frame }}.svg" alt="shadow">
         </div>
         <div>
             <h4>{{ title }}</h4>

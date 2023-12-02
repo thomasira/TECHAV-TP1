@@ -6,6 +6,6 @@
     gap: var(--gapxl);
 
     &>*{
-        flex: 1 0 250px;
+        flex: 0 0 300px;
     }
 }

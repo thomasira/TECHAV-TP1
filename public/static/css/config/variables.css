@@ -4,12 +4,13 @@
 :root{
 
     /* Palette de couleurs */
-    --colorLight: #E1ECF3;
-    --colorLightAlt: #f3f0e1;
+    --colorLight: #f7f3e6;
+    --colorLightAlt: #e7dfce;
     --colorDark: #0a0a15;
     --colorMain: #f69e5d;
     --colorMainL: #f6bb5d;
     --colorMainD: #482f00;
+    --colorDarkAlt: #100602;
     --colorComp: #e17553;
     --colorSec: #7dca89;
     --colorSecComp: #6ec3c5;
