@@ -2,9 +2,10 @@ import AbstractView from './AbstractView.js';
 
 export default class extends AbstractView{
 
-    constructor() {
+    constructor(params) {
         super();
-        this.id = location.search.replace('?id=', '');
+        this.id = params.id;
+        console.log(this.id)
         this.init();
     }
 

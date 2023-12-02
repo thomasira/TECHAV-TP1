@@ -6,16 +6,28 @@ new NavAnime();
 
 const router = async () => {
 
+    /* decompose url into path[1] and id[2] */
+    let path;
+    let id;
+    if(location.pathname.split('/')[1] == "") path = '/';
+    else path = location.pathname.split('/')[1];
+    if(location.pathname.split('/')[2]) id = location.pathname.split('/')[2];
+
     const routes = [
         { path: '/', view: Home },
-        { path: '/recipe', view: Recipe }
+/*         { path: '/about', view: About }, */
+        { path: '/recipe/:id', view: Recipe }
     ];
 
     // 1.2 match function
     const potentialMatches = routes.map(route => {
+
+        /* bind route in case of id */
+        let url = location.pathname;
+        if(id) url = location.pathname.replace(id, ':id');
         return {
             route: route,
-            isMatch: location.pathname === route.path
+            isMatch: url === route.path
         }
     });
     
@@ -28,8 +40,12 @@ const router = async () => {
         }
     }
 
+    /* create params object-> only id here */
+    let params;
+    if(id) params = { id };
+    
     // 1.4 inject view into DOM
-    const view = new match.route.view;
+    const view = new match.route.view(params);
     document.querySelector('[data-app]').innerHTML = await view.getHTML();
 }
 
