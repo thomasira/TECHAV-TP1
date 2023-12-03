@@ -17,7 +17,12 @@ const apiKey = config.API_KEY;
 
 /* write a new random recipes file from a list of ingredient */
 const randomRecipesWriter = new RandomRecipesWriter(apiKey);
-randomRecipesWriter.writeRecipe();
+async function timer() { await randomRecipesWriter.writeRecipe() };
+async function getRecipe() {
+    await randomRecipesWriter.writeRecipe();
+    setInterval(timer, 28800000);
+}
+getRecipe();
 
 app.get('/*', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'public', 'index.html'));

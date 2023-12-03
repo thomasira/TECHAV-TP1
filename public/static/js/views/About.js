@@ -12,6 +12,8 @@ export default class extends AbstractView{
     }
 
     async getHTML() {
-        return;
+        const res = await fetch('/static/layouts/about.html');
+        const aboutTemplate = await (res).text();
+        return aboutTemplate;
     }
 }

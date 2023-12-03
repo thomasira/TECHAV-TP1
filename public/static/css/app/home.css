@@ -5,8 +5,10 @@
     gap: var(--gaps);
 
     & header{
+        max-width: max-content;
 
         &>div{
+            margin: auto;
             max-width: max-content;
             position: relative;
             display: flex;
@@ -20,7 +22,7 @@
             & img{
                 position: absolute;
                 z-index: -1;
-                width: 120%;
+                width: 100%;
             }
             & p{
                 font-size: var(--fontText);
