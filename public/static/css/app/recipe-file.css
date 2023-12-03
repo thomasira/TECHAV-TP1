@@ -4,13 +4,52 @@
     flex-flow: column;
     gap: var(--gaps);
 
-    & header{
-        
-        & h1{
-            font-size: var(--fontm);
-            font-family: var(--typeCursive);
+    &>div:first-of-type{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        gap: var(--gaps);
+
+        & aside{
+            flex: 1 0 320px;
+            max-height: 75px;
+            max-width: max-content;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: end;
+            gap: var(--gaps);
+    
+            &>div{
+                max-width: max-content;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                & h2{
+                    font-size: var(--fontxs);
+                    font-family: var(--typeCursive);
+                }
+                & img{
+                    position: absolute;
+                    z-index: -1;
+                    height: var(--fontl);
+                }
+                & p{
+                    font-size: var(--fontxxs);
+                }
+            }
+        }
+        & header{
+            flex: 1 1 600px;
+            & h1{
+                font-size: var(--fontl);
+                font-family: var(--typeCursive);
+            }
         }
     }
+
     &>p{
         font-size: var(--fontxxs);
 

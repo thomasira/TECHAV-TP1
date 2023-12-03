@@ -1,11 +1,17 @@
 
 <section class="recipe-file">
-    <aside>
-        <p>Your random ingredient: <strong>{{ random-ingredient }}</strong></p>
-    </aside>
-    <header>
-        <h1>{{ Title }}</h1>
-    </header>
+    <div>
+        <header>
+            <h1>{{ Title }}</h1>
+        </header>
+        <aside>
+            <p>Your random ingredient :</p>
+            <div>
+                <h2>{{ random-ingredient }}</h2>
+                <img src="{{ path }}/static/assets/svg/blobs/blobBonus1.svg" alt="">
+            </div>
+        </aside>
+    </div>
     <div>
         <div>
             <img src="{{ Image }}" alt="">

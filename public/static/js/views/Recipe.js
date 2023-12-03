@@ -32,7 +32,8 @@ export default class extends AbstractView{
             elIngredients += elIngredient;
         }
         let elRecipe = recipeTemplate;
-        elRecipe = elRecipe.replaceAll('{{ random-ingredient }}', recipe.random)
+        elRecipe = elRecipe.replaceAll('{{ path }}', this.host);
+        elRecipe = elRecipe.replaceAll('{{ random-ingredient }}', recipe.random);
         elRecipe = elRecipe.replaceAll('{{ Title }}', recipe.Title);
         elRecipe = elRecipe.replaceAll('{{ Image }}', recipe.Image);
         elRecipe = elRecipe.replaceAll('{{ Ingredients }}', elIngredients);
