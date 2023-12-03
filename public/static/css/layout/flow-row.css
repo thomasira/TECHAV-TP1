@@ -4,6 +4,7 @@
     display: flex;
     flex-flow: row wrap;
     gap: var(--gapxl);
+    justify-content: space-around;
 
     &>*{
         flex: 0 0 300px;
