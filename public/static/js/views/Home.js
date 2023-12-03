@@ -30,6 +30,7 @@ export default class extends AbstractView{
 
             let elRecipe = recipeTemplate;
             elRecipe = elRecipe.replaceAll('{{ random-color }}', randomColor);
+            elRecipe = elRecipe.replaceAll('{{ random-color-alt }}', 250 - randomColor);
             elRecipe = elRecipe.replaceAll('{{ random-button }}', randomButton);
             elRecipe = elRecipe.replaceAll('{{ random-frame }}', randomFrame);
             elRecipe = elRecipe.replaceAll('{{ random-blob }}', randomBLob);
