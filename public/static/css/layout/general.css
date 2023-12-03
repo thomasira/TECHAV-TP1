@@ -6,7 +6,23 @@ body{
 p{
     font-size: var(--fontText);
 }
+ul{
+    display: flex;
+    flex-flow: column;
+    gap: var(--gapxs);
 
+    & li{
+        font-weight: bold;
+
+        & a{
+            color: var(--colorDarkAlt);
+
+            &:hover{
+                color: var(--colorCompDark);
+            }
+        }
+    }
+}
 footer{
     display: flex;
     background-color: var(--colorMainD);
