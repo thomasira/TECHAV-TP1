@@ -8,6 +8,7 @@ a{
     display: block;
     text-decoration: none;
     color: inherit;
+    max-width: max-content;
 }
 li{
     list-style: none;

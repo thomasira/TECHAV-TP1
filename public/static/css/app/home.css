@@ -4,7 +4,20 @@
     flex-flow: column;
     gap: var(--gaps);
 
-    & header{
+    &>header{
+        text-align: center;
+        font-family: var(--typeCursive);
+        color: var(--colorDark);
+
+        & h1{
+            font-size: var(--fontl);
+        }
+        & p{
+            font-size: var(--fonts);
+            margin-left: var(--gapm);
+        }
+    }
+    & aside{
         max-width: max-content;
 
         &>div{

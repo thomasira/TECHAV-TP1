@@ -4,6 +4,7 @@ nav{
     flex-flow: column;
     gap: var(--gapxxl);
     position: fixed;
+    top: var(--gapl);
     padding: var(--gapm);
 
     &>div{

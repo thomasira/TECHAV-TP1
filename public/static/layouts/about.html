@@ -1,27 +1,35 @@
 
-<section class="">
-    <header>
-        <h1>About <strong>Yum ?</strong></h1>
-        <p>The random recipes generator</p>
-    </header>
-    <aside>
-        <h2>Follow <strong>Yum ?</strong></h2>
-        <p>Github: <a href="https://github.com/thomasIRA/TECHAV-TP1">Yum ?</a></p>
-        
-    </aside>
+<section class="about">
     <div>
-        <section>
-            <h2>The project</h2>
-            <p><strong>Yum ?</strong> is a single page web app that generates a list of recipes fetched from a distant API. It is built using JavaScript technologies, using node.js for the server side. A random ingredient is fetched from a local file every 8 hours and a request is sent to a recipe API returning a list of recipes containing this ingredient.</p>
-        </section>
-        <section>
-            <h2>The looks</h2>
-            <p>Linking food with natural shapes and tones felt right from the start, but there was more. Using static shapes for styling randomly generated recipes was not going to work and there was no certainty in the amount of recipes returning from the request to the API. To achieve a more natural look, the shapes and tones had to be randomly generated for each recipe to render. To do this, a shape from a local bank is randomly picked for each type of shape and its tone is randomly altered if necessary.
-        </section>
-        <section>
-            <h2>The techs</h2>
-            <p>On the server side, node is used with express for request and file management. For the front side, vanilla JS using external AnimeJs library for the animations</p>
-        </section>
+        <header>
+            <h1>About <img src="{{ path }}/static/assets/svg/logo.svg" alt="" width="50px"></h1>
+            <p>The random recipes generator</p>
+        </header>
+        <aside>
+            <a href="https://github.com/thomasIRA/TECHAV-TP1">
+                <div>
+                    <img src="{{ path }}/static/assets/svg/github-mark.svg" alt="github logo" width="50px">
+                    <h2>Follow the project on Github</h2>
+                </div>
+                <img src="{{ path }}/static/assets/svg/blobs/blob3.svg" alt="blob">
+            </a>
+        </aside>
+    </div>
+    <div>
+        <div>
+            <section>
+                <h2>The project</h2>
+                <p><strong>Yum ?</strong> is a single page web app that generates a list of recipes fetched from a distant API. It is built using JavaScript technologies, using node.js for the server side. A random ingredient is fetched from a local file every 8 hours and a request is sent to a recipe API returning a list of recipes containing this ingredient.</p>
+            </section>
+            <section>
+                <h2>The looks</h2>
+                <p>Linking food with natural shapes and tones felt right from the start, but there was more. Using static shapes for styling randomly generated recipes was not going to work and there was no certainty in the amount of recipes returning from the request to the API. To achieve a more natural look, the shapes and tones had to be randomly generated for each recipe to render. To do this, a shape from a local bank is randomly picked for each type of shape and its tone is randomly altered if necessary.
+            </section>
+            <section>
+                <h2>The techs</h2>
+                <p>On the server side, node is used with express for request and file management. For the front side, vanilla JS using external AnimeJs library for the animations</p>
+            </section>
+        </div>
         <section>
             <h2>References</h2>
             <p>Some help or helpers were needed for the realisations of this project</p>

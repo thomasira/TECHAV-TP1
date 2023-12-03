@@ -13,7 +13,8 @@ export default class extends AbstractView{
 
     async getHTML() {
         const res = await fetch('/static/layouts/about.html');
-        const aboutTemplate = await (res).text();
+        let aboutTemplate = await (res).text();
+        aboutTemplate = aboutTemplate.replaceAll('{{ path }}', this.host);
         return aboutTemplate;
     }
 }

@@ -3,25 +3,10 @@ body{
     font-family: var(--typeText);
     color: var(--colorDark);
 }
-form{
-    padding: var(--gapm);
-    display: flex;
-    flex-flow: column;
-    align-items: start;
-    gap: var(--gapxs);
-
-    & label{
-        font-size: var(--fontxs);
-    }
-    & input, select, textarea{
-        font-size: var(--fontText);
-        font-family: var(--typeText);
-        padding: var(--gapTHxxs);
-        background-color: var(--colorDark);
-        border: var(--borderStd);
-        color: var(--colorMain);
-    }
+p{
+    font-size: var(--fontText);
 }
+
 footer{
     display: flex;
     background-color: var(--colorMainD);

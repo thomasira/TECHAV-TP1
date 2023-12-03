@@ -4,7 +4,6 @@ export default class extends AbstractView{
 
     constructor(params) {
         super();
-        this.host = location.origin;
         this.init();
     }
 
