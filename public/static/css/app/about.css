@@ -66,10 +66,38 @@
             display: flex;
             flex-flow: column;
             gap: var(--gapm);
+
+            & section{
+                display: flex;
+                flex-flow: column;
+                gap: var(--gapxxs);
+            }
         }
         &>section{
-            flex: 0 1 200px;
+            flex: 0 1 250px;
             min-width: 150px;
+            display: flex;
+            flex-flow: column;
+            gap: var(--gapxxs);
+
+            & ul{
+                display: flex;
+                flex-flow: column;
+                gap: var(--gapxs);
+
+                & li{
+                    font-weight: bold;
+
+                    & a{
+                        color: var(--colorDarkAlt);
+
+                        &:hover{
+                            color: var(--colorCompDark);
+                        }
+                    }
+                }
+            }
+            
         }
 
         & h2{
