@@ -11,7 +11,11 @@
         </div>
         <div>
             <h2>{{ title }}</h2>
-            <a href="recipe/{{ id }}" class="btn" data-link>See recipe</a>
+            <div class="btn" >
+                <a href="recipe/{{ id }}" data-link>See recipe</a>
+                <img src="{{ path }}/static/assets/svg/blobs/blob-button{{ random-button }}.svg" alt="" style="filter: hue-rotate({{ random-color }}deg);">
+                <img class="shadow" src="{{ path }}/static/assets/svg/blobs/blob-button{{ random-button }}.svg" alt="">
+            </div>
         </div>
     </div>
 </article>

@@ -1,17 +1,27 @@
-
 .btn{
-    background-color: var(--colorLight);
-    border-radius: 20px;
-    padding: var(--gapxxs);
-    display: block;
     max-width: max-content;
-    box-shadow: 2px 2px var(--colorDark);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+    & a{
+        font-size: var(--fontxs);
+        font-weight: 600;
+        z-index: 1;
+    }
+    & img{
+        position: absolute;
+        width: 120%;
+        
+        &.shadow{
+            z-index: -1;
+            filter: blur(10px) brightness(.3);
+            transform: translateX(3px) translateY(2px) scale(.8);
+        }
+    }
     &:hover{
-        filter: brightness(1.2);
+        filter: brightness(1.1);
     }
-    &:active{
-        box-shadow: inset 2px 2px var(--colorDark);
-        transform: translateX(2px) translateY(2px);
-    }
+
 }

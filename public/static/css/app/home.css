@@ -20,7 +20,7 @@
             & img{
                 position: absolute;
                 z-index: -1;
-                width: 100%;
+                width: 120%;
             }
             & p{
                 font-size: var(--fontText);
