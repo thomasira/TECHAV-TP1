@@ -6,14 +6,14 @@
     /* Palette de couleurs */
     --colorLight: #f7f3e6;
     --colorLightAlt: #e7dfce;
-    --colorDark: #0a0a15;
+    --colorDark: #090b0a;
     --colorMain: #f69e5d;
     --colorMainL: #f6bb5d;
-    --colorMainL: #808e746b;
     --colorMainD: #482f00;
     --colorDarkAlt: #100602;
-    --colorComp: #e17553;
-    --colorSec: #7dca89;
+    --colorComp: #d0785d;
+    --colorCompL:#e6aa96;
+    --colorSec: #97c49e;
     --colorSecComp: #6ec3c5;
     --colorNeutral: #bac6bf;
     --colorNav: linear-gradient(var(--colorMain), var(--colorComp));
