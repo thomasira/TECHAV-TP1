@@ -2,6 +2,8 @@ body{
     background-color: var(--colorLight);
     font-family: var(--typeText);
     color: var(--colorDark);
+    display: flex;
+    flex-flow: row;
 }
 p{
     font-size: var(--fontText);
@@ -29,4 +31,10 @@ footer{
     color: var(--colorLight);
     justify-content: space-between;
     padding: var(--gapTHxxs) var(--gapxs);
+}
+
+@media screen and (max-width: 550px){
+    body{
+        flex-flow: column;
+    }
 }

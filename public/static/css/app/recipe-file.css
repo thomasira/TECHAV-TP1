@@ -2,7 +2,7 @@
 .recipe-file{
     display: flex;
     flex-flow: column;
-    gap: var(--gaps);
+    gap: var(--gapl);
 
     &>div:first-of-type{
         display: flex;

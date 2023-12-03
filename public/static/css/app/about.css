@@ -6,11 +6,13 @@
 
     &>div:first-of-type{
         display: flex;
-        flex-flow: row;
+        flex-flow: row wrap;
+        gap: var(--gapm);
+        row-gap: var(--gapxl);
         align-items: center;
 
         &>header{
-            flex: 4;
+            flex: 1 0 320px;
             text-align: center;
 
             & h1{
@@ -26,7 +28,7 @@
 
         }
         &>aside{
-            flex: 1;
+            flex: 1 0 100px;
 
             &>a{
                 display: flex;
