@@ -5,19 +5,26 @@
     gap: var(--gaps);
 
     & header{
-        position: relative;
 
-        & p{
-            font-size: var(--fontText);
-        }
-        & h2{
+        &>div{
             max-width: max-content;
-            border-radius: 5px;
-            background-color: var(--colorMainL);
-            padding: var(--gapxxs);
-            line-height: 1;
-            font-size: var(--fonts);
-            font-family: var(--typeCursive);
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            & h2{
+                font-size: var(--fonts);
+                font-family: var(--typeCursive);
+            }
+            & img{
+                position: absolute;
+                z-index: -1;
+                width: 100%;
+            }
+            & p{
+                font-size: var(--fontText);
+            }
         }
     }
 }
