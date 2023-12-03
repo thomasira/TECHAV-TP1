@@ -22,7 +22,7 @@
             & img{
                 position: absolute;
                 z-index: -1;
-                width: 100px;
+                height: var(--fontl);
             }
             & p{
                 font-size: var(--fontText);

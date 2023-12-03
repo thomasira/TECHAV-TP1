@@ -9,18 +9,22 @@ nav{
     &>div{
         display: flex;
         flex-flow: column;
+        justify-content: center;
+        align-items: center;
         gap: var(--gapl);
     }
     & a{
-        position: absolute;
         font-family: var(--typeCursive);
         font-size: var(--fontm);
         z-index: 1;  
     }
     & svg, img{
         display: block;
-        width: 100%;
         height: auto;
+    }
+    & svg{
+        width: 90%;
+        position: absolute;
     }
     & img{
         width: 100%;
