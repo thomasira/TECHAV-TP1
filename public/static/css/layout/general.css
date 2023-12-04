@@ -1,5 +1,5 @@
 body{
-    background-color: var(--colorLight);
+    background: var(--colorGradient);
     font-family: var(--typeText);
     color: var(--colorDark);
     display: flex;
@@ -52,7 +52,7 @@ footer{
             }
         }
         &>div:last-of-type{
-            margin-top: var(--nav-width);
+            margin-top: var(--nav-height);
         }
 
     }

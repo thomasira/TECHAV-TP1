@@ -2,7 +2,7 @@
 .home{
     display: flex;
     flex-flow: column;
-    gap: var(--gaps);
+    gap: var(--gapl);
 
     &>header{
         text-align: center;

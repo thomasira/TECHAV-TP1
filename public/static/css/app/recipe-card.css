@@ -6,7 +6,7 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    
+
     &>div{
         flex: 1;
         display: flex;
@@ -43,12 +43,6 @@
             mask-size:auto 100%;
             -webkit-mask-repeat: no-repeat;
             mask-repeat: no-repeat;
-
-            & img{
-                display: block;
-                width: 100%;
-                object-fit: contain;
-            }
         }
         &>div:last-of-type{
             display: flex;

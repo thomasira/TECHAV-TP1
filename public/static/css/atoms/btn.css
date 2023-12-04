@@ -9,14 +9,14 @@
         font-size: var(--fontText);
         font-weight: 600;
         z-index: 1;
+        padding: var(--gapxs);
     }
     & img{
         position: absolute;
-        width: 120%;
-
+        width: 100%;
     }
     &:hover{
-        filter: brightness(1.1);
+        filter: brightness(.8);
     }
 
 }

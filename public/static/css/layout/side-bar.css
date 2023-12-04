@@ -1,6 +1,6 @@
 
 .side-bar{
-    background-color: var(--colorLightAlt);
+    background: var(--colorGradient);
     flex: 0 0 var(--nav-width);
     position: relative;
     display: flex;

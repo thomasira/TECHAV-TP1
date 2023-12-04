@@ -13,6 +13,7 @@ nav{
         justify-content: center;
         align-items: center;
         gap: var(--gapl);
+        column-gap: var(--gaps);
     }
     & a{
         font-family: var(--typeCursive);
@@ -30,17 +31,21 @@ nav{
     & img{
         width: 100%;
     }
+
     & div>div{
         position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
         &.home{
             transform: rotate(5deg);
         }
         &.about{
             transform: rotate(-3deg);
+        }
+        &:hover{
+            filter: brightness(1.2);
         }
     }
 }

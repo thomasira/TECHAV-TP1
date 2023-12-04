@@ -10,18 +10,26 @@
     --colorMain: #f69e5d;
     --colorMainL: #f6bb5d;
     --colorMainD: #482f00;
-    --colorDarkAlt: #204523;
+    --colorDarkAlt: #203721;
     --colorComp: #d0785d;
     --colorCompDark: #642d1c;
     --colorCompL:#e6aa96;
     --colorSec: #97c49e;
-    --colorSecComp: #6ec3c5;
     --colorNeutral: #bac6bf;
     --colorShade: rgba(72, 47, 0, 0.347);
 
-    --colorCover: #150d0df8;
-    --colorSuccess: #0c3d16;
     --colorError: #aa2828;
+
+    --colorGr1: #ded8c2bb;
+    --colorGr1t: #ded8c280;
+    --colorGr2: #eedcb4b3;
+    --colorGr2t: #eedcb47c;
+    --colorGr3: #d2d8bbbb;
+    --colorGr3t: #d2d8bb70;
+
+    --colorGradient: linear-gradient(217deg, var(--colorGr1), var(--colorGr1t) 70.71%),
+        linear-gradient(127deg, var(--colorGr2), var(--colorGr2t) 70.71%),
+        linear-gradient(336deg, var(--colorGr3), var(--colorGr3t) 70.71%);
     
     /* Police */
     --typeText: 'Nunito', sans-serif;
@@ -56,12 +64,13 @@
     --gapxxl: clamp(48px, 8vw, 96px);
     --gapHuge: clamp(84px, 10vw, 120px);
 
+    /* states and other sizes */
     --borderStd: 1px solid var(--colorMain);
     --logo-width: clamp(80px, 10vw, 170px);
     --logo-width-small: clamp(50px, 12vw, 80px);
     --nav-width: clamp(150px, 17vw, 200px);
+    --nav-height: 100px;
     --mask-width: clamp(180px, 19vw, 240px);
     --mask-width-inner: clamp(160px, 18vw, 220px);
-
     --navSvgWidth: clamp(100px, 15vw, 150px);
 }
