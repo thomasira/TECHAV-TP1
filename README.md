@@ -4,7 +4,7 @@ TechAv-TP 1
 ### The project
 Yum ? is a single page web app that generates a list of recipes fetched from a distant API. A random ingredient is picked from a local file every 8 hours and a request is sent to a recipe API returning a list of recipes containing this ingredient. It is built using JavaScript technologies, with node.js on the server side.
 
-### The Demo
+### The demo
 https://github.com/thomasIRA/TECHAV-TP1/assets/134738954/427ce0bf-b6c8-443c-884f-c10093bea90c
 
 ### The installation
