@@ -16,7 +16,7 @@ nav{
     }
     & a{
         font-family: var(--typeCursive);
-        font-size: var(--fontm);
+        font-size: var(--fontl);
         z-index: 1;  
     }
     & svg, img{
