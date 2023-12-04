@@ -7,6 +7,9 @@ Yum ? is a single page web app that generates a list of recipes fetched from a d
 ### The demo
 https://github.com/thomasIRA/TECHAV-TP1/assets/134738954/427ce0bf-b6c8-443c-884f-c10093bea90c
 
+### The docs
+[yum.pdf](https://github.com/thomasIRA/TECHAV-TP1/files/13547521/yum.pdf)
+
 ### The installation
 > - Download the project on github
 > - Install node.js on your machine
