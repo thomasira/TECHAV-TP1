@@ -3,6 +3,7 @@ import Recipe from './views/Recipe.js';
 import About from './views/About.js';
 import NavAnime from './classes/NavAnime.js';
 
+/* instanciate navAnime class in the side-bar */
 const sideBar = document.querySelector('[data-side-bar]');
 new NavAnime(sideBar);
 
@@ -15,25 +16,28 @@ const router = async () => {
     else path = location.pathname.split('/')[1];
     if(location.pathname.split('/')[2]) id = location.pathname.split('/')[2];
 
+    /* create routes */
     const routes = [
         { path: '/', view: Home },
         { path: '/about', view: About },
         { path: '/recipe/:id', view: Recipe }
     ];
 
-    // 1.2 match function
+    /* match function */
     const potentialMatches = routes.map(route => {
 
         /* bind route in case of id */
         let url = location.pathname;
         if(id) url = location.pathname.replace(id, ':id');
+
+        /* return route info */
         return {
             route: route,
             isMatch: url === route.path
         }
     });
     
-    // 1.3 matching and other non-match
+    /* matching and other non-match */
     let match = potentialMatches.find(potentialMatch => potentialMatch.isMatch);
     if(!match) {
         match = {
@@ -46,12 +50,12 @@ const router = async () => {
     let params;
     if(id) params = { id };
     
-    // 1.4 inject view into DOM
+    /* inject view into DOM */
     const view = new match.route.view(params);
     document.querySelector('[data-app]').innerHTML = await view.getHTML();
 }
 
-//2 push url into browser 
+/* push url into browser  */
 const navigateTo = url => {
 
     /* scroll window back to top of screen */
@@ -62,9 +66,11 @@ const navigateTo = url => {
 
     router();
 }
+
+/* manage url history for back and forward navigation */
 window.addEventListener('popstate', router)
 
-//3 run the router in interactions
+/* run the router in interactions */
 document.addEventListener('DOMContentLoaded', () => {
     document.body.addEventListener('click', e => {
         if (e.target.matches('[data-link]')) {
@@ -73,5 +79,4 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
     router();
-
 });

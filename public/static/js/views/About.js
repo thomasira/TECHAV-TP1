@@ -11,6 +11,11 @@ export default class extends AbstractView{
         this.setTitle('About');
     }
 
+    /**
+     * process and returns HTML template
+     * 
+     * @returns [string] HTML template for about page
+     */
     async getHTML() {
         const res = await fetch('/static/layouts/about.html');
         let aboutTemplate = await (res).text();

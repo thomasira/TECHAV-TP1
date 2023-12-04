@@ -1,11 +1,11 @@
 import AbstractView from './AbstractView.js';
 
 export default class extends AbstractView{
+    #id;
 
     constructor(params) {
         super();
-        this.id = params.id;
-        this.randomIngredient;
+        this.#id = params.id;
         this.init();
     }
 
@@ -13,24 +13,37 @@ export default class extends AbstractView{
         this.setTitle('Recipe');
     }
 
+    /**
+     * process and returns HTML template
+     * 
+     * @returns [string] HTML template for recipe page
+     */
     async getHTML() {
-        const recipe = await this.getData();
+        let elIngredients = '';
+
+        /* get data for recipe or return error template if none found*/
+        const recipe = await this.#getData();
         if(!recipe) {
             const resError = await fetch('/static/layouts/templates/error.html');
             const elError = await resError.text();
             return elError;
         }
-        let elIngredients = '';
     
+        /* get templates */
         const resRecipe = await fetch('/static/layouts/recipe.html');
         let recipeTemplate = await resRecipe.text();
         const resIngredient = await fetch('/static/layouts/templates/ingredient.html');
         let ingredientTemplate = await resIngredient.text();
 
+        /* process ingredients and add to template */
         for(const i in recipe.Ingredients) {
             let elIngredient = ingredientTemplate.replace('{{ ingredient }}', recipe.Ingredients[i]);
+
+            /* add ingredients to elIngredients [string] */
             elIngredients += elIngredient;
         }
+
+        /* process template before returning it */
         let elRecipe = recipeTemplate;
         elRecipe = elRecipe.replaceAll('{{ path }}', this.host);
         elRecipe = elRecipe.replaceAll('{{ random-ingredient }}', recipe.random);
@@ -42,11 +55,16 @@ export default class extends AbstractView{
         return elRecipe;
     }
 
-    async getData() {
+    /**
+     * fetch and find recipe from local file
+     * 
+     * @returns [json] recipe data
+     */
+    async #getData() {
         const res = await fetch('/static/recipes/random-recipes.json');
         const data = await res.json();
         const recipes = data.recipes.d;
-        const recipe = recipes.find(recipe => recipe.id == this.id);
+        const recipe = recipes.find(recipe => recipe.id == this.#id);
         if(recipe) recipe.random = data.ingredient;
         return recipe;
     }

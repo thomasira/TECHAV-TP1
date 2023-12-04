@@ -1,8 +1,15 @@
-
+/**
+ * manage the navigation bar animation
+ */
 export default class{
     constructor(elParent) {
+        /* parent container */
         this.elParent = elParent;
+
+        /* host name->for path management*/
         this.host = location.origin;
+
+        /* nav items data -> svg paths, colors and toggle */
         this.navItems = {
             home: {
                 startPath: 'M50.0726 2.44118C55.7213 6.23632 62.2471 10.852 63.6856 16.8695C65.1241 22.887 61.4752 30.3063 55.8266 33.9305C50.1779 37.5547 35.7998 38.1701 28.3968 37.965C20.9939 37.7599 13.8015 37.5205 9.83688 33.8963C5.90736 30.2722 -0.588679 24.9984 0.0428504 18.6048C0.67438 12.2112 13.314 13.5203 17.2435 9.72515C24.7506 2.53894 41.1277 -3.56854 50.0726 2.44118Z',
@@ -20,48 +27,73 @@ export default class{
             }
         }
 
-        this.init();
+        this.#init();
     }
 
-    async init() {
-        const navHTML = await this.injectNavHTML();
+    /**
+     * init all navigation behaviors
+     */
+    async #init() {
+        const navHTML = await this.#getNavHTML();
+
+        /* replace path before injecting in DOM */
         const processedNavHTML = navHTML.replaceAll('{{ path }}', this.host);
         this.elParent.innerHTML = processedNavHTML;
 
-        this.getHTMLelements();
-        this.activateLinks();
+        this.#getHTMLelements();
+        this.#activateLinks();
     }
 
-    async injectNavHTML() {
+    /**
+     * get the navigation template
+     * 
+     * @returns navigation template in text format
+     */
+    async #getNavHTML() {
         const res = await fetch('/static/layouts/templates/navigation.html');
         return res.text();
     }
 
-    getHTMLelements() {
+    /**
+     * get HTML elements, do after injection
+     */
+    #getHTMLelements() {
         this.navItems.home.element = document.querySelector('[data-nav="home"]');
         this.navItems.about.element = document.querySelector('[data-nav="about"]');
         this.navItems.home.element.link = this.navItems.home.element.querySelector('a');
         this.navItems.about.element.link = this.navItems.about.element.querySelector('a');
     }
 
-    activateLinks() {
+    /**
+     * activate nav links, do after getting HTML elements
+     */
+    #activateLinks() {
         this.navItems.home.element.link.addEventListener('click', (e) => {
-            this.animateLink(e, this.navItems.home);
+            this.#animateLink(e, this.navItems.home);
         });
         this.navItems.about.element.link.addEventListener('click', (e) => {
-            this.animateLink(e, this.navItems.about)
+            this.#animateLink(e, this.navItems.about)
         });
     }
 
-    animateLink(e, navItem) {
+    /**
+     * animates links behavior
+     * 
+     * @param {*} e -> js event
+     * @param {*} navItem [Object] contains nav item data
+     */
+    #animateLink(e, navItem) {
         e.preventDefault();
         const SVG = navItem.element.querySelector('svg');
         const path = navItem.element.querySelector('path');
 
+        /* create timeline */
         const timeline = anime.timeline({
             duration: 700,
             easing: 'easeOutExpo'
         });
+
+        /* add animation to timeline */
         timeline.add({
             targets: SVG,
             scale: .2
@@ -76,9 +108,7 @@ export default class{
         }, '-= 600')
         .add({
             targets: path,
-            d: [
-                { value: navItem.toggle ? navItem.startPath : navItem.endPath }
-            ]
+            d: [{ value: navItem.toggle ? navItem.startPath : navItem.endPath }]
         }, '-= 200')
         .add({
             targets: SVG,
@@ -93,6 +123,7 @@ export default class{
             fill: navItem.toggle ? navItem.mainColor : navItem.secondColor 
         }, '-=600');
 
+        /* toggle states */
         if(!navItem.toggle) navItem.toggle = true;
         else navItem.toggle = false;
     }
