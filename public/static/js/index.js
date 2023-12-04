@@ -78,5 +78,9 @@ document.addEventListener('DOMContentLoaded', () => {
             navigateTo(e.target.href);
         }
     });
+
+    /* listen for trigger(file written) before calling the router */
+    document.addEventListener('file-written', () => router());
+    
     router();
 });

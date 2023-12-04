@@ -1,6 +1,7 @@
 import express  from 'express';
 import path from 'path';
 import config from './config/config.js';
+import fs from "fs";
 import { fileURLToPath } from 'url';
 import RandomRecipesWriter from './lib/RandomRecipesWriter.js';
  
@@ -23,10 +24,16 @@ async function getRecipe() {
     await randomRecipesWriter.writeRecipe();
     setInterval(timer, 28800000);
 }
-getRecipe();
+/* getRecipe(); */
 
 app.get('/*', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
+});
+app.post('/get-recipe', (req, res) => {
+    randomRecipesWriter.writeRecipe();
+    fs.watch(__dirname + '/public/static/recipes/random-recipes.json', (eventType, filename) => { 
+        res.end('end');
+    });
 });
 
 app.listen(config.PORT || 8081, () => console.log('server running...'));

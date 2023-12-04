@@ -6,6 +6,9 @@ export default class{
         /* parent container */
         this.elParent = elParent;
 
+        /* reroll count */
+        this.rerollCount = 0;
+
         /* host name->for path management*/
         this.host = location.origin;
 
@@ -19,6 +22,13 @@ export default class{
                 toggle: false
             },
             about: {
+                startPath: 'M58.9545 3.86682C62.2936 8.08127 62.2592 14.7829 61.7429 21.001C61.2265 27.219 50.8445 32.7052 47.5398 35.7106C44.2006 38.716 38.5206 39.0614 32.9094 38.9924C27.2982 38.9233 21.7903 38.4396 16.661 35.4343C11.5317 32.3943 -0.170244 28.6971 0.00187835 23.3081C0.174001 17.9192 5.2344 12.7375 10.3637 8.52302C15.4929 4.34312 20.6566 1.13046 26.612 0.37048C32.5675 -0.389503 55.6153 -0.313084 58.9545 3.86682Z',
+                endPath: 'M59.3876 5.15853C62.6409 8.93722 60.0798 11.627 59.3876 16.6537C58.7301 21.6804 59.1873 28.5309 55.8994 32.5869C52.6115 36.6429 36.2343 41.8879 31.7698 41.9919C27.3398 42.0612 12.3924 41.7729 8.41238 37.7169C4.39772 33.6609 0.0346091 21.195 0 16.6537C0 12.0777 16.1261 12.8818 20.1408 9.10317C24.1554 5.32448 40.145 0.651847 45.2671 0.0971783C50.3893 -0.457491 56.0998 1.37985 59.3876 5.15853Z',
+                toggle: false,
+                mainColor: '#D99F9B',
+                secondColor: '#B4C388'
+            },
+            reroll: {
                 startPath: 'M58.9545 3.86682C62.2936 8.08127 62.2592 14.7829 61.7429 21.001C61.2265 27.219 50.8445 32.7052 47.5398 35.7106C44.2006 38.716 38.5206 39.0614 32.9094 38.9924C27.2982 38.9233 21.7903 38.4396 16.661 35.4343C11.5317 32.3943 -0.170244 28.6971 0.00187835 23.3081C0.174001 17.9192 5.2344 12.7375 10.3637 8.52302C15.4929 4.34312 20.6566 1.13046 26.612 0.37048C32.5675 -0.389503 55.6153 -0.313084 58.9545 3.86682Z',
                 endPath: 'M59.3876 5.15853C62.6409 8.93722 60.0798 11.627 59.3876 16.6537C58.7301 21.6804 59.1873 28.5309 55.8994 32.5869C52.6115 36.6429 36.2343 41.8879 31.7698 41.9919C27.3398 42.0612 12.3924 41.7729 8.41238 37.7169C4.39772 33.6609 0.0346091 21.195 0 16.6537C0 12.0777 16.1261 12.8818 20.1408 9.10317C24.1554 5.32448 40.145 0.651847 45.2671 0.0971783C50.3893 -0.457491 56.0998 1.37985 59.3876 5.15853Z',
                 toggle: false,
@@ -42,6 +52,32 @@ export default class{
 
         this.#getHTMLelements();
         this.#activateLinks();
+        this.getRecipe = document.querySelector('[data-get-recipe]');
+
+        this.getRecipe.addEventListener('click', (e) => {
+            e.preventDefault();
+            this.randomizeRecipe();
+        }) 
+    }
+
+    async randomizeRecipe() {
+        this.rerollCount ++;
+        
+        if(this.rerollCount <= 2) {
+            this.getRecipe.textContent = 'Loading';
+            this.getRecipe.classList.add('no-event');
+            const res = await fetch('/get-recipe', { method: 'post' });
+            await res.text().then(() => { 
+                const event = new Event('file-written');
+                this.getRecipe.textContent = 'Reroll';
+                this.getRecipe.classList.remove('no-event');
+                document.dispatchEvent(event);
+             });
+        } else {
+            this.getRecipe.textContent = 'no reroll left';
+            this.getRecipe.style.fontSize = '20px';
+            this.getRecipe.classList.add('error');
+        }
     }
 
     /**
@@ -58,6 +94,7 @@ export default class{
      * get HTML elements, do after injection
      */
     #getHTMLelements() {
+        this.trigger = document.querySelector('[data-get-recipe]');
         this.navItems.home.element = document.querySelector('[data-nav="home"]');
         this.navItems.about.element = document.querySelector('[data-nav="about"]');
         this.navItems.home.element.link = this.navItems.home.element.querySelector('a');

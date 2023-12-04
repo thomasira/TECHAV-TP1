@@ -3,6 +3,7 @@
 @import url(./config/reset.css);
 @import url(./config/body-template.css);
 @import url(./config/error.css);
+@import url(./config/no-event.css);
 
 @import url(./layout/general.css);
 @import url(./layout/navigation.css);

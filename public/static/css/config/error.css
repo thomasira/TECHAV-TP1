@@ -1,6 +1,4 @@
 
 .error{
-    & h2{
-        color: var(--colorError);
-    }
+    color: var(--colorError); 
 }
