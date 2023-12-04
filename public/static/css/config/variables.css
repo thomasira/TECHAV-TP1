@@ -20,11 +20,11 @@
 
     --colorError: #aa2828;
 
-    --colorGr1: #ded8c2bb;
+    --colorGr1: #ebe1bdbb;
     --colorGr1t: #ded8c280;
-    --colorGr2: #eedcb4b3;
+    --colorGr2: #edd8a9b3;
     --colorGr2t: #eedcb47c;
-    --colorGr3: #d2d8bbbb;
+    --colorGr3: #dae4b2bb;
     --colorGr3t: #d2d8bb70;
 
     --colorGradient: linear-gradient(217deg, var(--colorGr1), var(--colorGr1t) 70.71%),
