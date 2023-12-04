@@ -48,14 +48,8 @@ export default class{
         this.navItems.home.element.link.addEventListener('click', (e) => {
             this.animateLink(e, this.navItems.home);
         });
-        this.navItems.home.element.link.addEventListener('mouseover', (e) => {
-            this.animateHover(this.navItems.home);
-        });
         this.navItems.about.element.link.addEventListener('click', (e) => {
             this.animateLink(e, this.navItems.about)
-        });
-        this.navItems.about.element.link.addEventListener('mouseover', (e) => {
-            this.animateHover(this.navItems.about);
         });
     }
 
