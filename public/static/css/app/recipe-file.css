@@ -75,13 +75,14 @@
 
         & img{
             border-radius: 5px;
-            box-shadow: 2px 2px 15px var(--colorShade);
+            box-shadow: 2px 2px 15px 2px var(--colorShade);
         }
 
         &>div{
             flex: 1;
             display: flex;
             flex-flow: column;
+            align-items: start;
             gap: var(--gaps);
         }
         &>section{

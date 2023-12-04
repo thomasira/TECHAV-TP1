@@ -42,7 +42,7 @@ const router = async () => {
         }
     }
 
-    /* create params object-> only id here */
+    /* create params object->  id in this case */
     let params;
     if(id) params = { id };
     
@@ -53,7 +53,13 @@ const router = async () => {
 
 //2 push url into browser 
 const navigateTo = url => {
+
+    /* scroll window back to top of screen */
+    window.scrollTo(0, 0);
+
+    /* sets the history, enabling back and forward navigation */
     history.pushState(null, null, url);
+
     router();
 }
 window.addEventListener('popstate', router)
