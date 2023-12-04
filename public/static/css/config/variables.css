@@ -15,7 +15,7 @@
     --colorCompDark: #642d1c;
     --colorCompL:#e6aa96;
     --colorSec: #97c49e;
-    --colorNeutral: #bac6bf;
+    --colorNeutral: #bac6bc;
     --colorShade: rgba(72, 47, 0, 0.347);
 
     --colorError: #aa2828;
@@ -65,7 +65,7 @@
     --gapHuge: clamp(84px, 10vw, 120px);
 
     /* states and other sizes */
-    --borderStd: 1px solid var(--colorMain);
+    --borderStd: 1px solid var(--colorNeutral);
     --logo-width: clamp(80px, 10vw, 170px);
     --logo-width-small: clamp(50px, 12vw, 80px);
     --nav-width: clamp(150px, 17vw, 200px);

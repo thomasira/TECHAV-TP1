@@ -5,7 +5,7 @@ body{
     display: flex;
     flex-flow: row;
 }
-p{
+p, li{
     font-size: var(--fontText);
 }
 ul{
@@ -24,13 +24,6 @@ ul{
             }
         }
     }
-}
-footer{
-    display: flex;
-    background-color: var(--colorMainD);
-    color: var(--colorLight);
-    justify-content: space-between;
-    padding: var(--gapTHxxs) var(--gapxs);
 }
 
 @media screen and (max-width: 550px){

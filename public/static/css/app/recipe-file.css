@@ -4,11 +4,15 @@
     flex-flow: column;
     gap: var(--gapl);
 
+    & h2{
+        font-family: var(--typeCursive);
+    }
+
     &>div:first-of-type{
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
-        gap: var(--gaps);
+        gap: var(--gap);
 
         & aside{
             flex: 1 0 320px;
@@ -59,13 +63,26 @@
             padding:0 var(--gapTHxxs);
         }
     }
-    &>div{
+    & section{
+        display: flex;
+        flex-flow: column;
+        gap: var(--gaps);
+    }
+    &>div:last-of-type{
         display: flex;
         flex-flow: row wrap;
-        gap: var(--gaps);
+        gap: var(--gapl);
+
+        & img{
+            border-radius: 5px;
+            box-shadow: 2px 2px 15px var(--colorShade);
+        }
 
         &>div{
             flex: 1;
+            display: flex;
+            flex-flow: column;
+            gap: var(--gaps);
         }
         &>section{
             flex: 2;
