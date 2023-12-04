@@ -67,6 +67,7 @@
     /* states and other sizes */
     --borderStd: 1px solid var(--colorNeutral);
     --logo-width: clamp(80px, 10vw, 170px);
+    --logo-nav-width: clamp(60px, 14vw, 140px);
     --logo-width-small: clamp(50px, 12vw, 80px);
     --nav-width: clamp(150px, 17vw, 200px);
     --nav-height: 100px;

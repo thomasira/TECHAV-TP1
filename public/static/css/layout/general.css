@@ -36,7 +36,9 @@ ul{
             top: 0;
 
             & nav{
+                width: 100%;
                 flex-flow: row;
+                justify-content: space-between;
                 position: relative;
                 top: 0;
                 &>div{

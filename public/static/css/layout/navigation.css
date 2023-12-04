@@ -1,8 +1,8 @@
 nav{
-    width: var(--nav-width);
     display: flex;
     flex-flow: column;
     gap: var(--gapxxl);
+    column-gap: var(--gapm);
     position: fixed;
     top: var(--gapl);
     padding: var(--gapm);
@@ -13,7 +13,7 @@ nav{
         justify-content: center;
         align-items: center;
         gap: var(--gapl);
-        column-gap: var(--gaps);
+        column-gap: var(--gapxs);
     }
     & a{
         font-family: var(--typeCursive);
@@ -29,7 +29,7 @@ nav{
         position: absolute;
     }
     & img{
-        width: 100%;
+        width: var(--logo-nav-width);
     }
 
     & div>div{
