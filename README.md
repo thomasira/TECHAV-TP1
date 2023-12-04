@@ -13,7 +13,7 @@ On the server side, node is used with express for request and file management. O
 ### References
 Some help was needed for the realisation of this project
 
-- most blob shapes: www.blobmaker.app
-- recipe API: www.rapidapi.com
-- list of ingredients: foodb.ca
-- AnimeJs: animejs.com
+- most blob shapes: https://www.blobmaker.app/
+- recipe API: https://rapidapi.com/zilinskivan/api/food-recipes-with-images/
+- list of ingredients: https://foodb.ca/downloads
+- AnimeJs: https://animejs.com/documentation/
