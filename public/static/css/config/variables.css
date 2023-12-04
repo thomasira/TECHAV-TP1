@@ -17,7 +17,7 @@
     --colorSec: #97c49e;
     --colorSecComp: #6ec3c5;
     --colorNeutral: #bac6bf;
-    --colorNav: linear-gradient(var(--colorMain), var(--colorComp));
+    --colorShade: rgba(72, 47, 0, 0.347);
 
     --colorCover: #150d0df8;
     --colorSuccess: #0c3d16;
@@ -57,7 +57,7 @@
     --gapHuge: clamp(84px, 10vw, 120px);
 
     --borderStd: 1px solid var(--colorMain);
-    --logo-width: clamp(100px, 15vw, 170px);
+    --logo-width: clamp(80px, 10vw, 170px);
     --logo-width-small: clamp(50px, 12vw, 80px);
     --nav-width: clamp(150px, 17vw, 200px);
     --mask-width: clamp(180px, 19vw, 240px);

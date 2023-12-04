@@ -4,6 +4,7 @@
     flex: 0 0 var(--nav-width);
     position: relative;
     display: flex;
-    flex-flow: column;
     align-items: center;
+    z-index: 2;
+    box-shadow: 2px 2px 15px 1px var(--colorShade);
 }

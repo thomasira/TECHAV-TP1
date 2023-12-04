@@ -8,6 +8,7 @@ import RandomRecipesWriter from './lib/RandomRecipesWriter.js';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+/* instanciate express and define static repo(for all front-end assets) */
 const app = express();
 app.use('/static', express.static(path.resolve(__dirname, 'public', 'static')));
 
@@ -15,7 +16,7 @@ app.use('/static', express.static(path.resolve(__dirname, 'public', 'static')));
 const port = config.PORT;
 const apiKey = config.API_KEY;
 
-/* write a new random recipes file from a list of ingredient */
+/* write a new random recipes file from a list of ingredient, repeat every 8h*/
 const randomRecipesWriter = new RandomRecipesWriter(apiKey);
 async function timer() { await randomRecipesWriter.writeRecipe() };
 async function getRecipe() {

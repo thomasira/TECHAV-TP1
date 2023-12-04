@@ -36,5 +36,24 @@ footer{
 @media screen and (max-width: 550px){
     body{
         flex-flow: column;
+
+        &>div:first-of-type{
+            position: fixed;
+            width: 100%;
+            top: 0;
+
+            & nav{
+                flex-flow: row;
+                position: relative;
+                top: 0;
+                &>div{
+                    flex-flow: row;
+                }
+            }
+        }
+        &>div:last-of-type{
+            margin-top: var(--nav-width);
+        }
+
     }
 }
