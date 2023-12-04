@@ -52,21 +52,19 @@ export default class{
 
         this.#getHTMLelements();
         this.#activateLinks();
-        this.getRecipe = document.querySelector('[data-get-recipe]');
-
-        this.getRecipe.addEventListener('click', (e) => {
-            e.preventDefault();
-            this.randomizeRecipe();
-        }) 
     }
 
     async randomizeRecipe() {
         this.rerollCount ++;
         
+
+
+
         if(this.rerollCount <= 2) {
             this.getRecipe.textContent = 'Loading';
             this.getRecipe.classList.add('no-event');
-            const res = await fetch('/get-recipe', { method: 'post' });
+            
+           /*  const res = await fetch('/get-recipe', { method: 'post' }); */
             await res.text().then(() => { 
                 const event = new Event('file-written');
                 this.getRecipe.textContent = 'Reroll';
@@ -94,7 +92,7 @@ export default class{
      * get HTML elements, do after injection
      */
     #getHTMLelements() {
-        this.trigger = document.querySelector('[data-get-recipe]');
+        this.navItems.reroll.element.link = document.querySelector('[data-get-recipe]');
         this.navItems.home.element = document.querySelector('[data-nav="home"]');
         this.navItems.about.element = document.querySelector('[data-nav="about"]');
         this.navItems.home.element.link = this.navItems.home.element.querySelector('a');
@@ -106,21 +104,26 @@ export default class{
      */
     #activateLinks() {
         this.navItems.home.element.link.addEventListener('click', (e) => {
-            this.#animateLink(e, this.navItems.home);
+            e.preventDefault();
+            this.#animateLink(this.navItems.home);
         });
         this.navItems.about.element.link.addEventListener('click', (e) => {
-            this.#animateLink(e, this.navItems.about)
+            e.preventDefault();
+            this.#animateLink(this.navItems.about);
         });
+        this.getRecipe.addEventListener('click', (e) => {
+            e.preventDefault();
+            this.#animateLink(this.navItems.about);
+            this.randomizeRecipe();
+        }) 
     }
 
     /**
      * animates links behavior
      * 
-     * @param {*} e -> js event
      * @param {*} navItem [Object] contains nav item data
      */
-    #animateLink(e, navItem) {
-        e.preventDefault();
+    #animateLink(navItem) {
         const SVG = navItem.element.querySelector('svg');
         const path = navItem.element.querySelector('path');
 
