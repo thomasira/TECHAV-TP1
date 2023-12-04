@@ -28,7 +28,7 @@ https://github.com/thomasIRA/TECHAV-TP1/assets/134738954/427ce0bf-b6c8-443c-884f
 > - Get your API key on rapidAPI
 > - Modify line for API-KEY and PORT in .env-example
 > - Rename .env-example for .env
-> - launch server! 
+> - run npm start in terminal to launch server! 
 
 ### The looks
 Linking food with natural shapes and tones felt right from the start, but there was more. Using static shapes for styling randomly generated recipes was not going to work and there was no certainty in the amount of recipes returning from the request to the API. To achieve a more natural look, the shapes and tones had to be randomly generated for each recipe to render. To do this, a shape from a local bank is randomly picked for each type of shape and its tone is randomly altered if necessary.
