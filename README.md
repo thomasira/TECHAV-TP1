@@ -2,7 +2,6 @@
 TechAv-TP 1
 
 ## Index
-
 * [Warnings](#warnings)
 * [The project](#the-project)
 * [The demo](#the-demo)
