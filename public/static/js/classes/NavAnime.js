@@ -65,11 +65,9 @@ export default class{
 
             this.navItems.reroll.element.classList.add('no-event');
             
-            const res = await fetch('/get-new-recipes', { method: 'post' });
-            const data = await res.text();
-            console.log(data);
-            await res.text().then(() => { 
-                this.navItems.reroll.element.textContent = 'Reroll';
+            await fetch('/get-new-recipes', { method: 'post' })
+            .then(() => { 
+                this.navItems.reroll.element.link.textContent = 'Reroll';
                 this.navItems.reroll.element.classList.remove('no-event');
 
                 /* this.endLoader(); */

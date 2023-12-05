@@ -31,10 +31,9 @@ app.post('/get-recipes', (req, res) => {
 });
 
 app.post('/get-new-recipes', (req, res) => {
-    /* randomRecipesWriter.writeRecipe(); */
-    fs.watch(__dirname + '/data/random-recipes.json', (eventType, filename) => { 
-        console.log('written');
-        res.end('rewritten'); 
+    randomRecipesWriter.writeRecipe();
+    fs.watch(__dirname + '/data/random-recipes.json', (eventType, filename) => {
+        res.end(); 
     });
 });
 
