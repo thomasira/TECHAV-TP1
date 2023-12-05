@@ -1,19 +1,22 @@
 /**
- * manage the loading of page
+ * manage the animation and element states for loading
  */
 export default class{
     #loader;
     #timeline;
+    #modal;
+    #app;
     constructor() {
-        this.modal = document.querySelector('[data-cover]');
-        this.app = document.querySelector('[data-app]');
+        this.#modal = document.querySelector('[data-cover]');
+        this.#app = document.querySelector('[data-app]');
         this.#timeline = anime.timeline({
-                duration: 700,
+                duration: 800,
                 loop: true,
-                easing: 'spring(1, 80, 10, 0)',
+                easing: 'easeInOutSine',
                 autoplay: false
             });
         
+        /* loader paths data and colors */
         this.#loader = {
             path1: 'M188.5 123C209.804 160.351 118.762 243.51 91.7957 239.132C38.1143 230.417 11.4001 153.745 4.49992 130C-12.5 71.4998 24.315 8.35032 90.8605 1.42801C198.851 -9.27067 150 55.5 188.5 123Z',
             path2: 'M241.5 106C241.5 126.616 144.5 222.132 71.9237 222.132C41.4641 222.132 0 129 0 106C0 87.5 81.5 3.32822 105 1.00007C212.991 -9.69861 241.5 95 241.5 106Z',
@@ -28,17 +31,24 @@ export default class{
             color5: '#4f513e',
             color6: '#3e5141',
         }
-        this.init();
-        
+        this.#init();
     }
 
-    async init() {
-        const loaderTemplate = await this.#getLoaderHTML();
-        this.modal.innerHTML = loaderTemplate;
+    async #init() {
 
+        /* get html template */
+        const loaderTemplate = await this.#getLoaderHTML();
+
+        /* inject it */
+        this.#modal.innerHTML = loaderTemplate;
+
+        /* get the loader elements */
         this.#getHTMLelements();
     }
 
+    /**
+     * animate chosen path
+     */
     #animateLoader() {
         const path = this.#loader.element.querySelector('path');
 
@@ -74,42 +84,66 @@ export default class{
         })
     }
 
+    /**
+     * fetch and return loader template
+     * @returns [string] template
+     */
     async #getLoaderHTML() {
         const resLoader = await fetch('/static/layouts/templates/loader.html');
         return await resLoader.text();
     }
 
     #getHTMLelements() {
-        this.#loader.element = this.modal.querySelector('[data-loader]');
+        this.#loader.element = this.#modal.querySelector('[data-loader]');
         this.#loader.element.message = this.#loader.element.querySelector('h2');
     }
     
+    /**
+     * start the loader animation
+     */
     start() {
         this.#animateLoader();
         this.#timeline.play();
-        this.modal.classList.remove('hidden');
+        this.#modal.classList.remove('hidden');
         document.body.classList.add('no-scroll');
     }
 
+    /**
+     * end loader animation
+     * 
+     * @param {*} detail [string] detail from custom event
+     */
     end(detail) {
-        this.app.classList.add('hidden');
+        this.#app.classList.add('hidden');
+
         if(detail.error) {
             this.#loader.element.message.textContent = detail.error;
+
+            /* timer to allow time to read text and smooth transition*/
             setTimeout(() => {
-                this.toggle();
+                this.#toggle();
             }, 1500);
         } else {
+
+            /* timer to allow smooth transition*/
             setTimeout(() => {
-                this.toggle();
+                this.#toggle();
             }, 1000);
         }
     }
 
-    toggle() {
+    /**
+     * toggles the required classes back to normal after transition end
+     */
+    #toggle() {
         document.body.classList.remove('no-scroll');
-        this.modal.classList.add('hidden');
-        this.#timeline.pause();
-        this.app.classList.remove('hidden');
-        this.#loader.element.message.textContent = 'Loading';
+        this.#modal.classList.add('hidden');
+        this.#app.classList.remove('hidden');
+
+        /* timer to allow smooth transition */
+        setTimeout(() => {
+            this.#timeline.pause();
+            this.#loader.element.message.textContent = 'Loading';
+        }, 800)
     }
 }

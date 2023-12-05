@@ -3,12 +3,15 @@
  */
 export default class{
     #navItems;
+    #elParent;
+    #rerollCount;
+
     constructor(elParent) {
         /* parent container */
-        this.elParent = elParent;
+        this.#elParent = elParent;
 
         /* reroll count */
-        this.rerollCount = 0;
+        this.#rerollCount = 0;
 
         /* host name->for path management*/
         this.host = location.origin;
@@ -37,7 +40,6 @@ export default class{
                 secondColor: '#9c7664'
             }
         }
-
         this.#init();
     }
 
@@ -49,7 +51,7 @@ export default class{
 
         /* replace path before injecting in DOM */
         const processedNavHTML = navHTML.replaceAll('{{ path }}', this.host);
-        this.elParent.innerHTML = processedNavHTML;
+        this.#elParent.innerHTML = processedNavHTML;
 
         this.#getHTMLelements();
         this.#activateLinks();
@@ -92,7 +94,7 @@ export default class{
         });
         this.#navItems.reroll.element.link.addEventListener('click', (e) => {
             e.preventDefault();
-            this.rerollRecipes();
+            this.#rerollRecipes();
             this.#animateLink(this.#navItems.reroll);
         }) 
     }
@@ -147,14 +149,13 @@ export default class{
         else navItem.toggle = false;
     }
 
-    async rerollRecipes() {
-        this.rerollCount ++;
-
-        if(this.rerollCount <= 2) {
+    async #rerollRecipes() {
+        
+        if(this.#rerollCount <= 2) {
             const startEvent = new Event('start-load');
             document.dispatchEvent(startEvent);
             
-            const res = await fetch('/get-new-recipes', { method: 'post' })
+            await fetch('/get-new-recipes', { method: 'post' })
             .then(async (res) => { 
                 const response = await res.text();
                 let status = 'ok';
@@ -167,5 +168,6 @@ export default class{
             this.#navItems.reroll.element.link.style.fontSize = 'var(--fontText)';
             this.#navItems.reroll.element.classList.add('no-event');
         }
+        this.#rerollCount ++;
     }
 }
