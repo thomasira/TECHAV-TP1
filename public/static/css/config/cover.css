@@ -1,0 +1,17 @@
+
+.cover{
+    top: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--colorGr2t);
+    z-index: 3;
+
+    & h2{
+        font-size: var(--fontxl);
+        font-family: var(--typeCursive);
+    }
+}

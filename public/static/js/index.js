@@ -2,6 +2,7 @@ import Home from './views/Home.js';
 import Recipe from './views/Recipe.js';
 import About from './views/About.js';
 import NavAnime from './classes/NavAnime.js';
+import Loader from './classes/Loader.js';
 
 /* instanciate navAnime class in the side-bar */
 const sideBar = document.querySelector('[data-side-bar]');
@@ -79,8 +80,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    /* listen for trigger(file written) before calling the router */
-    document.addEventListener('file-written', () => router());
+    const loader = new Loader();
+    document.addEventListener('start-load', () => loader.start());
+    document.addEventListener('end-load', () => {
+        loader.end();
+        navigateTo('/');
+    });
     
     router();
 });

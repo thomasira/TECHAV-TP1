@@ -32,7 +32,7 @@ export default class{
                 startPath: 'M50.5 5.49984C53.7533 9.27852 60.0798 9.62622 59.3876 14.6529C58.7301 19.6796 59.1873 26.5301 55.8994 30.5861C52.6115 34.6422 35.9646 35.6121 31.5 35.7161C27.07 35.7854 12.3924 39.7721 8.41238 35.7161C4.39772 31.6601 0.0346091 19.1943 0 14.6529C0 10.0769 16.1261 10.8811 20.1408 7.1024C24.1554 3.32372 31.2573 0.993156 36.3795 0.438487C41.5016 -0.116182 47.2121 1.72116 50.5 5.49984Z',
                 endPath: 'M58.9545 1.86672C62.2936 6.08117 62.2592 12.7828 61.7429 19.0009C61.2265 25.2189 57.8048 30.4288 54.5 33.4342C51.1608 36.4395 45.4808 36.785 39.8696 36.7159C34.2584 36.6468 21.7902 36.4395 16.661 33.4342C11.5317 30.3942 -0.170244 26.697 0.00187835 21.308C0.174001 15.9191 5.2344 10.7374 10.3637 6.52292C19 -0.573131 26.9539 7.283 32.9094 6.52302C38.8648 5.76304 55.6153 -2.31318 58.9545 1.86672Z',
                 toggle: false,
-                mainColor: '#6f7e91',
+                mainColor: '#5f6068',
                 secondColor: '#9c7664'
             }
         }
@@ -54,34 +54,7 @@ export default class{
         this.#activateLinks();
     }
 
-    async randomizeRecipe() {
-        /* this.startLoader(); */
-
-        this.rerollCount ++;
-
-        if(this.rerollCount <= 2) {
-            this.navItems.reroll.element.link.textContent = 'Loading';
-            this.navItems.reroll.element.style.fontSize = '20px';
-
-            this.navItems.reroll.element.classList.add('no-event');
-            
-            await fetch('/get-new-recipes', { method: 'post' })
-            .then(() => { 
-                this.navItems.reroll.element.link.textContent = 'Reroll';
-                this.navItems.reroll.element.classList.remove('no-event');
-
-                /* this.endLoader(); */
-
-                const event = new Event('file-written');
-                document.dispatchEvent(event);
-             });
-        } else {
-            this.navItems.reroll.element.textContent = 'no reroll left';
-            this.navItems.reroll.element.style.fontSize = '20px';
-            this.navItems.reroll.element.classList.add('error');
-        }
-    }
-
+    
     /**
      * get the navigation template
      * 
@@ -118,7 +91,7 @@ export default class{
         });
         this.navItems.reroll.element.link.addEventListener('click', (e) => {
             e.preventDefault();
-            
+            this.rerollRecipes();
             this.#animateLink(this.navItems.reroll);
         }) 
     }
@@ -173,5 +146,22 @@ export default class{
         else navItem.toggle = false;
     }
 
+    async rerollRecipes() {
+        this.rerollCount ++;
+
+        if(this.rerollCount <= 2) {
+            const startEvent = new Event('start-load');
+            document.dispatchEvent(startEvent);
+            await fetch('/get-new-recipes', { method: 'post' })
+            .then(() => { 
+                const endEvent = new Event('end-load');
+                document.dispatchEvent(endEvent);
+             });
+        } else {
+            this.navItems.reroll.element.link.textContent = 'no more rolls';
+            this.navItems.reroll.element.link.style.fontSize = 'var(--fontText)';
+            this.navItems.reroll.element.classList.add('no-event');
+        }
+    }
 
 }

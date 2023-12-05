@@ -4,6 +4,10 @@
 @import url(./config/body-template.css);
 @import url(./config/error.css);
 @import url(./config/no-event.css);
+@import url(./config/cover.css);
+@import url(./config/no-scroll.css);
+@import url(./config/hidden.css);
+
 
 @import url(./layout/general.css);
 @import url(./layout/navigation.css);
