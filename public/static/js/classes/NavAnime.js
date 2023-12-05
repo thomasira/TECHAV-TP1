@@ -55,6 +55,8 @@ export default class{
     }
 
     async randomizeRecipe() {
+        this.startLoader();
+
         this.rerollCount ++;
         
 
@@ -62,13 +64,18 @@ export default class{
 
         if(this.rerollCount <= 2) {
             this.getRecipe.textContent = 'Loading';
+            this.getRecipe.style.fontSize = '20px';
+
             this.getRecipe.classList.add('no-event');
             
            /*  const res = await fetch('/get-recipe', { method: 'post' }); */
             await res.text().then(() => { 
-                const event = new Event('file-written');
                 this.getRecipe.textContent = 'Reroll';
                 this.getRecipe.classList.remove('no-event');
+
+                this.endLoader();
+
+                const event = new Event('file-written');
                 document.dispatchEvent(event);
              });
         } else {
@@ -92,11 +99,12 @@ export default class{
      * get HTML elements, do after injection
      */
     #getHTMLelements() {
-        this.navItems.reroll.element.link = document.querySelector('[data-get-recipe]');
         this.navItems.home.element = document.querySelector('[data-nav="home"]');
         this.navItems.about.element = document.querySelector('[data-nav="about"]');
+        this.navItems.reroll.element = document.querySelector('[data-nav="reroll"]');
         this.navItems.home.element.link = this.navItems.home.element.querySelector('a');
         this.navItems.about.element.link = this.navItems.about.element.querySelector('a');
+        this.navItems.reroll.element.link = this.navItems.reroll.element.querySelector('a');
     }
 
     /**
@@ -111,9 +119,8 @@ export default class{
             e.preventDefault();
             this.#animateLink(this.navItems.about);
         });
-        this.getRecipe.addEventListener('click', (e) => {
+        this.navItems.reroll.element.link.addEventListener('click', (e) => {
             e.preventDefault();
-            this.#animateLink(this.navItems.about);
             this.randomizeRecipe();
         }) 
     }
