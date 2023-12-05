@@ -84,7 +84,9 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('start-load', () => loader.start());
     document.addEventListener('end-load', (e) => {
         loader.end(e.detail);
-        navigateTo('/');
+        setTimeout(() => {
+            navigateTo('/');
+        }, 500)
     });
     
     router();

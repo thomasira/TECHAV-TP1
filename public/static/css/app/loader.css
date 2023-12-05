@@ -1,0 +1,12 @@
+
+.loader{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & svg{
+        position: absolute;
+        z-index: -1;
+    }
+}

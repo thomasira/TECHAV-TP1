@@ -2,6 +2,7 @@
  * manage the navigation bar animation
  */
 export default class{
+    #navItems;
     constructor(elParent) {
         /* parent container */
         this.elParent = elParent;
@@ -13,7 +14,7 @@ export default class{
         this.host = location.origin;
 
         /* nav items data -> svg paths, colors and toggle */
-        this.navItems = {
+        this.#navItems = {
             home: {
                 startPath: 'M50.0726 2.44118C55.7213 6.23632 62.2471 10.852 63.6856 16.8695C65.1241 22.887 61.4752 30.3063 55.8266 33.9305C50.1779 37.5547 35.7998 38.1701 28.3968 37.965C20.9939 37.7599 13.8015 37.5205 9.83688 33.8963C5.90736 30.2722 -0.588679 24.9984 0.0428504 18.6048C0.67438 12.2112 13.314 13.5203 17.2435 9.72515C24.7506 2.53894 41.1277 -3.56854 50.0726 2.44118Z',
                 endPath: 'M59.8377 24.4419C58.5495 33.9091 31.7232 39.0173 27.2345 39.8214C21.6403 40.8235 12.174 37.3807 8.73896 35.176C4.13289 32.2199 1.31847 31.3182 1.00575 24.4419C0.693033 17.5655 0.588745 10.4127 4.13289 4.84943C7.67704 -0.679305 21.5013 -0.644756 27.2345 0.875646C31.1774 1.90374 40.7868 3.57168 47.7371 8C55.46 12.9206 60.3393 20.7561 59.8377 24.4419Z',
@@ -69,30 +70,30 @@ export default class{
      * get HTML elements, do after injection
      */
     #getHTMLelements() {
-        this.navItems.home.element = document.querySelector('[data-nav="home"]');
-        this.navItems.about.element = document.querySelector('[data-nav="about"]');
-        this.navItems.reroll.element = document.querySelector('[data-nav="reroll"]');
-        this.navItems.home.element.link = this.navItems.home.element.querySelector('a');
-        this.navItems.about.element.link = this.navItems.about.element.querySelector('a');
-        this.navItems.reroll.element.link = this.navItems.reroll.element.querySelector('a');
+        this.#navItems.home.element = document.querySelector('[data-nav="home"]');
+        this.#navItems.about.element = document.querySelector('[data-nav="about"]');
+        this.#navItems.reroll.element = document.querySelector('[data-nav="reroll"]');
+        this.#navItems.home.element.link = this.#navItems.home.element.querySelector('a');
+        this.#navItems.about.element.link = this.#navItems.about.element.querySelector('a');
+        this.#navItems.reroll.element.link = this.#navItems.reroll.element.querySelector('a');
     }
 
     /**
      * activate nav links, do after getting HTML elements
      */
     #activateLinks() {
-        this.navItems.home.element.link.addEventListener('click', (e) => {
+        this.#navItems.home.element.link.addEventListener('click', (e) => {
             e.preventDefault();
-            this.#animateLink(this.navItems.home);
+            this.#animateLink(this.#navItems.home);
         });
-        this.navItems.about.element.link.addEventListener('click', (e) => {
+        this.#navItems.about.element.link.addEventListener('click', (e) => {
             e.preventDefault();
-            this.#animateLink(this.navItems.about);
+            this.#animateLink(this.#navItems.about);
         });
-        this.navItems.reroll.element.link.addEventListener('click', (e) => {
+        this.#navItems.reroll.element.link.addEventListener('click', (e) => {
             e.preventDefault();
             this.rerollRecipes();
-            this.#animateLink(this.navItems.reroll);
+            this.#animateLink(this.#navItems.reroll);
         }) 
     }
 
@@ -162,10 +163,9 @@ export default class{
                 document.dispatchEvent(endEvent);
             });
         } else {
-            this.navItems.reroll.element.link.textContent = 'no more rolls';
-            this.navItems.reroll.element.link.style.fontSize = 'var(--fontText)';
-            this.navItems.reroll.element.classList.add('no-event');
+            this.#navItems.reroll.element.link.textContent = 'no more rolls';
+            this.#navItems.reroll.element.link.style.fontSize = 'var(--fontText)';
+            this.#navItems.reroll.element.classList.add('no-event');
         }
     }
-
 }

@@ -6,5 +6,6 @@
     display: flex;
     flex-flow: column;
     padding: var(--gapxl);
+    transition: opacity .5s;
 }
     

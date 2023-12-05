@@ -43,7 +43,7 @@ app.post('/get-new-recipes', (req, res) => {
     });
     setTimeout(() => {
         res.end('a problem occured');
-      }, "8000");
+      }, "10000");
 });
 
 app.listen(port || 8081, () => console.log('server running...'));

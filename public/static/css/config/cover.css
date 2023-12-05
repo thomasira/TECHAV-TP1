@@ -9,6 +9,7 @@
     width: 100vw;
     background-color: var(--colorGr2t);
     z-index: 3;
+    transition: opacity .3s;
 
     & h2{
         font-size: var(--fontxl);
