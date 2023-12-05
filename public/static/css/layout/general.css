@@ -30,7 +30,7 @@ ul{
     body{
         flex-flow: column;
 
-        &>div:first-of-type{
+        &>div:nth-of-type(2){
             position: fixed;
             width: 100%;
             top: 0;

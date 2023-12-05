@@ -40,6 +40,7 @@ export default class extends AbstractView{
             const randomColor = Math.floor(Math.random() * (350 - 250) + 250);
             const randomButton = Math.floor(Math.random() * (5 - 1) + 1);
 
+            console.log(recipe.Image);
             elRecipe = elRecipe.replaceAll('{{ random-color }}', randomColor);
             elRecipe = elRecipe.replaceAll('{{ random-color-alt }}', 250 - randomColor);
             elRecipe = elRecipe.replaceAll('{{ random-button }}', randomButton);

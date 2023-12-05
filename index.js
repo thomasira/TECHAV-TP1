@@ -35,6 +35,9 @@ app.post('/get-new-recipes', (req, res) => {
     fs.watch(__dirname + '/data/random-recipes.json', (eventType, filename) => {
         res.end(); 
     });
+    setTimeout(() => {
+        res.end('a problem occured');
+      }, "5000");
 });
 
 app.listen(port || 8081, () => console.log('server running...'));
