@@ -55,33 +55,32 @@ export default class{
     }
 
     async randomizeRecipe() {
-        this.startLoader();
+        /* this.startLoader(); */
 
         this.rerollCount ++;
-        
-
-
 
         if(this.rerollCount <= 2) {
-            this.getRecipe.textContent = 'Loading';
-            this.getRecipe.style.fontSize = '20px';
+            this.navItems.reroll.element.link.textContent = 'Loading';
+            this.navItems.reroll.element.style.fontSize = '20px';
 
-            this.getRecipe.classList.add('no-event');
+            this.navItems.reroll.element.classList.add('no-event');
             
-           /*  const res = await fetch('/get-recipe', { method: 'post' }); */
+            const res = await fetch('/get-new-recipes', { method: 'post' });
+            const data = await res.text();
+            console.log(data);
             await res.text().then(() => { 
-                this.getRecipe.textContent = 'Reroll';
-                this.getRecipe.classList.remove('no-event');
+                this.navItems.reroll.element.textContent = 'Reroll';
+                this.navItems.reroll.element.classList.remove('no-event');
 
-                this.endLoader();
+                /* this.endLoader(); */
 
                 const event = new Event('file-written');
                 document.dispatchEvent(event);
              });
         } else {
-            this.getRecipe.textContent = 'no reroll left';
-            this.getRecipe.style.fontSize = '20px';
-            this.getRecipe.classList.add('error');
+            this.navItems.reroll.element.textContent = 'no reroll left';
+            this.navItems.reroll.element.style.fontSize = '20px';
+            this.navItems.reroll.element.classList.add('error');
         }
     }
 

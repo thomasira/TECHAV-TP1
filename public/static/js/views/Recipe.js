@@ -61,8 +61,9 @@ export default class extends AbstractView{
      * @returns [json] recipe data
      */
     async #getData() {
-        const res = await fetch('/static/recipes/random-recipes.json');
+        const res = await fetch('/get-recipes', { method: 'post' });
         const data = await res.json();
+
         const recipes = data.recipes.d;
         const recipe = recipes.find(recipe => recipe.id == this.#id);
         if(recipe) recipe.random = data.ingredient;
