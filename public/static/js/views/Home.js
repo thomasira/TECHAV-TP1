@@ -40,7 +40,11 @@ export default class extends AbstractView{
             const randomColor = Math.floor(Math.random() * (350 - 250) + 250);
             const randomButton = Math.floor(Math.random() * (5 - 1) + 1);
 
-            console.log(recipe.Image);
+            /* prevents faulty images back from request, only seen this so far but could have a better fix */
+            if(recipe.Image == '//20fix.com/xfood/img/#NAME?.jpg') {
+                recipe.Image = '{{ path }}/static/assets/svg/logo.svg';
+            }
+
             elRecipe = elRecipe.replaceAll('{{ random-color }}', randomColor);
             elRecipe = elRecipe.replaceAll('{{ random-color-alt }}', 250 - randomColor);
             elRecipe = elRecipe.replaceAll('{{ random-button }}', randomButton);

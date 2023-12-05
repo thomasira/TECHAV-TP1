@@ -18,7 +18,13 @@ const port = config.PORT;
 const apiKey = config.API_KEY;
 
 const randomRecipesWriter = new RandomRecipesWriter(apiKey);
+function writeTimer() {
+    setInterval(() => {
+        randomRecipesWriter.writeRecipe();
+    }, 28800000)
+}
 /* randomRecipesWriter.writeRecipe(); */
+writeTimer();
 
 app.get('/*', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
@@ -33,11 +39,11 @@ app.post('/get-recipes', (req, res) => {
 app.post('/get-new-recipes', (req, res) => {
     randomRecipesWriter.writeRecipe();
     fs.watch(__dirname + '/data/random-recipes.json', (eventType, filename) => {
-        res.end(); 
+        res.end('file written'); 
     });
     setTimeout(() => {
         res.end('a problem occured');
-      }, "5000");
+      }, "8000");
 });
 
 app.listen(port || 8081, () => console.log('server running...'));

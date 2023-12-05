@@ -152,11 +152,15 @@ export default class{
         if(this.rerollCount <= 2) {
             const startEvent = new Event('start-load');
             document.dispatchEvent(startEvent);
-            await fetch('/get-new-recipes', { method: 'post' })
-            .then(() => { 
-                const endEvent = new Event('end-load');
+            
+            const res = await fetch('/get-new-recipes', { method: 'post' })
+            .then(async (res) => { 
+                const response = await res.text();
+                let status = 'ok';
+                if(response == 'a problem occured') status = { error: response };
+                const endEvent = new CustomEvent('end-load', { detail: status });
                 document.dispatchEvent(endEvent);
-             });
+            });
         } else {
             this.navItems.reroll.element.link.textContent = 'no more rolls';
             this.navItems.reroll.element.link.style.fontSize = 'var(--fontText)';

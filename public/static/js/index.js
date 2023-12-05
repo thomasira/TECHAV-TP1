@@ -82,8 +82,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const loader = new Loader();
     document.addEventListener('start-load', () => loader.start());
-    document.addEventListener('end-load', () => {
-        loader.end();
+    document.addEventListener('end-load', (e) => {
+        loader.end(e.detail);
         navigateTo('/');
     });
     
