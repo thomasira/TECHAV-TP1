@@ -18,7 +18,7 @@ Do not use nodemon or any other server helper when running the project. Because 
 Yum ? is a single page web app that generates a list of recipes fetched from a distant API. A random ingredient is picked from a local file every 8 hours and a request is sent to a recipe API returning a list of recipes containing this ingredient. It is built using JavaScript technologies, with node.js on the server side.
 
 ### The demo
-https://github.com/thomasIRA/TECHAV-TP1/assets/134738954/5688f526-df8f-4be2-9509-903d8844a2a5
+https://github.com/thomasIRA/TECHAV-TP1/assets/134738954/25a6598d-dff5-463b-b45d-b69910455e75
 
 ### The docs
 [yum.pdf](https://github.com/thomasIRA/TECHAV-TP1/files/13547698/yum.pdf)
@@ -28,6 +28,10 @@ https://github.com/thomasIRA/TECHAV-TP1/assets/134738954/5688f526-df8f-4be2-9509
 ### The installation
 > - Download the project on github
 > - Install node.js on your machine
+
+
+
+
 > - Get your API key on rapidAPI
 > - Modify line for API-KEY and PORT in .env-example
 > - Rename .env-example for .env
