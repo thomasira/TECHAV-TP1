@@ -21,6 +21,7 @@ Yum ? is a single page web app that generates a list of recipes fetched from a d
 https://github.com/thomasIRA/TECHAV-TP1/assets/134738954/969f895b-37e7-48b5-aaee-7c1a7eb358d4
 
 ### The docs
+get the PDF ->
 [yum.pdf](https://github.com/thomasIRA/TECHAV-TP1/files/13547698/yum.pdf)
 
 ![yum](https://github.com/thomasIRA/TECHAV-TP1/assets/134738954/2d945bbb-2096-4da8-a6e0-e3b0878a7ad5)
