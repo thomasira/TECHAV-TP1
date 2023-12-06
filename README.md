@@ -29,10 +29,6 @@ get the PDF -> [yum.pdf](https://github.com/thomasIRA/TECHAV-TP1/files/13583475/
 ### The installation
 > - Download the project on github
 > - Install node.js on your machine
-
-
-
-
 > - Get your API key on rapidAPI
 > - Modify line for API-KEY and PORT in .env-example
 > - Rename .env-example for .env
